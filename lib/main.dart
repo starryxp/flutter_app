@@ -8,7 +8,9 @@ import 'package:flutter_app/route/TipRouterPage.dart';
 import 'package:flutter_app/scaffold/ScaffoldHomePage.dart';
 import 'package:flutter_app/utils/Constant.dart';
 import 'package:flutter_app/widgets/WidgetsListPage.dart';
+import 'package:flutter_app/widgets/basic/BasicListPage.dart';
 import 'package:flutter_app/widgets/basic/ContainerPage.dart';
+import 'package:flutter_app/widgets/basic/RowPage.dart';
 
 //this.navigatorKey, // 导航的key
 //this.home, // 主页
@@ -83,6 +85,8 @@ class MyApp extends StatelessWidget {
     'login_page': (context) => LoginPage(),
     Constant.homeHomePage: (context) => HomePage(),
     Constant.widgetsWidgetsListPage: (context) => WidgetsListPage(),
+    Constant.widgetsBasicBasicListPage: (context) => BasicListPage(),
     Constant.widgetsBasicContainerPage: (context) => ContainerPage(),
+    Constant.widgetsBasicRowPage: (context) => RowPage(),
   };
 }

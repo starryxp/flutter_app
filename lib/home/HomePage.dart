@@ -5,7 +5,7 @@ import 'package:flutter_app/utils/Constant.dart';
 
 class HomePage extends StatefulWidget {
   final List<HomeData> homeDataList = [
-    HomeData(title: 'Widgets目录',routerName: Constant.widgetsWidgetsListPage),
+    HomeData(title: 'Widgets目录', routerName: Constant.widgetsWidgetsListPage),
     HomeData(title: 'Cookbook'),
     HomeData(title: '示例目录'),
     HomeData(title: '构建布局 - 教程'),
@@ -26,7 +26,7 @@ class HomePageState extends State<HomePage> {
         title: Text('Flutter app'),
       ),
       body: ListView(
-        padding: EdgeInsets.all(10),
+        padding: EdgeInsets.fromLTRB(10, 5, 10, 0),
         children: widget.homeDataList.map((HomeData homeData) {
           return HomeListItem(homeData: homeData);
         }).toList(),

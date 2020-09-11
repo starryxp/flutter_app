@@ -5,8 +5,8 @@ import 'package:flutter_app/utils/Constant.dart';
 
 class WidgetsListPage extends StatefulWidget {
   final dataList = [
-    HomeData(title: '基础组件', routerName: Constant.widgetsBasicContainerPage),
-    HomeData(title: '基础组件', routerName: Constant.widgetsBasicContainerPage),
+    HomeData(title: '基础组件', routerName: Constant.widgetsBasicBasicListPage),
+    HomeData(title: '基础组件', routerName: Constant.widgetsBasicBasicListPage),
   ];
 
   @override
@@ -23,7 +23,7 @@ class WidgetsListPageState extends State<WidgetsListPage> {
         title: Text('Widgets目录'),
       ),
       body: ListView(
-        padding: EdgeInsets.all(10),
+        padding: EdgeInsets.fromLTRB(10, 5, 10, 0),
         children:
             widget.dataList.map((e) => HomeListItem(homeData: e)).toList(),
       ),
