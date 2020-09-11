@@ -7,7 +7,7 @@ class BasicListPage extends StatelessWidget {
   final dataList = [
     HomeData(
         title: 'Container', routerName: Constant.widgetsBasicContainerPage),
-    HomeData(title: 'Row', routerName: Constant.widgetsBasicContainerPage),
+    HomeData(title: 'Row', routerName: Constant.widgetsBasicRowPage),
     HomeData(title: 'Column', routerName: Constant.widgetsBasicContainerPage),
     HomeData(title: 'Image', routerName: Constant.widgetsBasicContainerPage),
     HomeData(title: 'Text', routerName: Constant.widgetsBasicContainerPage),

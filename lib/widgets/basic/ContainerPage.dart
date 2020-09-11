@@ -74,24 +74,21 @@ class ContainerPage extends StatelessWidget {
         body: ListView(
           children: [
             Container(
-              child: Column(
-                children: [
-                  Container(
-                    margin: EdgeInsets.all(10),
-                    child: Text('Container：一个拥有绘制、定位、调整大小的 widget。'
-                        ''),
-                  ),
-                  Container(
-                    margin: EdgeInsets.all(10),
-                    color: Colors.blue,
-                    width: 50,
-                    height: 50,
-                    child: Container(
-                      margin: EdgeInsets.all(10),
-                      color: Colors.yellow,
-                    ),
-                  ),
-                  Container(
+              margin: EdgeInsets.all(10),
+              child: Text('Container：一个拥有绘制、定位、调整大小的 widget。'
+                  ''),
+            ),
+            Container(
+              margin: EdgeInsets.all(10),
+              color: Colors.blue,
+              width: 50,
+              height: 50,
+              child: Container(
+                margin: EdgeInsets.all(10),
+                color: Colors.yellow,
+              ),
+            ),
+            Container(
 //                margin: EdgeInsets.all(10),
 //                constraints: BoxConstraints.expand(
 //                    height: 200),
@@ -99,48 +96,48 @@ class ContainerPage extends StatelessWidget {
 //                    minWidth: double.infinity, //宽度尽可能大
 //                    minHeight: 150 //最小高度为50像素
 //                    ),
-                    padding: EdgeInsets.all(10),
-                    color: Colors.blue[600],
-                    alignment: Alignment.center,
-                    child: Text(
-                      'Hello World',
-                      style: Theme.of(context)
-                          .textTheme
-                          .headline4
-                          .copyWith(color: Colors.white),
-                    ),
-                    transform: Matrix4.rotationZ(0.1),
-                  ),
-                  Container(
-                    //Container的高度设置为10像素，但是最终却是50像素，这正是ConstrainedBox的最小高度限制50生效了。
-                    //如果将Container的高度设置为180像素，但最终红色区域的高度会是80像素，这正是ConstrainedBox的最大高度限制80生效了。
-                    //BoxConstraints.tight(Size size)，它可以生成给定大小的限制
-                    //BoxConstraints.expand()可以生成一个尽可能大的用以填充另一个容器
-                    margin: EdgeInsets.symmetric(vertical: 50),
-                    constraints: BoxConstraints(
-                        minWidth: double.infinity, //最小宽度宽度尽可能大
-                        minHeight: 50, //最大高度50像素
-                        maxHeight: 80),
-                    child: Container(
-                      width: 50,
-                      height: 10,
-//                  height: 180,
-                      child: redBox,
-                    ),
-                  ),
-                  Container(
-                    margin: EdgeInsets.symmetric(vertical: 10),
-                    constraints: BoxConstraints.tight(Size(80, 80)),
-                    child: redBox,
-                  ),
-                ],
+              margin: EdgeInsets.only(top: 10),
+              padding: EdgeInsets.all(10),
+              color: Colors.blue[600],
+              alignment: Alignment.center,
+              child: Text(
+                'Hello World',
+                style: Theme.of(context)
+                    .textTheme
+                    .headline4
+                    .copyWith(color: Colors.white),
               ),
+              transform: Matrix4.rotationZ(0.1),
+            ),
+            Container(
+              margin: EdgeInsets.only(top: 50),
+              //Container的高度设置为10像素，但是最终却是50像素，这正是ConstrainedBox的最小高度限制50生效了。
+              //如果将Container的高度设置为180像素，但最终红色区域的高度会是80像素，这正是ConstrainedBox的最大高度限制80生效了。
+              //BoxConstraints.tight(Size size)，它可以生成给定大小的限制
+              //BoxConstraints.expand()可以生成一个尽可能大的用以填充另一个容器
+              constraints: BoxConstraints(
+                  minWidth: double.infinity, //最小宽度宽度尽可能大
+                  minHeight: 50, //最大高度50像素
+                  maxHeight: 80),
+              child: Container(
+                width: 50,
+                height: 10,
+//                  height: 180,
+                child: redBox,
+              ),
+            ),
+            Container(
+              margin: EdgeInsets.only(top: 10),
+              constraints: BoxConstraints.tight(Size(80, 80)),
+              child: redBox,
             ),
             Container(
               padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
               child: Text(
                 tip,
-                style: TextStyle(fontSize: 14,),
+                style: TextStyle(
+                  fontSize: 14,
+                ),
               ),
             ),
           ],
