@@ -9,6 +9,7 @@ import 'package:flutter_app/scaffold/ScaffoldHomePage.dart';
 import 'package:flutter_app/utils/Constant.dart';
 import 'package:flutter_app/widgets/WidgetsListPage.dart';
 import 'package:flutter_app/widgets/basic/BasicListPage.dart';
+import 'package:flutter_app/widgets/basic/ColumnPage.dart';
 import 'package:flutter_app/widgets/basic/ContainerPage.dart';
 import 'package:flutter_app/widgets/basic/RowPage.dart';
 
@@ -34,6 +35,7 @@ import 'package:flutter_app/widgets/basic/RowPage.dart';
 //this.showSemanticsDebugger = false,//打开一个覆盖图，显示框架报告的可访问性信息 显示边框
 //this.debugShowCheckedModeBanner = true,//右上角显示一个debug的图标
 
+///本项目为学习使用，没有做精简代码的操作，只为熟练使用flutter开发，所以存在大量冗余代码
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -88,5 +90,6 @@ class MyApp extends StatelessWidget {
     Constant.widgetsBasicBasicListPage: (context) => BasicListPage(),
     Constant.widgetsBasicContainerPage: (context) => ContainerPage(),
     Constant.widgetsBasicRowPage: (context) => RowPage(),
+    Constant.widgetsBasicColumnPage: (context) => ColumnPage(),
   };
 }

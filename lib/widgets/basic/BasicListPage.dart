@@ -8,7 +8,7 @@ class BasicListPage extends StatelessWidget {
     HomeData(
         title: 'Container', routerName: Constant.widgetsBasicContainerPage),
     HomeData(title: 'Row', routerName: Constant.widgetsBasicRowPage),
-    HomeData(title: 'Column', routerName: Constant.widgetsBasicContainerPage),
+    HomeData(title: 'Column', routerName: Constant.widgetsBasicColumnPage),
     HomeData(title: 'Image', routerName: Constant.widgetsBasicContainerPage),
     HomeData(title: 'Text', routerName: Constant.widgetsBasicContainerPage),
     HomeData(title: 'Icon', routerName: Constant.widgetsBasicContainerPage),
