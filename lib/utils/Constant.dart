@@ -6,4 +6,5 @@ class Constant{
   static final widgetsBasicContainerPage = "widgets/basic/container_page";
   static final widgetsBasicRowPage = "widgets/basic/row_page";
   static final widgetsBasicColumnPage = "widgets/basic/column_page";
+  static final widgetsBasicImagePage = "widgets/basic/image_page";
 }
