@@ -23,7 +23,7 @@ class HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Flutter入门教学'),
+        title: Text('Flutter实战教学'),
       ),
       body: ListView(
         padding: EdgeInsets.fromLTRB(10, 5, 10, 0),
