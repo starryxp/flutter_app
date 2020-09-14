@@ -7,10 +7,10 @@ class ImagePage extends StatelessWidget {
   final tip = '''
   Image是一个用于展示图片的组件。支持 JPEG、PNG、GIF、Animated GIF、WebP、Animated WebP、BMP 和 WBMP 等格式。
   1.1Image 有许多的静态函数：
-      new Image.asset - 用于从资源目录的显示图片。
-      new Image.network - 用于从网络上显示图片。
-      new Image.file - 用于从文件里显示图片。
-      new Image.memory - 用于从内存里（Uint8List）显示图片。
+      Image.asset - 用于从资源目录的显示图片,需要在 pubspec.yaml 文件中声明。
+      Image.network - 用于从网络上显示图片。
+      Image.file - 用于从文件里显示图片。
+      Image.memory - 用于从内存里（Uint8List）显示图片。
   1.2Image 有以下常用属性：
       alignment → AlignmentGeometry - 图像边界内对齐图像。
       centerSlice → Rect - 九片图像的中心切片。
@@ -23,6 +23,13 @@ class ImagePage extends StatelessWidget {
       repeat → ImageRepeat - 未充分容器时，是否重复图片。
       height → double - 图像的高度。
       width → double - 图像的宽度。
+   1.3fit：BoxFit
+      BoxFit.contain	全图居中显示但不充满，显示原比例
+      BoxFit.cover	图片可能拉伸，也可能裁剪，但是充满容器
+      BoxFit.fill	全图显示且填充满，图片可能会拉伸
+      BoxFit.fitHeight	图片可能拉伸，可能裁剪，高度充满
+      BoxFit.fitWidth	图片可能拉伸，可能裁剪，宽度充满
+      BoxFit.scaleDown	效果和contain差不多， 但是只能缩小图片，不能放大图片
   ''';
 
   final imageUrl =
@@ -94,14 +101,22 @@ class ImagePage extends StatelessWidget {
               ],
             ),
           ),
-          Text(
-              '圆角/圆形图片：Image 是不支持圆角和阴影的，目前可以通过使用 CircleAvatar 和 Container 实现。'),
+          Text('圆形图片：1.裁剪实现 2.CircleAvatar实现 3.Container边框实现'),
           Container(
             color: Colors.grey,
             padding: EdgeInsets.all(10),
             margin: EdgeInsets.only(top: 10, bottom: 10),
             child: Row(
               children: [
+                ClipRRect(
+                  child: Image.network(
+                    imageUrl,
+                    fit: BoxFit.cover,
+                    width: 100,
+                    height: 100,
+                  ),
+                  borderRadius: BorderRadius.circular(10),
+                ),
                 CircleAvatar(
                   backgroundColor: Colors.white,
                   backgroundImage: NetworkImage(imageUrl),
@@ -109,7 +124,6 @@ class ImagePage extends StatelessWidget {
                   radius: 50,
                 ),
                 Container(
-                  margin: EdgeInsets.only(left: 10),
                   width: 100,
                   height: 100,
                   decoration: BoxDecoration(
@@ -117,6 +131,25 @@ class ImagePage extends StatelessWidget {
                       image: DecorationImage(
                           image: NetworkImage(imageUrl), fit: BoxFit.cover),
                       shape: BoxShape.circle),
+                ),
+              ],
+            ),
+          ),
+          Text('圆角图片：1.裁剪实现 2.Container边框实现'),
+          Container(
+            color: Colors.grey,
+            padding: EdgeInsets.all(10),
+            margin: EdgeInsets.only(top: 10, bottom: 10),
+            child: Row(
+              children: [
+                ClipRRect(
+                  child: Image.network(
+                    imageUrl,
+                    width: 100,
+                    height: 100,
+                    fit: BoxFit.cover,
+                  ),
+                  borderRadius: BorderRadius.circular(10),
                 ),
                 Container(
                   margin: EdgeInsets.only(left: 10),
@@ -126,12 +159,12 @@ class ImagePage extends StatelessWidget {
                       image: DecorationImage(
                           image: NetworkImage(imageUrl), fit: BoxFit.cover),
                       shape: BoxShape.rectangle,
-                      borderRadius: BorderRadius.circular(20)),
-                )
+                      borderRadius: BorderRadius.circular(10)),
+                ),
               ],
             ),
           ),
-          Text('其他一些功能：'),
+          Text('fit->BoxFit：'),
           Container(
             color: Colors.grey,
             margin: EdgeInsets.only(top: 10, bottom: 10),
@@ -144,6 +177,46 @@ class ImagePage extends StatelessWidget {
                   child: Image(
                     image: NetworkImage(imageUrl),
                     fit: BoxFit.cover,
+                  ),
+                ),
+                Container(
+                  width: double.infinity,
+                  height: 100,
+                  child: Image(
+                    image: NetworkImage(imageUrl),
+                    fit: BoxFit.fill,
+                  ),
+                ),
+                Container(
+                  width: double.infinity,
+                  height: 100,
+                  child: Image(
+                    image: NetworkImage(imageUrl),
+                    fit: BoxFit.contain,
+                  ),
+                ),
+                Container(
+                  width: double.infinity,
+                  height: 100,
+                  child: Image(
+                    image: NetworkImage(imageUrl),
+                    fit: BoxFit.scaleDown,
+                  ),
+                ),
+                Container(
+                  width: double.infinity,
+                  height: 100,
+                  child: Image(
+                    image: NetworkImage(imageUrl),
+                    fit: BoxFit.fitHeight,
+                  ),
+                ),
+                Container(
+                  width: double.infinity,
+                  height: 100,
+                  child: Image(
+                    image: NetworkImage(imageUrl),
+                    fit: BoxFit.fitWidth,
                   ),
                 ),
               ],
