@@ -1,5 +1,6 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_app/utils/ToastUtil.dart';
 
 class TextPage extends StatelessWidget {
   final content = "这是一个flutter入门教学app";
@@ -121,7 +122,7 @@ class TextPage extends StatelessWidget {
                     ),
                     recognizer: TapGestureRecognizer()
                       ..onTap = () {
-                        print('内容：');
+                        ToastUtil.showToast('内容：');
                       },
                   ),
                   TextSpan(
@@ -130,6 +131,7 @@ class TextPage extends StatelessWidget {
                     recognizer: TapGestureRecognizer()
                       ..onTap = () {
                         print(content);
+                        ToastUtil.showToast(content);
                       },
                   )
                 ],
