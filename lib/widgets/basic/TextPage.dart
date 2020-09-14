@@ -126,7 +126,7 @@ class TextPage extends StatelessWidget {
                   ),
                   TextSpan(
                     text: content,
-                    style: TextStyle(color: Colors.black, fontSize: 14),
+                    style: TextStyle(color: Colors.blue, fontSize: 14),
                     recognizer: TapGestureRecognizer()
                       ..onTap = () {
                         print(content);
