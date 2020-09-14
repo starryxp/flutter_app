@@ -13,6 +13,7 @@ import 'package:flutter_app/widgets/basic/ColumnPage.dart';
 import 'package:flutter_app/widgets/basic/ContainerPage.dart';
 import 'package:flutter_app/widgets/basic/ImagePage.dart';
 import 'package:flutter_app/widgets/basic/RowPage.dart';
+import 'package:flutter_app/widgets/basic/TextPage.dart';
 
 //this.navigatorKey, // 导航的key
 //this.home, // 主页
@@ -93,5 +94,6 @@ class MyApp extends StatelessWidget {
     Constant.widgetsBasicRowPage: (context) => RowPage(),
     Constant.widgetsBasicColumnPage: (context) => ColumnPage(),
     Constant.widgetsBasicImagePage: (context) => ImagePage(),
+    Constant.widgetsBasicTextPage: (context) => TextPage(),
   };
 }
