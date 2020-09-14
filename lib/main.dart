@@ -8,12 +8,17 @@ import 'package:flutter_app/route/TipRouterPage.dart';
 import 'package:flutter_app/scaffold/ScaffoldHomePage.dart';
 import 'package:flutter_app/utils/Constant.dart';
 import 'package:flutter_app/widgets/WidgetsListPage.dart';
+import 'package:flutter_app/widgets/basic/AppbarPage.dart';
 import 'package:flutter_app/widgets/basic/BasicListPage.dart';
+import 'package:flutter_app/widgets/basic/ButtonPage.dart';
 import 'package:flutter_app/widgets/basic/ColumnPage.dart';
 import 'package:flutter_app/widgets/basic/ContainerPage.dart';
+import 'package:flutter_app/widgets/basic/FlutterLogoPage.dart';
 import 'package:flutter_app/widgets/basic/IconPage.dart';
 import 'package:flutter_app/widgets/basic/ImagePage.dart';
+import 'package:flutter_app/widgets/basic/PlaceholderPage.dart';
 import 'package:flutter_app/widgets/basic/RowPage.dart';
+import 'package:flutter_app/widgets/basic/ScaffoldPage.dart';
 import 'package:flutter_app/widgets/basic/TextPage.dart';
 
 //this.navigatorKey, // 导航的key
@@ -97,5 +102,10 @@ class MyApp extends StatelessWidget {
     Constant.widgetsBasicImagePage: (context) => ImagePage(),
     Constant.widgetsBasicTextPage: (context) => TextPage(),
     Constant.widgetsBasicIconPage: (context) => IconPage(),
+    Constant.widgetsBasicButtonPage: (context) => ButtonPage(),
+    Constant.widgetsBasicScaffoldPage: (context) => ScaffoldPage(),
+    Constant.widgetsBasicAppbarPage: (context) => AppbarPage(),
+    Constant.widgetsBasicFlutterLogoPage: (context) => FlutterLogoPage(),
+    Constant.widgetsBasicPlaceholderPage: (context) => PlaceholderPage(),
   };
 }

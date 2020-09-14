@@ -12,15 +12,13 @@ class BasicListPage extends StatelessWidget {
     HomeData(title: 'Image', routerName: Constant.widgetsBasicImagePage),
     HomeData(title: 'Text', routerName: Constant.widgetsBasicTextPage),
     HomeData(title: 'Icon', routerName: Constant.widgetsBasicIconPage),
+    HomeData(title: 'Button', routerName: Constant.widgetsBasicButtonPage),
+    HomeData(title: 'Scaffold', routerName: Constant.widgetsBasicScaffoldPage),
+    HomeData(title: 'Appbar', routerName: Constant.widgetsBasicAppbarPage),
     HomeData(
-        title: 'RaisedButton', routerName: Constant.widgetsBasicContainerPage),
-    HomeData(title: 'Scaffold', routerName: Constant.widgetsBasicContainerPage),
+        title: 'FlutterLogo', routerName: Constant.widgetsBasicFlutterLogoPage),
     HomeData(
-        title: 'FlutterLogo', routerName: Constant.widgetsBasicContainerPage),
-    HomeData(
-        title: 'RaisedButton', routerName: Constant.widgetsBasicContainerPage),
-    HomeData(
-        title: 'Placeholder', routerName: Constant.widgetsBasicContainerPage),
+        title: 'Placeholder', routerName: Constant.widgetsBasicPlaceholderPage),
   ];
 
   @override

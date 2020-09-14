@@ -6,10 +6,13 @@ class IconPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Icon：A Material Design icon.'),
+        title: Text('Icon'),
       ),
       body: ListView(
+        padding: EdgeInsets.all(10),
         children: [
+          Text(
+              'Icon：Flutter 的图标类，它集成了 Material 风格的图标。它有几个衍生的组件：ImageIcon、IconButton 等。'),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
