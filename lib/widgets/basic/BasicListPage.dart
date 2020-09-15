@@ -5,6 +5,7 @@ import 'package:flutter_app/utils/Constant.dart';
 
 class BasicListPage extends StatelessWidget {
   final dataList = [
+    HomeData(title: '介绍Flutter里面的一些常用的基础组件的基本用法'),
     HomeData(
         title: 'Container', routerName: Constant.widgetsBasicContainerPage),
     HomeData(title: 'Row', routerName: Constant.widgetsBasicRowPage),
@@ -28,7 +29,7 @@ class BasicListPage extends StatelessWidget {
         title: Text('基础组件'),
       ),
       body: ListView(
-        padding: EdgeInsets.fromLTRB(10, 5, 10, 0),
+        padding: EdgeInsets.all(10),
         children: dataList.map((e) => HomeListItem(homeData: e)).toList(),
       ),
     );

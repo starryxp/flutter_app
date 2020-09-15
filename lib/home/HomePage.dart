@@ -26,7 +26,7 @@ class HomePageState extends State<HomePage> {
         title: Text('Flutter实战教学'),
       ),
       body: ListView(
-        padding: EdgeInsets.fromLTRB(10, 5, 10, 0),
+        padding: EdgeInsets.all(10),
         children: widget.homeDataList.map((HomeData homeData) {
           return HomeListItem(homeData: homeData);
         }).toList(),

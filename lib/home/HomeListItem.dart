@@ -21,7 +21,10 @@ class HomeListItemState extends State<HomeListItem> {
       child: Text('${widget.homeData.title}'),
       onPressed: () {
         print('${widget.homeData.title}');
-        Navigator.pushNamed(context, widget.homeData.routerName);
+        if (widget.homeData.routerName != null &&
+            widget.homeData.routerName.isNotEmpty) {
+          Navigator.pushNamed(context, widget.homeData.routerName);
+        }
       },
     );
   }

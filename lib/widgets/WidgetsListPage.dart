@@ -23,7 +23,7 @@ class WidgetsListPageState extends State<WidgetsListPage> {
         title: Text('Widgets目录'),
       ),
       body: ListView(
-        padding: EdgeInsets.fromLTRB(10, 5, 10, 0),
+        padding: EdgeInsets.all(10),
         children:
             widget.dataList.map((e) => HomeListItem(homeData: e)).toList(),
       ),
