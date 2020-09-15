@@ -145,6 +145,17 @@ class ContainerPage extends StatelessWidget {
               child: redBox,
             ),
             Container(
+              margin: EdgeInsets.only(top: 10, left: 10, right: 10),
+              height: 80,
+              decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  gradient: LinearGradient(colors: [
+                    Color(0xFF0D47A1),
+                    Color(0xFF1976D2),
+                    Color(0xFF42A5F5),
+                  ])),
+            ),
+            Container(
               padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
               child: Text(
                 tip,
