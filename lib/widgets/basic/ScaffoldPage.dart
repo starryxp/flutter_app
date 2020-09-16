@@ -9,8 +9,8 @@ class ScaffoldPage extends StatelessWidget {
         title: Text('Scaffold'),
         centerTitle: true,
         elevation: 10,
-        leading: Icon(Icons.arrow_back),
-        actions: [Icon(Icons.more_vert)],
+//        leading: Icon(Icons.arrow_back),
+//        actions: [Icon(Icons.more_vert)],
         bottom: PreferredSize(
           child: Container(
             height: 50.0,
