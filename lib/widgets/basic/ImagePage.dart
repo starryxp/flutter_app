@@ -75,6 +75,7 @@ class ImagePage extends StatelessWidget {
             margin: EdgeInsets.only(top: 10, bottom: 10),
             padding: EdgeInsets.only(top: 10, bottom: 10),
             child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 Expanded(
                     child: FadeInImage.assetNetwork(
@@ -107,6 +108,7 @@ class ImagePage extends StatelessWidget {
             padding: EdgeInsets.all(10),
             margin: EdgeInsets.only(top: 10, bottom: 10),
             child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 ClipRRect(
                   child: Image.network(
@@ -115,7 +117,7 @@ class ImagePage extends StatelessWidget {
                     width: 100,
                     height: 100,
                   ),
-                  borderRadius: BorderRadius.circular(10),
+                  borderRadius: BorderRadius.circular(50),
                 ),
                 CircleAvatar(
                   backgroundColor: Colors.white,
@@ -141,6 +143,7 @@ class ImagePage extends StatelessWidget {
             padding: EdgeInsets.all(10),
             margin: EdgeInsets.only(top: 10, bottom: 10),
             child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 ClipRRect(
                   child: Image.network(

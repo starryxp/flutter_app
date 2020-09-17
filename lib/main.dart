@@ -51,7 +51,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter App',
+      title: 'Flutter从零开始',
       theme: ThemeData(
         // 应用程序小部件使用的颜色。
         primarySwatch: Colors.blue,
