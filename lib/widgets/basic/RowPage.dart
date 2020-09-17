@@ -17,8 +17,7 @@ class RowPage extends StatelessWidget {
     每一个child的位置是由mainAxisAlignment以及crossAxisAlignment所决定。
     Row的布局行为表面上看有这么多个步骤，其实也还算是简单，可以完全参照web中的Flex布局，包括主轴、交叉轴等概念。
   1.3 属性解析
-    MainAxisAlignment：主轴方向上的对齐方式，会对child的位置起作用，默认是start。
-    其中MainAxisAlignment枚举值：
+    MainAxisAlignment：主轴方向上的对齐方式，会对child的位置起作用，默认是start。其中MainAxisAlignment枚举值：
     center：将children放置在主轴的中心；
     end：将children放置在主轴的末尾；
     spaceAround：将主轴方向上的空白区域均分，使得children之间的空白区域相等，但是首尾child的空白区域为1/2；
@@ -123,6 +122,39 @@ class RowPage extends StatelessWidget {
                   ),
                 ),
                 Icon(Icons.add_shopping_cart)
+              ],
+            ),
+          ),
+          Container(
+            color: Colors.grey,
+            margin: EdgeInsets.only(top: 10),
+            padding: EdgeInsets.only(top: 10, bottom: 10),
+            child: Row(
+//              mainAxisAlignment: MainAxisAlignment.center,
+//              mainAxisAlignment: MainAxisAlignment.start,
+//              mainAxisAlignment: MainAxisAlignment.end,
+//              mainAxisAlignment: MainAxisAlignment.spaceAround,
+//              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              crossAxisAlignment: CrossAxisAlignment.center,
+//              crossAxisAlignment: CrossAxisAlignment.start,
+//              crossAxisAlignment: CrossAxisAlignment.end,
+              children: [
+                Container(
+                  width: 50,
+                  height: 50,
+                  color: Colors.red,
+                ),
+                Container(
+                  width: 40,
+                  height: 40,
+                  color: Colors.red,
+                ),
+                Container(
+                  width: 60,
+                  height: 60,
+                  color: Colors.red,
+                ),
               ],
             ),
           ),

@@ -124,25 +124,21 @@ class ContainerPage extends StatelessWidget {
             ),
             Container(
               margin: EdgeInsets.only(top: 50),
+              height: 80,
               //Container的高度设置为10像素，但是最终却是50像素，这正是ConstrainedBox的最小高度限制50生效了。
               //如果将Container的高度设置为180像素，但最终红色区域的高度会是80像素，这正是ConstrainedBox的最大高度限制80生效了。
               //BoxConstraints.tight(Size size)，它可以生成给定大小的限制
               //BoxConstraints.expand()可以生成一个尽可能大的用以填充另一个容器
-              constraints: BoxConstraints(
-                  minWidth: double.infinity, //最小宽度宽度尽可能大
-                  minHeight: 50, //最大高度50像素
-                  maxHeight: 80),
+//              constraints: BoxConstraints(
+//                  minWidth: double.infinity, //最小宽度宽度尽可能大
+//                  minHeight: 50, //最大高度50像素
+//                  maxHeight: 80),
               child: Container(
                 width: 50,
-                height: 10,
-//                  height: 180,
+//                height: 10,
+                  height: 180,
                 child: redBox,
               ),
-            ),
-            Container(
-              margin: EdgeInsets.only(top: 10),
-              constraints: BoxConstraints.tight(Size(80, 80)),
-              child: redBox,
             ),
             Container(
               margin: EdgeInsets.only(top: 10, left: 10, right: 10),
