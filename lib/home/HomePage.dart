@@ -5,11 +5,10 @@ import 'package:flutter_app/utils/Constant.dart';
 
 class HomePage extends StatefulWidget {
   final List<HomeData> homeDataList = [
-    HomeData(title: 'Widgets目录', routerName: Constant.widgetsWidgetsListPage),
-    HomeData(title: 'Cookbook'),
-    HomeData(title: '示例目录'),
-    HomeData(title: '构建布局 - 教程'),
-    HomeData(title: '添加交互- 教程'),
+    HomeData(
+        title: 'Widgets目录',
+        content: 'Flutter的一套的视觉、结构、平台、和交互式的widgets。',
+        routerName: Constant.widgetsWidgetsListPage),
   ];
 
   @override

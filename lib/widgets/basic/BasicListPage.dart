@@ -5,21 +5,62 @@ import 'package:flutter_app/utils/Constant.dart';
 
 class BasicListPage extends StatelessWidget {
   final dataList = [
-    HomeData(title: '介绍Flutter里面的一些常用的基础组件的基本用法'),
+    HomeData(title: '介绍Flutter里面的一些常用的基础组件的基本用法', content: ''),
     HomeData(
-        title: 'Container', routerName: Constant.widgetsBasicContainerPage),
-    HomeData(title: 'Row', routerName: Constant.widgetsBasicRowPage),
-    HomeData(title: 'Column', routerName: Constant.widgetsBasicColumnPage),
-    HomeData(title: 'Image', routerName: Constant.widgetsBasicImagePage),
-    HomeData(title: 'Text', routerName: Constant.widgetsBasicTextPage),
-    HomeData(title: 'Icon', routerName: Constant.widgetsBasicIconPage),
-    HomeData(title: 'Button', routerName: Constant.widgetsBasicButtonPage),
-    HomeData(title: 'Scaffold', routerName: Constant.widgetsBasicScaffoldPage),
-    HomeData(title: 'Appbar', routerName: Constant.widgetsBasicAppbarPage),
+      title: 'Container',
+      content: '一个拥有绘制、定位、调整大小的 widget。',
+      routerName: Constant.widgetsBasicContainerPage,
+    ),
     HomeData(
-        title: 'FlutterLogo', routerName: Constant.widgetsBasicFlutterLogoPage),
+      title: 'Row',
+      content: '在水平方向上排列子widget的列表。',
+      routerName: Constant.widgetsBasicRowPage,
+    ),
     HomeData(
-        title: 'Placeholder', routerName: Constant.widgetsBasicPlaceholderPage),
+      title: 'Column',
+      content: '在垂直方向上排列子widget的列表。',
+      routerName: Constant.widgetsBasicColumnPage,
+    ),
+    HomeData(
+      title: 'Image',
+      content: '图片',
+      routerName: Constant.widgetsBasicImagePage,
+    ),
+    HomeData(
+      title: 'Text',
+      content: '文本',
+      routerName: Constant.widgetsBasicTextPage,
+    ),
+    HomeData(
+      title: 'Icon',
+      content: 'Flutter 的图标类，它集成了 Material 风格的图标。',
+      routerName: Constant.widgetsBasicIconPage,
+    ),
+    HomeData(
+      title: 'Button',
+      content: '按钮',
+      routerName: Constant.widgetsBasicButtonPage,
+    ),
+    HomeData(
+      title: 'Scaffold',
+      content: '布局结构的基本实现',
+      routerName: Constant.widgetsBasicScaffoldPage,
+    ),
+    HomeData(
+      title: 'Appbar',
+      content: '顶端栏',
+      routerName: Constant.widgetsBasicAppbarPage,
+    ),
+    HomeData(
+      title: 'FlutterLogo',
+      content: '',
+      routerName: Constant.widgetsBasicFlutterLogoPage,
+    ),
+    HomeData(
+      title: 'Placeholder',
+      content: '',
+      routerName: Constant.widgetsBasicPlaceholderPage,
+    ),
   ];
 
   @override
