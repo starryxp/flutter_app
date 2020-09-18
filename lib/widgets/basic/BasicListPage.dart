@@ -53,12 +53,12 @@ class BasicListPage extends StatelessWidget {
     ),
     HomeData(
       title: 'FlutterLogo',
-      content: '',
+      content: 'flutter logo',
       routerName: Constant.widgetsBasicFlutterLogoPage,
     ),
     HomeData(
       title: 'Placeholder',
-      content: '',
+      content: '占位控件',
       routerName: Constant.widgetsBasicPlaceholderPage,
     ),
   ];
