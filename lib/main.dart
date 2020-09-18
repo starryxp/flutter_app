@@ -20,6 +20,10 @@ import 'package:flutter_app/widgets/basic/PlaceholderPage.dart';
 import 'package:flutter_app/widgets/basic/RowPage.dart';
 import 'package:flutter_app/widgets/basic/ScaffoldPage.dart';
 import 'package:flutter_app/widgets/basic/TextPage.dart';
+import 'package:flutter_app/widgets/material/MaterialListPage.dart';
+import 'package:flutter_app/widgets/material/navigation/NavigationListPage.dart';
+import 'package:flutter_app/widgets/material/navigation/ScaffoldPage.dart'
+    as MaterialScaffoldPage;
 
 //this.navigatorKey, // 导航的key
 //this.home, // 主页
@@ -93,8 +97,12 @@ class MyApp extends StatelessWidget {
     'need_login_page': (context) =>
         NeedLoginPage(id: ModalRoute.of(context).settings.arguments),
     'login_page': (context) => LoginPage(),
+
     Constant.homeHomePage: (context) => HomePage(),
+
+    //组件
     Constant.widgetsWidgetsListPage: (context) => WidgetsListPage(),
+    //基础组件
     Constant.widgetsBasicBasicListPage: (context) => BasicListPage(),
     Constant.widgetsBasicContainerPage: (context) => ContainerPage(),
     Constant.widgetsBasicRowPage: (context) => RowPage(),
@@ -107,5 +115,11 @@ class MyApp extends StatelessWidget {
     Constant.widgetsBasicAppbarPage: (context) => AppbarPage(),
     Constant.widgetsBasicFlutterLogoPage: (context) => FlutterLogoPage(),
     Constant.widgetsBasicPlaceholderPage: (context) => PlaceholderPage(),
+    //Material组件
+    Constant.widgetsMaterialMaterialListPage: (context) => MaterialListPage(),
+    Constant.widgetsMaterialNavigationNavigationListPage: (context) =>
+        NavigationListPage(),
+    Constant.widgetsMaterialNavigationScaffoldPage: (context) =>
+        MaterialScaffoldPage.ScaffoldPage(),
   };
 }

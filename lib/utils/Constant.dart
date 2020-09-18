@@ -1,4 +1,4 @@
-class Constant{
+class Constant {
   static final homeHomePage = "home/home_page";
 
   static final widgetsWidgetsListPage = "widgets/widgets_list_page";
@@ -16,4 +16,10 @@ class Constant{
   static final widgetsBasicFlutterLogoPage = "widgets/basic/flutter_logo_page";
   static final widgetsBasicPlaceholderPage = "widgets/basic/placeholder_page";
 
+  static final widgetsMaterialMaterialListPage =
+      "widgets/material/material_material_listPage";
+  static final widgetsMaterialNavigationNavigationListPage =
+      "widgets/material/navigation/navigation_list_page";
+  static final widgetsMaterialNavigationScaffoldPage =
+      "widgets/material/navigation/scaffold_page";
 }

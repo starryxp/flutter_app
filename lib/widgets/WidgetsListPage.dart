@@ -11,10 +11,11 @@ class WidgetsListPage extends StatefulWidget {
       routerName: Constant.widgetsBasicBasicListPage,
     ),
     HomeData(
-        title: 'Material Components',
-        content: '实现了Material Design 指南的视觉、效果、motion-rich的widget。'),
+        title: 'Material Widgets',
+        content: '实现了Material Design 指南的视觉、效果、motion-rich的widget。',
+        routerName: Constant.widgetsMaterialMaterialListPage),
     HomeData(
-      title: 'Cupertino(iOS风格的widget)',
+      title: 'Cupertino Widgets',
       content: '用于当前iOS设计语言的美丽和高保真widget。',
     ),
     HomeData(
