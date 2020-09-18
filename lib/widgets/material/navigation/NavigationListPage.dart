@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/bean/CustomBean.dart';
 import 'package:flutter_app/home/HomeListItem.dart';
+import 'package:flutter_app/utils/Constant.dart';
 
 class NavigationListPage extends StatelessWidget {
   final dataList = [
@@ -8,12 +9,12 @@ class NavigationListPage extends StatelessWidget {
         title: 'Scaffold',
         content:
             'Material Design布局结构的基本实现。此类提供了用于显示drawer、snackbar和底部sheet的API。',
-        routerName: ''),
+        routerName: Constant.widgetsBasicScaffoldPage),
     HomeData(
         title: 'Appbar',
         content:
             '一个Material Design应用程序栏，由工具栏和其他可能的widget（如TabBar和FlexibleSpaceBar）组成。',
-        routerName: ''),
+        routerName: Constant.widgetsBasicAppbarPage),
     HomeData(
         title: 'BottomNavigationBar',
         content: '底部导航条，可以很容易地在tap之间切换和浏览顶级视图。',

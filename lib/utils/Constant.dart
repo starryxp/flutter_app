@@ -20,6 +20,4 @@ class Constant {
       "widgets/material/material_material_listPage";
   static final widgetsMaterialNavigationNavigationListPage =
       "widgets/material/navigation/navigation_list_page";
-  static final widgetsMaterialNavigationScaffoldPage =
-      "widgets/material/navigation/scaffold_page";
 }
