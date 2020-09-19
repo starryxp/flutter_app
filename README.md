@@ -12,6 +12,6 @@
 - [二、Flutter入门（2）：创建一个Flutter App](https://www.jianshu.com/p/d5517fcf2dae)
 - [三、Flutter入门（3）：新建一个简单页面并实现路由跳转](https://www.jianshu.com/p/dd558b2601a3)
 - [四、Flutter入门（4）：基础组件之Container](https://www.jianshu.com/p/2b775096a522)
-- [Flutter入门（5）：基础组件之Row/Column]
-- [Flutter入门（6）：基础组件之Image]
-- [Flutter入门（7）：基础组件之Text]
+- [五、Flutter入门（5）：基础组件之Row/Column](https://www.jianshu.com/p/c140cb0e790f)
+- [六、Flutter入门（6）：基础组件之Image](https://www.jianshu.com/p/1a6926e1cad2)
+- [七、Flutter入门（7）：基础组件之Text]
