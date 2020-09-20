@@ -63,7 +63,6 @@ class TextPage extends StatelessWidget {
         - background 文本背景色
         - foreground 文本的前景色
         - shadows 实现一些特殊效果
-  
   ''';
 
   @override

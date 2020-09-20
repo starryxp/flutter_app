@@ -19,4 +19,5 @@
 - [四、Flutter入门（4）：基础组件之Container](https://www.jianshu.com/p/2b775096a522)
 - [五、Flutter入门（5）：基础组件之Row/Column](https://www.jianshu.com/p/c140cb0e790f)
 - [六、Flutter入门（6）：基础组件之Image](https://www.jianshu.com/p/1a6926e1cad2)
-- [七、Flutter入门（7）：基础组件之Text]
+- [七、Flutter入门（7）：基础组件之Text](https://www.jianshu.com/p/7a5d743d1470)
+- [八、Flutter入门（8）：基础组件之Icon](https://www.jianshu.com/p/51e7653c1ba9)

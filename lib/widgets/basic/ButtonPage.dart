@@ -64,11 +64,11 @@ class ButtonPage extends StatelessWidget {
               disabledTextColor: Colors.white,
               textColor: Colors.blue,
               highlightColor: Colors.red,
-              onPressed: () {
-                ToastUtil.showToast('click button');
-              },
+              // onPressed: () {
+              //   ToastUtil.showToast('click button');
+              // },
               //传 null 表示按钮禁用，会显示禁用相关样式
-//              onPressed: null,
+              onPressed: null,
               shape: CircleBorder(
                 side: BorderSide(
                   color: Colors.yellow,
@@ -86,6 +86,14 @@ class ButtonPage extends StatelessWidget {
                 label: Text('搜索')),
           ),
           Center(
+            child: RaisedButton.icon(
+                onPressed: () {
+                  ToastUtil.showToast('扫码');
+                },
+                icon: Image.asset('images/scan.png'),
+                label: Text('扫码')),
+          ),
+          Center(
             child: IconButton(
                 icon: Icon(Icons.save_alt),
                 onPressed: () {
@@ -93,56 +101,69 @@ class ButtonPage extends StatelessWidget {
                 }),
           ),
           Center(
-            child: OutlineButton(
-                color: Colors.blue,
-                textColor: Colors.blue,
-                child: Text('保存'),
+            child: IconButton(
+                icon: Image.asset('images/scan.png'),
                 onPressed: () {
                   ToastUtil.showToast('保存');
+                }),
+          ),
+          Center(
+            child: OutlineButton(
+                child: Text('OutlineButton'),
+                onPressed: () {
+                  ToastUtil.showToast('OutlineButton');
                 }),
           ),
           Center(
             child: FlatButton(
-                color: Colors.blue,
-                textColor: Colors.white,
-                child: Text('保存'),
+                child: Text('FlatButton'),
                 onPressed: () {
-                  ToastUtil.showToast('保存');
+                  ToastUtil.showToast('FlatButton');
                 }),
           ),
           Center(
             child: FloatingActionButton(
-                child: Text('保存'),
+                child: Text('FloatingActionButton'),
                 onPressed: () {
-                  ToastUtil.showToast('保存');
+                  ToastUtil.showToast('FloatingActionButton');
                 }),
           ),
-          ButtonBar(
-            buttonPadding: EdgeInsets.all(10),
-            buttonHeight: 50,
-            alignment: MainAxisAlignment.center,
-            buttonTextTheme: ButtonTextTheme.primary,
-            layoutBehavior: ButtonBarLayoutBehavior.padded,
-            children: [
-              RaisedButton(
-                child: Text('button1'),
+          Center(
+            child: FloatingActionButton(
+                heroTag: '2',
+                child: Icon(Icons.add),
                 onPressed: () {
-                  ToastUtil.showToast('button1');
-                },
-              ),
-              RaisedButton(
-                child: Text('button2'),
-                onPressed: () {
-                  ToastUtil.showToast('button2');
-                },
-              ),
-              RaisedButton(
-                child: Text('button3'),
-                onPressed: () {
-                  ToastUtil.showToast('button3');
-                },
-              ),
-            ],
+                  ToastUtil.showToast('FloatingActionButton');
+                }),
+          ),
+          Container(
+            child: ButtonBar(
+              buttonPadding: EdgeInsets.all(10),
+              buttonHeight: 50,
+              alignment: MainAxisAlignment.start,
+              buttonTextTheme: ButtonTextTheme.primary,
+              layoutBehavior: ButtonBarLayoutBehavior.padded,
+              children: [
+                RaisedButton(
+                  child: Text('button1'),
+                  onPressed: () {
+                    ToastUtil.showToast('button1');
+                  },
+                ),
+                RaisedButton(
+                  child: Text('button2'),
+                  onPressed: () {
+                    ToastUtil.showToast('button2');
+                  },
+                ),
+                RaisedButton(
+                  child: Text('button3'),
+                  onPressed: () {
+                    ToastUtil.showToast('button3');
+                  },
+                ),
+              ],
+            ),
           ),
           Text(tip),
         ],
