@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class PlaceholderPage extends StatelessWidget {
-  final tip = '''
+  final _tip = '''
   1.Placeholder介绍
     一个占位控件
   2.Placeholder属性
@@ -33,6 +33,7 @@ class PlaceholderPage extends StatelessWidget {
               )
             ],
           ),
+          Text(_tip),
         ],
       ),
     );

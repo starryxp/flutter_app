@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class RowPage extends StatelessWidget {
-  final tip = '''
+  final _tip = '''
   1.1 简介
     在Flutter中非常常见的一个多子节点控件，将children排列成一行。
     估计是借鉴了Web中Flex布局，所以很多属性和表现，都跟其相似。
@@ -160,7 +160,7 @@ class RowPage extends StatelessWidget {
           ),
           Container(
             margin: EdgeInsets.all(10),
-            child: Text(tip),
+            child: Text(_tip),
           ),
         ],
       ),

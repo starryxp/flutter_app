@@ -4,7 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class ImagePage extends StatelessWidget {
-  final tip = '''
+  final _tip = '''
   Image是一个用于展示图片的组件。支持 JPEG、PNG、GIF、Animated GIF、WebP、Animated WebP、BMP 和 WBMP 等格式。
   1.1Image 有许多的静态函数：
       Image.asset - 用于从资源目录的显示图片,需要在 pubspec.yaml 文件中声明。
@@ -32,7 +32,7 @@ class ImagePage extends StatelessWidget {
       BoxFit.scaleDown	效果和contain差不多， 但是只能缩小图片，不能放大图片
   ''';
 
-  final imageUrl =
+  final _imageUrl =
       'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3363295869,2467511306&fm=26&gp=0.jpg';
 
   @override
@@ -57,7 +57,7 @@ class ImagePage extends StatelessWidget {
                   ),
                 ),
                 Expanded(
-                  child: Image(image: NetworkImage(imageUrl)),
+                  child: Image(image: NetworkImage(_imageUrl)),
                 ),
                 Expanded(
                   child: Image(
@@ -87,7 +87,7 @@ class ImagePage extends StatelessWidget {
                 Expanded(
                     child: FadeInImage.assetNetwork(
                   placeholder: 'images/scan.png',
-                  image: imageUrl,
+                  image: _imageUrl,
                   width: 100,
                   height: 100,
                 )),
@@ -112,7 +112,7 @@ class ImagePage extends StatelessWidget {
               children: [
                 ClipRRect(
                   child: Image.network(
-                    imageUrl,
+                    _imageUrl,
                     fit: BoxFit.cover,
                     width: 100,
                     height: 100,
@@ -121,7 +121,7 @@ class ImagePage extends StatelessWidget {
                 ),
                 CircleAvatar(
                   backgroundColor: Colors.white,
-                  backgroundImage: NetworkImage(imageUrl),
+                  backgroundImage: NetworkImage(_imageUrl),
                   //半径越大，图片越大
                   radius: 50,
                 ),
@@ -131,7 +131,7 @@ class ImagePage extends StatelessWidget {
                   decoration: BoxDecoration(
                       color: Colors.white,
                       image: DecorationImage(
-                          image: NetworkImage(imageUrl), fit: BoxFit.cover),
+                          image: NetworkImage(_imageUrl), fit: BoxFit.cover),
                       shape: BoxShape.circle),
                 ),
               ],
@@ -147,7 +147,7 @@ class ImagePage extends StatelessWidget {
               children: [
                 ClipRRect(
                   child: Image.network(
-                    imageUrl,
+                    _imageUrl,
                     width: 100,
                     height: 100,
                     fit: BoxFit.cover,
@@ -160,7 +160,7 @@ class ImagePage extends StatelessWidget {
                   height: 100,
                   decoration: BoxDecoration(
                       image: DecorationImage(
-                          image: NetworkImage(imageUrl), fit: BoxFit.cover),
+                          image: NetworkImage(_imageUrl), fit: BoxFit.cover),
                       shape: BoxShape.rectangle,
                       borderRadius: BorderRadius.circular(10)),
                 ),
@@ -178,7 +178,7 @@ class ImagePage extends StatelessWidget {
                   width: double.infinity,
                   height: 100,
                   child: Image(
-                    image: NetworkImage(imageUrl),
+                    image: NetworkImage(_imageUrl),
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -186,7 +186,7 @@ class ImagePage extends StatelessWidget {
                   width: double.infinity,
                   height: 100,
                   child: Image(
-                    image: NetworkImage(imageUrl),
+                    image: NetworkImage(_imageUrl),
                     fit: BoxFit.fill,
                   ),
                 ),
@@ -194,7 +194,7 @@ class ImagePage extends StatelessWidget {
                   width: double.infinity,
                   height: 100,
                   child: Image(
-                    image: NetworkImage(imageUrl),
+                    image: NetworkImage(_imageUrl),
                     fit: BoxFit.contain,
                   ),
                 ),
@@ -202,7 +202,7 @@ class ImagePage extends StatelessWidget {
                   width: double.infinity,
                   height: 100,
                   child: Image(
-                    image: NetworkImage(imageUrl),
+                    image: NetworkImage(_imageUrl),
                     fit: BoxFit.scaleDown,
                   ),
                 ),
@@ -210,7 +210,7 @@ class ImagePage extends StatelessWidget {
                   width: double.infinity,
                   height: 100,
                   child: Image(
-                    image: NetworkImage(imageUrl),
+                    image: NetworkImage(_imageUrl),
                     fit: BoxFit.fitHeight,
                   ),
                 ),
@@ -218,14 +218,14 @@ class ImagePage extends StatelessWidget {
                   width: double.infinity,
                   height: 100,
                   child: Image(
-                    image: NetworkImage(imageUrl),
+                    image: NetworkImage(_imageUrl),
                     fit: BoxFit.fitWidth,
                   ),
                 ),
               ],
             ),
           ),
-          Text(tip),
+          Text(_tip),
         ],
       ),
     );

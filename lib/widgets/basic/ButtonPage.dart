@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app/utils/ToastUtil.dart';
 
 class ButtonPage extends StatelessWidget {
-  final tip = '''
+  final _tip = '''
     1.1简介
         Flutter 里有很多的 Button 组件很多，常见的按钮组件有： 
           RaisedButton ：凸起的按钮，其实就是 Material Design 风格的 Button
@@ -165,7 +165,7 @@ class ButtonPage extends StatelessWidget {
               ],
             ),
           ),
-          Text(tip),
+          Text(_tip),
         ],
       ),
     );

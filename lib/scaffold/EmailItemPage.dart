@@ -3,11 +3,11 @@ import 'package:flutter/material.dart';
 class EmailItemPage extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
-    return EmailItemPageState();
+    return _EmailItemPageState();
   }
 }
 
-class EmailItemPageState extends State<EmailItemPage> {
+class _EmailItemPageState extends State<EmailItemPage> {
   @override
   Widget build(BuildContext context) {
     return Text('邮件');

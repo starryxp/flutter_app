@@ -21,11 +21,11 @@ class AppbarPage extends StatefulWidget {
 
   @override
   State<AppbarPage> createState() {
-    return AppbarPageState();
+    return _AppbarPageState();
   }
 }
 
-class AppbarPageState extends State<AppbarPage>
+class _AppbarPageState extends State<AppbarPage>
     with SingleTickerProviderStateMixin {
   @override
   Widget build(BuildContext context) {

@@ -3,11 +3,11 @@ import 'package:flutter/material.dart';
 class MineItemPage extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
-    return MineItemPageState();
+    return _MineItemPageState();
   }
 }
 
-class MineItemPageState extends State<MineItemPage> {
+class _MineItemPageState extends State<MineItemPage> {
   @override
   Widget build(BuildContext context) {
     return Text('我的');

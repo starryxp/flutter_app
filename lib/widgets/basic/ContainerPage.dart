@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class ContainerPage extends StatelessWidget {
-  final tip = '''
+  final _tip = '''
   1.1 组成
       Container的组成如下：
       最里层的是child元素；
@@ -154,7 +154,7 @@ class ContainerPage extends StatelessWidget {
             Container(
               padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
               child: Text(
-                tip,
+                _tip,
                 style: TextStyle(
                   fontSize: 14,
                 ),

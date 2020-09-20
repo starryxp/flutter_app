@@ -4,7 +4,7 @@ import 'package:flutter_app/home/HomeListItem.dart';
 import 'package:flutter_app/utils/Constant.dart';
 
 class WidgetsListPage extends StatefulWidget {
-  final dataList = [
+  final _dataList = [
     HomeData(
       title: '基础组件',
       content: '在构建您的第一个Flutter应用程序之前，您绝对需要了解这些widget。',
@@ -66,11 +66,11 @@ class WidgetsListPage extends StatefulWidget {
 
   @override
   State<StatefulWidget> createState() {
-    return WidgetsListPageState();
+    return _WidgetsListPageState();
   }
 }
 
-class WidgetsListPageState extends State<WidgetsListPage> {
+class _WidgetsListPageState extends State<WidgetsListPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -80,7 +80,7 @@ class WidgetsListPageState extends State<WidgetsListPage> {
       body: ListView(
         padding: EdgeInsets.all(10),
         children:
-            widget.dataList.map((e) => HomeListItem(homeData: e)).toList(),
+            widget._dataList.map((e) => HomeListItem(homeData: e)).toList(),
       ),
     );
   }

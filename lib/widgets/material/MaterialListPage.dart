@@ -4,7 +4,7 @@ import 'package:flutter_app/home/HomeListItem.dart';
 import 'package:flutter_app/utils/Constant.dart';
 
 class MaterialListPage extends StatelessWidget {
-  final dataList = [
+  final _dataList = [
     HomeData(
         title: 'App结构和导航',
         content: '',
@@ -22,7 +22,7 @@ class MaterialListPage extends StatelessWidget {
       appBar: AppBar(title: Text('Material Widgets')),
       body: ListView(
         padding: EdgeInsets.all(10),
-        children: dataList.map((e) => HomeListItem(homeData: e)).toList(),
+        children: _dataList.map((e) => HomeListItem(homeData: e)).toList(),
       ),
     );
   }

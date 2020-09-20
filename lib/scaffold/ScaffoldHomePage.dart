@@ -6,13 +6,13 @@ import 'package:flutter_app/scaffold/MineItemPage.dart';
 class ScaffoldHomePage extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
-    return ScaffoldHomePageState();
+    return _ScaffoldHomePageState();
   }
 }
 
-class ScaffoldHomePageState extends State<ScaffoldHomePage> {
+class _ScaffoldHomePageState extends State<ScaffoldHomePage> {
   //当前选中页面位置
-  num index = 0;
+  num _index = 0;
 
   //定义三个页面
   List<Widget> pageWidgetList = [
@@ -31,7 +31,7 @@ class ScaffoldHomePageState extends State<ScaffoldHomePage> {
         title: Text("这是首页"),
       ),
       //定义页面主题内容
-      body: pageWidgetList[index],
+      body: pageWidgetList[_index],
       //定义悬浮按钮
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.add),
@@ -105,39 +105,39 @@ class ScaffoldHomePageState extends State<ScaffoldHomePage> {
           BottomNavigationBarItem(
             icon: Icon(
               Icons.home,
-              color: index == 0 ? Colors.blue : Colors.grey,
+              color: _index == 0 ? Colors.blue : Colors.grey,
             ),
             title: Text(
               "首页",
               style: TextStyle(
-                fontSize: index == 0 ? 14 : 12,
-                color: index == 0 ? Colors.blue : Colors.grey,
+                fontSize: _index == 0 ? 14 : 12,
+                color: _index == 0 ? Colors.blue : Colors.grey,
               ),
             ),
           ),
           BottomNavigationBarItem(
             icon: Icon(
               Icons.mail,
-              color: index == 1 ? Colors.blue : Colors.grey,
+              color: _index == 1 ? Colors.blue : Colors.grey,
             ),
             title: Text(
               "邮件",
               style: TextStyle(
-                fontSize: index == 1 ? 14 : 12,
-                color: index == 1 ? Colors.blue : Colors.grey,
+                fontSize: _index == 1 ? 14 : 12,
+                color: _index == 1 ? Colors.blue : Colors.grey,
               ),
             ),
           ),
           BottomNavigationBarItem(
             icon: Icon(
               Icons.people,
-              color: index == 2 ? Colors.blue : Colors.grey,
+              color: _index == 2 ? Colors.blue : Colors.grey,
             ),
             title: Text(
               "我的",
               style: TextStyle(
-                fontSize: index == 2 ? 14 : 12,
-                color: index == 2 ? Colors.blue : Colors.grey,
+                fontSize: _index == 2 ? 14 : 12,
+                color: _index == 2 ? Colors.blue : Colors.grey,
               ),
             ),
           )
@@ -145,11 +145,11 @@ class ScaffoldHomePageState extends State<ScaffoldHomePage> {
         //BottomNavigationBar 的点击事件
         onTap: (flag) {
           print("flag = $flag");
-          index = flag;
+          _index = flag;
           setState(() {});
         },
         //当前位置
-        currentIndex: index,
+        currentIndex: _index,
       ),
     );
   }

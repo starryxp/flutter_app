@@ -1,10 +1,12 @@
+import 'dart:html';
+
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_app/utils/ToastUtil.dart';
 
 class TextPage extends StatelessWidget {
-  final content = "这是一个flutter入门教学app";
-  final tip = '''
+  final _content = "这是一个flutter入门教学app";
+  final _tip = '''
     1.1创建Text
         - Text() 构造方法创建，只能生成一种style
         - Text.rich() 静态方法创建，能够生成多种style
@@ -80,7 +82,7 @@ class TextPage extends StatelessWidget {
             margin: EdgeInsets.only(top: 10),
             padding: EdgeInsets.all(10),
             child: Text(
-              '内容：$content$content$content$content$content$content$content$content',
+              '内容：$_content$_content$_content$_content$_content$_content$_content$_content',
               textAlign: TextAlign.start,
               maxLines: 3,
               overflow: TextOverflow.ellipsis,
@@ -125,18 +127,19 @@ class TextPage extends StatelessWidget {
                       },
                   ),
                   TextSpan(
-                    text: content,
+                    text: _content,
                     style: TextStyle(color: Colors.blue, fontSize: 14),
                     recognizer: TapGestureRecognizer()
                       ..onTap = () {
-                        print(content);
-                        ToastUtil.showToast(content);
+                        print(_content);
+                        ToastUtil.showToast(_content);
                       },
                   )
                 ],
               ),
             ),
           ),
+          Text(_tip)
         ],
       ),
     );

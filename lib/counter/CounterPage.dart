@@ -1,21 +1,20 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/route/NewRouterPage.dart';
 
 class CounterPage extends StatefulWidget {
-  final String title = "计数器";
+  final String _title = "计数器";
 
   @override
-  CounterPageState createState() {
-    return CounterPageState();
+  _CounterPageState createState() {
+    return _CounterPageState();
   }
 }
 
-class CounterPageState extends State<CounterPage> {
-  int counter = 0;
+class _CounterPageState extends State<CounterPage> {
+  int _counter = 0;
 
   void _incrementCounter() {
     setState(() {
-      counter++;
+      _counter++;
     });
   }
 
@@ -23,14 +22,14 @@ class CounterPageState extends State<CounterPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.title),
+        title: Text(widget._title),
       ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text('You have pushed the button this many times:'),
-            Text('$counter'),
+            Text('$_counter'),
           ],
         ),
       ),

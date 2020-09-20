@@ -4,7 +4,7 @@ import 'package:flutter_app/home/HomeListItem.dart';
 import 'package:flutter_app/utils/Constant.dart';
 
 class BasicListPage extends StatelessWidget {
-  final dataList = [
+  final _dataList = [
     HomeData(title: '介绍Flutter里面的一些常用的基础组件的基本用法', content: ''),
     HomeData(
       title: 'Container',
@@ -71,7 +71,7 @@ class BasicListPage extends StatelessWidget {
       ),
       body: ListView(
         padding: EdgeInsets.all(10),
-        children: dataList.map((e) => HomeListItem(homeData: e)).toList(),
+        children: _dataList.map((e) => HomeListItem(homeData: e)).toList(),
       ),
     );
   }

@@ -5,7 +5,7 @@ import 'package:flutter_app/route/TipRouterPage.dart';
 class RouterFirstPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    var isLogin = false;
+    // var _isLogin = false;
 
     return Scaffold(
       appBar: AppBar(

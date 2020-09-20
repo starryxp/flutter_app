@@ -1,8 +1,10 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 
 class FlutterLogoPage extends StatelessWidget {
 
-  final tip = '''
+  final _tip = '''
     1.Flutter logo, 以widget形式. 这个widget遵从IconTheme。
     一般情况似乎用不上
     2.属性介绍
@@ -30,7 +32,8 @@ class FlutterLogoPage extends StatelessWidget {
             duration: Duration(milliseconds: 3000),
             style: FlutterLogoStyle.markOnly,
             curve: Curves.bounceIn,
-          )
+          ),
+          Text(_tip),
         ],
       ),
     );

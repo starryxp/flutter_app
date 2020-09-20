@@ -4,7 +4,7 @@ import 'package:flutter_app/home/HomeListItem.dart';
 import 'package:flutter_app/utils/Constant.dart';
 
 class NavigationListPage extends StatelessWidget {
-  final dataList = [
+  final _dataList = [
     HomeData(
         title: 'Scaffold',
         content:
@@ -49,7 +49,7 @@ class NavigationListPage extends StatelessWidget {
       ),
       body: ListView(
         padding: EdgeInsets.all(10),
-        children: dataList.map((e) => HomeListItem(homeData: e)).toList(),
+        children: _dataList.map((e) => HomeListItem(homeData: e)).toList(),
       ),
     );
   }

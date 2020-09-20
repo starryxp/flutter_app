@@ -79,12 +79,12 @@ class MyApp extends StatelessWidget {
 //        }
 //      },
       //注册路由表
-      routes: routerTable,
+      routes: _routerTable,
       home: HomePage(),
     );
   }
 
-  final routerTable = {
+  final _routerTable = {
     'new_router_page': (context) => NewRouterPage(),
     'tip_router_page': (context) =>
         TipRouterPage(text: '我是提示:命名路由打开TipRouterPage'),
