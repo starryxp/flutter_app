@@ -18,7 +18,7 @@ class NavigationListPage extends StatelessWidget {
     HomeData(
         title: 'BottomNavigationBar',
         content: '底部导航条，可以很容易地在tap之间切换和浏览顶级视图。',
-        routerName: ''),
+        routerName: Constant.widgetsMaterialNavigationBottomNavigationBarPage),
     HomeData(
         title: 'TabBar',
         content: '一个显示水平选项卡的Material Design widget。',

@@ -2,7 +2,7 @@ class Constant {
   static final homeHomePage = "home/home_page";
 
   static final widgetsWidgetsListPage = "widgets/widgets_list_page";
-
+  //基础组件
   static final widgetsBasicBasicListPage = "widgets/basic/basic_list_page";
   static final widgetsBasicContainerPage = "widgets/basic/container_page";
   static final widgetsBasicRowPage = "widgets/basic/row_page";
@@ -15,9 +15,11 @@ class Constant {
   static final widgetsBasicAppbarPage = "widgets/basic/appbar_page";
   static final widgetsBasicFlutterLogoPage = "widgets/basic/flutter_logo_page";
   static final widgetsBasicPlaceholderPage = "widgets/basic/placeholder_page";
-
+  //Material组件
   static final widgetsMaterialMaterialListPage =
       "widgets/material/material_material_listPage";
   static final widgetsMaterialNavigationNavigationListPage =
       "widgets/material/navigation/navigation_list_page";
+  static final widgetsMaterialNavigationBottomNavigationBarPage =
+      "widgets/material/navigation/bottom_navigation_bar_page";
 }
