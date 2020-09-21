@@ -1,22 +1,22 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/utils/ToastUtil.dart';
 
-class TabBean {
-  const TabBean({this.title, this.icon});
+class _TabBean {
+  const _TabBean({this.title, this.icon});
 
   final String title;
   final IconData icon;
 }
 
 class AppbarPage extends StatefulWidget {
-  final tabDataList = [
-    TabBean(title: 'Tab1', icon: Icons.account_balance),
-    TabBean(title: 'Tab2', icon: Icons.people),
-    TabBean(title: 'Tab3', icon: Icons.save),
-    TabBean(title: 'Tab4', icon: Icons.favorite),
-    TabBean(title: 'Tab5', icon: Icons.home),
-    TabBean(title: 'Tab6', icon: Icons.audiotrack),
-    TabBean(title: 'Tab7', icon: Icons.add_shopping_cart),
+  final _tabDataList = [
+    _TabBean(title: 'Tab1', icon: Icons.account_balance),
+    _TabBean(title: 'Tab2', icon: Icons.people),
+    _TabBean(title: 'Tab3', icon: Icons.save),
+    _TabBean(title: 'Tab4', icon: Icons.favorite),
+    _TabBean(title: 'Tab5', icon: Icons.home),
+    _TabBean(title: 'Tab6', icon: Icons.audiotrack),
+    _TabBean(title: 'Tab7', icon: Icons.add_shopping_cart),
   ];
 
   @override
@@ -30,6 +30,9 @@ class _AppbarPageState extends State<AppbarPage>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: Container(
+        width: 120,
+      ),
       appBar: AppBar(
         title: Text('Appbar'),
         backgroundColor: Colors.yellow.shade700,
@@ -55,9 +58,9 @@ class _AppbarPageState extends State<AppbarPage>
                       color: Colors.black,
                     ),
                     Text(
-                      '邮件邮件邮件',
+                      '邮件',
                       style:
-                          TextStyle(fontSize: 18, backgroundColor: Colors.red),
+                          TextStyle(fontSize: 18),
                     )
                   ],
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -72,7 +75,7 @@ class _AppbarPageState extends State<AppbarPage>
                     Text(
                       '搜索',
                       style:
-                          TextStyle(fontSize: 18, backgroundColor: Colors.red),
+                          TextStyle(fontSize: 18),
                     )
                   ],
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -94,7 +97,7 @@ class _AppbarPageState extends State<AppbarPage>
           ),
         ],
         bottom: TabBar(
-          tabs: widget.tabDataList
+          tabs: widget._tabDataList
               .map((e) => Container(
                     padding: EdgeInsets.all(10),
                     child: Column(
@@ -106,7 +109,7 @@ class _AppbarPageState extends State<AppbarPage>
               .toList(),
           isScrollable: true,
           controller:
-              TabController(length: widget.tabDataList.length, vsync: this),
+              TabController(length: widget._tabDataList.length, vsync: this),
           labelColor: Colors.black,
           indicatorColor: Colors.red,
         ),

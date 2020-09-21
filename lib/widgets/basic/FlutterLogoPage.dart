@@ -28,7 +28,7 @@ class FlutterLogoPage extends StatelessWidget {
             size: 100,
             textColor: Colors.red,
             duration: Duration(milliseconds: 3000),
-            style: FlutterLogoStyle.markOnly,
+            style: FlutterLogoStyle.stacked,
             curve: Curves.bounceIn,
           ),
           Text(_tip),
