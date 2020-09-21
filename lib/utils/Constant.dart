@@ -22,4 +22,6 @@ class Constant {
       "widgets/material/navigation/navigation_list_page";
   static final widgetsMaterialNavigationBottomNavigationBarPage =
       "widgets/material/navigation/bottom_navigation_bar_page";
+  static final widgetsMaterialNavigationTabBarPage =
+      "widgets/material/navigation/tab_bar_page";
 }

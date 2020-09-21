@@ -22,7 +22,7 @@ class NavigationListPage extends StatelessWidget {
     HomeData(
         title: 'TabBar',
         content: '一个显示水平选项卡的Material Design widget。',
-        routerName: ''),
+        routerName: Constant.widgetsMaterialNavigationTabBarPage),
     HomeData(
         title: 'TabBarView',
         content: '显示与当前选中的选项卡相对应的页面视图。通常和TabBar一起使用。',

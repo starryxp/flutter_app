@@ -23,6 +23,7 @@ import 'package:flutter_app/widgets/basic/TextPage.dart';
 import 'package:flutter_app/widgets/material/MaterialListPage.dart';
 import 'package:flutter_app/widgets/material/navigation/BottomNavigationBarPage.dart';
 import 'package:flutter_app/widgets/material/navigation/NavigationListPage.dart';
+import 'package:flutter_app/widgets/material/navigation/TabBarPage.dart';
 
 //this.navigatorKey, // 导航的key
 //this.home, // 主页
@@ -120,5 +121,7 @@ class MyApp extends StatelessWidget {
         NavigationListPage(),
     Constant.widgetsMaterialNavigationBottomNavigationBarPage: (context) =>
         BottomNavigationBarPage(),
+    Constant.widgetsMaterialNavigationTabBarPage: (context) =>
+        TabBarPage(),
   };
 }
