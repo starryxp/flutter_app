@@ -9,6 +9,10 @@ class HomePage extends StatefulWidget {
         title: 'Widgets目录',
         content: 'Flutter的一套的视觉、结构、平台、和交互式的widgets。',
         routerName: Constant.widgetsWidgetsListPage),
+    HomeData(
+        title: 'State生命周期',
+        content: '',
+        routerName: Constant.widgetsMaterialNavigationTabBarViewPage),
   ];
 
   @override

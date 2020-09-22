@@ -5,7 +5,6 @@ import 'package:flutter_app/route/LoginPage.dart';
 import 'package:flutter_app/route/NeedLoginPage.dart';
 import 'package:flutter_app/route/NewRouterPage.dart';
 import 'package:flutter_app/route/TipRouterPage.dart';
-import 'package:flutter_app/scaffold/ScaffoldHomePage.dart';
 import 'package:flutter_app/utils/Constant.dart';
 import 'package:flutter_app/widgets/WidgetsListPage.dart';
 import 'package:flutter_app/widgets/basic/AppbarPage.dart';
@@ -23,7 +22,9 @@ import 'package:flutter_app/widgets/basic/TextPage.dart';
 import 'package:flutter_app/widgets/material/MaterialListPage.dart';
 import 'package:flutter_app/widgets/material/navigation/BottomNavigationBarPage.dart';
 import 'package:flutter_app/widgets/material/navigation/NavigationListPage.dart';
+import 'package:flutter_app/widgets/material/navigation/PageViewPage.dart';
 import 'package:flutter_app/widgets/material/navigation/TabBarPage.dart';
+import 'package:flutter_app/widgets/material/navigation/TabBarViewPage.dart';
 
 //this.navigatorKey, // 导航的key
 //this.home, // 主页
@@ -93,7 +94,6 @@ class MyApp extends StatelessWidget {
     'tip_router_page2': (context) =>
         TipRouterPage(text: ModalRoute.of(context).settings.arguments),
     'counter_page': (context) => CounterPage(),
-    'scaffold_page': (context) => ScaffoldHomePage(),
     'need_login_page': (context) =>
         NeedLoginPage(id: ModalRoute.of(context).settings.arguments),
     'login_page': (context) => LoginPage(),
@@ -121,7 +121,11 @@ class MyApp extends StatelessWidget {
         NavigationListPage(),
     Constant.widgetsMaterialNavigationBottomNavigationBarPage: (context) =>
         BottomNavigationBarPage(),
+    Constant.widgetsMaterialNavigationPageViewPage: (context) =>
+        PageViewPage(),
     Constant.widgetsMaterialNavigationTabBarPage: (context) =>
         TabBarPage(),
+    Constant.widgetsMaterialNavigationTabBarViewPage: (context) =>
+        TabBarViewPage(),
   };
 }
