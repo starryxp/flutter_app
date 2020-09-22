@@ -23,3 +23,5 @@
 - [八、Flutter入门（8）：基础组件之Icon](https://www.jianshu.com/p/51e7653c1ba9)
 - [九、Flutter入门（9）：基础组件之Button](https://www.jianshu.com/p/89b6d825fc79)
 - [十、Flutter入门（10）：基础组件之Scaffold](https://www.jianshu.com/p/82d19ba3947a)
+- [十一、Flutter入门（11）：基础组件之AppBar](https://www.jianshu.com/p/7ed0316aa92f)
+- [十二、Flutter入门（12）：基础组件之FlutterLogo、Placeholder](https://www.jianshu.com/p/beaa5741423e)
