@@ -1,22 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/bean/CustomBean.dart';
 import 'package:flutter_app/utils/ToastUtil.dart';
-
-class _TabBean {
-  const _TabBean({this.title, this.icon});
-
-  final String title;
-  final IconData icon;
-}
 
 class AppbarPage extends StatefulWidget {
   final _tabDataList = [
-    _TabBean(title: 'Tab1', icon: Icons.account_balance),
-    _TabBean(title: 'Tab2', icon: Icons.people),
-    _TabBean(title: 'Tab3', icon: Icons.save),
-    _TabBean(title: 'Tab4', icon: Icons.favorite),
-    _TabBean(title: 'Tab5', icon: Icons.home),
-    _TabBean(title: 'Tab6', icon: Icons.audiotrack),
-    _TabBean(title: 'Tab7', icon: Icons.add_shopping_cart),
+    TabBean(title: 'Tab1', icon: Icons.account_balance),
+    TabBean(title: 'Tab2', icon: Icons.people),
+    TabBean(title: 'Tab3', icon: Icons.save),
+    TabBean(title: 'Tab4', icon: Icons.favorite),
+    TabBean(title: 'Tab5', icon: Icons.home),
+    TabBean(title: 'Tab6', icon: Icons.audiotrack),
+    TabBean(title: 'Tab7', icon: Icons.add_shopping_cart),
   ];
 
   @override

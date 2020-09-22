@@ -1,11 +1,5 @@
 import 'package:flutter/material.dart';
-
-class _TabBean {
-  const _TabBean({this.title, this.icon});
-
-  final String title;
-  final IconData icon;
-}
+import 'package:flutter_app/bean/CustomBean.dart';
 
 class TabBarPage extends StatefulWidget {
   final tip = '''
@@ -50,10 +44,10 @@ class TabBarPage extends StatefulWidget {
   ];
 
   final _tabDateList = [
-    _TabBean(title: '首页', icon: Icons.home),
-    _TabBean(title: '邮件', icon: Icons.mail),
-    _TabBean(title: '消息', icon: Icons.message),
-    _TabBean(title: '我的', icon: Icons.people),
+    TabBean(title: '首页', icon: Icons.home),
+    TabBean(title: '邮件', icon: Icons.mail),
+    TabBean(title: '消息', icon: Icons.message),
+    TabBean(title: '我的', icon: Icons.people),
   ];
 
   @override
