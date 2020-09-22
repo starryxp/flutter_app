@@ -86,8 +86,8 @@ class _TabBarPageState extends State<TabBarPage>
       appBar: AppBar(
         title: Text('TabBarPage'),
         bottom: TabBar(
-          tabs: widget._tabList,
-          // tabs: _customTabs(),
+          // tabs: widget._tabList,
+          tabs: _customTabs(),
           controller: _tabController,
           isScrollable: false,
           indicatorWeight: 2,
