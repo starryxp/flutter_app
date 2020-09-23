@@ -44,102 +44,102 @@ class _BottomNavigationBarPageState extends State<BottomNavigationBarPage> {
       body: Center(
         child: Text('index = $_index'),
       ),
-      bottomNavigationBar: BottomNavigationBar(
-        items: [
-          BottomNavigationBarItem(
-              icon: Icon(Icons.home),
-              title: Text('首页'),
-              backgroundColor: Colors.amber),
-          BottomNavigationBarItem(
-              icon: Icon(Icons.mail),
-              title: Text('邮件'),
-              backgroundColor: Colors.deepPurple),
-          BottomNavigationBarItem(
-              icon: Icon(Icons.message),
-              title: Text('消息'),
-              backgroundColor: Colors.green),
-          BottomNavigationBarItem(
-              icon: Icon(Icons.people),
-              title: Text('我的'),
-              backgroundColor: Colors.deepOrange),
-        ],
-        backgroundColor: Colors.brown,
-        type: BottomNavigationBarType.shifting,
-        // type: BottomNavigationBarType.fixed,
-        currentIndex: _index,
-        selectedFontSize: 16,
-        selectedItemColor: Colors.red,
-        selectedIconTheme: IconThemeData(color: Colors.blue, size: 26),
-        selectedLabelStyle: TextStyle(fontWeight: FontWeight.bold),
-        unselectedFontSize: 14,
-        unselectedItemColor: Colors.black,
-        unselectedIconTheme: IconThemeData(color: Colors.black, size: 24),
-        unselectedLabelStyle: TextStyle(fontWeight: FontWeight.normal),
-        elevation: 10,
-        onTap: (index) {
-          _index = index;
-          setState(() {});
-        },
-      ),
+      // bottomNavigationBar: BottomNavigationBar(
+      //   items: [
+      //     BottomNavigationBarItem(
+      //         icon: Icon(Icons.home),
+      //         title: Text('首页'),
+      //         backgroundColor: Colors.amber),
+      //     BottomNavigationBarItem(
+      //         icon: Icon(Icons.mail),
+      //         title: Text('邮件'),
+      //         backgroundColor: Colors.deepPurple),
+      //     BottomNavigationBarItem(
+      //         icon: Icon(Icons.message),
+      //         title: Text('消息'),
+      //         backgroundColor: Colors.green),
+      //     BottomNavigationBarItem(
+      //         icon: Icon(Icons.people),
+      //         title: Text('我的'),
+      //         backgroundColor: Colors.deepOrange),
+      //   ],
+      //   backgroundColor: Colors.brown,
+      //   // type: BottomNavigationBarType.shifting,
+      //   type: BottomNavigationBarType.fixed,
+      //   currentIndex: _index,
+      //   selectedFontSize: 16,
+      //   selectedItemColor: Colors.red,
+      //   selectedIconTheme: IconThemeData(color: Colors.blue, size: 26),
+      //   selectedLabelStyle: TextStyle(fontWeight: FontWeight.bold),
+      //   unselectedFontSize: 14,
+      //   unselectedItemColor: Colors.black,
+      //   unselectedIconTheme: IconThemeData(color: Colors.black, size: 24),
+      //   unselectedLabelStyle: TextStyle(fontWeight: FontWeight.normal),
+      //   elevation: 10,
+      //   onTap: (index) {
+      //     _index = index;
+      //     setState(() {});
+      //   },
+      // ),
       floatingActionButton: FloatingActionButton(
         child: Icon(
           Icons.add,
         ),
         onPressed: () {},
       ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.endFloat,
-      // floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
-      // bottomNavigationBar: BottomAppBar(
-      //   color: Colors.white,
-      //   elevation: 10,
-      //   shape: CircularNotchedRectangle(),
-      //   child: Container(
-      //     height: 60,
-      //     child: Row(children: [
-      //       Expanded(
-      //         child: FlatButton(
-      //           onPressed: () {},
-      //           child: Column(
-      //             mainAxisAlignment: MainAxisAlignment.center,
-      //             crossAxisAlignment: CrossAxisAlignment.center,
-      //             children: [Icon(Icons.home), Text('首页')],
-      //           ),
-      //         ),
-      //       ),
-      //       Expanded(
-      //         child: FlatButton(
-      //           onPressed: () {},
-      //           child: Column(
-      //             mainAxisAlignment: MainAxisAlignment.center,
-      //             crossAxisAlignment: CrossAxisAlignment.center,
-      //             children: [Icon(Icons.email), Text('邮件')],
-      //           ),
-      //         ),
-      //       ),
-      //       Expanded(child: SizedBox()),
-      //       Expanded(
-      //         child: FlatButton(
-      //           onPressed: () {},
-      //           child: Column(
-      //             mainAxisAlignment: MainAxisAlignment.center,
-      //             crossAxisAlignment: CrossAxisAlignment.center,
-      //             children: [Icon(Icons.message), Text('消息')],
-      //           ),
-      //         ),
-      //       ),
-      //       Expanded(
-      //         child: FlatButton(
-      //           onPressed: () {},
-      //           child: Column(
-      //             mainAxisAlignment: MainAxisAlignment.center,
-      //             crossAxisAlignment: CrossAxisAlignment.center,
-      //             children: [Icon(Icons.people), Text('我的')],
-      //           ),
-      //         ),
-      //       ),
-      //     ]),
-      //   ),
-      // ),
+      // floatingActionButtonLocation: FloatingActionButtonLocation.endFloat,
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+      bottomNavigationBar: BottomAppBar(
+        color: Colors.white,
+        elevation: 10,
+        shape: CircularNotchedRectangle(),
+        child: Container(
+          height: 60,
+          child: Row(children: [
+            Expanded(
+              child: FlatButton(
+                onPressed: () {},
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [Icon(Icons.home), Text('首页')],
+                ),
+              ),
+            ),
+            Expanded(
+              child: FlatButton(
+                onPressed: () {},
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [Icon(Icons.email), Text('邮件')],
+                ),
+              ),
+            ),
+            Expanded(child: SizedBox()),
+            Expanded(
+              child: FlatButton(
+                onPressed: () {},
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [Icon(Icons.message), Text('消息')],
+                ),
+              ),
+            ),
+            Expanded(
+              child: FlatButton(
+                onPressed: () {},
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [Icon(Icons.people), Text('我的')],
+                ),
+              ),
+            ),
+          ]),
+        ),
+      ),
     );
   }
 }
