@@ -25,3 +25,7 @@
 - [十、Flutter入门（10）：基础组件之Scaffold](https://www.jianshu.com/p/82d19ba3947a)
 - [十一、Flutter入门（11）：基础组件之AppBar](https://www.jianshu.com/p/7ed0316aa92f)
 - [十二、Flutter入门（12）：基础组件之FlutterLogo、Placeholder](https://www.jianshu.com/p/beaa5741423e)
+
+## 补充知识点
+- [Flutter（Dart）中extends 、 implements 、 with的用法与区别](https://www.jianshu.com/p/04b896764f6e)
+- [Flutter：State生命周期以及页面重载问题详解]()
