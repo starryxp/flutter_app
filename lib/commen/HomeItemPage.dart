@@ -76,6 +76,7 @@ class _HomeItemPageState extends State<HomeItemPage>
   @override
   void dispose() {
     print('_HomeItemPageState dispose');
+    WidgetsBinding.instance.removeObserver(this);
     super.dispose();
   }
 

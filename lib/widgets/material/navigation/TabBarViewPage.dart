@@ -62,6 +62,7 @@ class _TabBarViewPageState extends State<TabBarViewPage>
       body: TabBarView(
         children: widget._pageWidgetList,
         controller: _tabController,
+        physics: BouncingScrollPhysics(),
       ),
     );
   }
@@ -70,6 +71,7 @@ class _TabBarViewPageState extends State<TabBarViewPage>
   void dispose() {
     print('_TabBarViewPageState dispose');
     _tabController.dispose();
+    WidgetsBinding.instance.removeObserver(this);
     super.dispose();
   }
 

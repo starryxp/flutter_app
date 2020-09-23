@@ -58,6 +58,7 @@ class _MineItemPageState extends State<MineItemPage> with WidgetsBindingObserver
 
   @override
   void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
     print('_MineItemPageState dispose');
     super.dispose();
   }

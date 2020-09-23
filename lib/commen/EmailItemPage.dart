@@ -58,12 +58,14 @@ class _EmailItemPageState extends State<EmailItemPage> with WidgetsBindingObserv
 
   @override
   void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
     print('_EmailItemPageState dispose');
     super.dispose();
   }
 
   @override
   void reassemble() {
+    super.reassemble();
     print('_EmailItemPageState reassemble');
   }
 
