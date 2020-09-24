@@ -21,6 +21,8 @@ import 'package:flutter_app/widgets/basic/ScaffoldPage.dart';
 import 'package:flutter_app/widgets/basic/TextPage.dart';
 import 'package:flutter_app/widgets/material/MaterialListPage.dart';
 import 'package:flutter_app/widgets/material/navigation/BottomNavigationBarPage.dart';
+import 'package:flutter_app/widgets/material/navigation/DrawerPage.dart';
+import 'package:flutter_app/widgets/material/navigation/MaterialAppPage.dart';
 import 'package:flutter_app/widgets/material/navigation/NavigationListPage.dart';
 import 'package:flutter_app/widgets/material/navigation/PageViewPage.dart';
 import 'package:flutter_app/widgets/material/navigation/TabBarPage.dart';
@@ -127,5 +129,9 @@ class MyApp extends StatelessWidget {
         TabBarPage(),
     Constant.widgetsMaterialNavigationTabBarViewPage: (context) =>
         TabBarViewPage(),
+    Constant.widgetsMaterialNavigationMaterialApp: (context) =>
+        MaterialAppPage(),
+    Constant.widgetsMaterialNavigationDrawerPage: (context) =>
+        DrawerPage(),
   };
 }

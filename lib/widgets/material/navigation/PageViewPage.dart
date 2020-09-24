@@ -75,6 +75,7 @@ class _PageViewPage extends State<PageViewPage>
           _index = index;
           setState(() {});
         },
+        pageSnapping: false,
         // physics: PageScrollPhysics(parent: BouncingScrollPhysics()),
       ),
     );

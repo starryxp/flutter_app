@@ -34,15 +34,11 @@ class NavigationListPage extends StatelessWidget {
     HomeData(
         title: 'MaterialApp',
         content: '一个方便的widget，它封装了应用程序实现Material Design所需要的一些widget。',
-        routerName: ''),
-    HomeData(
-        title: 'WidgetsApp',
-        content: '一个方便的类，它封装了应用程序通常需要的一些widget。',
-        routerName: ''),
+        routerName: Constant.widgetsMaterialNavigationMaterialApp),
     HomeData(
         title: 'Drawer',
         content: '从Scaffold边缘水平滑动以显示应用程序中导航链接的Material Design面板。',
-        routerName: ''),
+        routerName: Constant.widgetsMaterialNavigationDrawerPage),
   ];
 
   @override
