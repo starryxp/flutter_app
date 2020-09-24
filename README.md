@@ -24,5 +24,5 @@
 - [十二、Flutter入门（12）：基础组件之FlutterLogo、Placeholder](https://www.jianshu.com/p/beaa5741423e)
 
 ## 补充知识点
-- [Flutter（Dart）中extends 、 implements 、 with的用法与区别](https://www.jianshu.com/p/04b896764f6e)
-- [Flutter：State生命周期以及页面重载问题详解]()
+- [一、Flutter（Dart）中extends 、 implements 、 with的用法与区别](https://www.jianshu.com/p/04b896764f6e)
+- [二、Flutter：State生命周期以及页面重载问题详解](https://www.jianshu.com/p/1d0eee77fcc0)
