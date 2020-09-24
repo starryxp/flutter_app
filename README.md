@@ -22,6 +22,8 @@
 - [十、Flutter入门（10）：基础组件之Scaffold](https://www.jianshu.com/p/82d19ba3947a)
 - [十一、Flutter入门（11）：基础组件之AppBar](https://www.jianshu.com/p/7ed0316aa92f)
 - [十二、Flutter入门（12）：基础组件之FlutterLogo、Placeholder](https://www.jianshu.com/p/beaa5741423e)
+- [十三、Flutter入门（13）：Material组件之TabBar](https://www.jianshu.com/p/40a24104fa55)
+- [十四、Flutter入门（14）：Material组件之TabBarView](https://www.jianshu.com/p/52bacff37d78)
 
 ## 补充知识点
 - [一、Flutter（Dart）中extends 、 implements 、 with的用法与区别](https://www.jianshu.com/p/04b896764f6e)
