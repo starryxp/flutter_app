@@ -9,8 +9,14 @@ class MaterialListPage extends StatelessWidget {
         title: 'App结构和导航',
         content: '',
         routerName: Constant.widgetsMaterialNavigationNavigationListPage),
-    HomeData(title: '按钮', content: '', routerName: ''),
-    HomeData(title: '输入框和选择框', content: '', routerName: ''),
+    HomeData(
+        title: '按钮',
+        content: '',
+        routerName: Constant.widgetsMaterialButtonMaterialButtonPage),
+    HomeData(
+        title: 'TextField',
+        content: '文本输入框',
+        routerName: Constant.widgetsMaterialTextFieldPage),
     HomeData(title: '对话框、Alert、Panel', content: '', routerName: ''),
     HomeData(title: '信息展示', content: '', routerName: ''),
     HomeData(title: '布局', content: '', routerName: ''),

@@ -20,6 +20,8 @@ import 'package:flutter_app/widgets/basic/RowPage.dart';
 import 'package:flutter_app/widgets/basic/ScaffoldPage.dart';
 import 'package:flutter_app/widgets/basic/TextPage.dart';
 import 'package:flutter_app/widgets/material/MaterialListPage.dart';
+import 'package:flutter_app/widgets/material/TextFieldPage.dart';
+import 'package:flutter_app/widgets/material/button/MaterialButtonPage.dart';
 import 'package:flutter_app/widgets/material/navigation/BottomNavigationBarPage.dart';
 import 'package:flutter_app/widgets/material/navigation/DrawerPage.dart';
 import 'package:flutter_app/widgets/material/navigation/MaterialAppPage.dart';
@@ -123,15 +125,15 @@ class MyApp extends StatelessWidget {
         NavigationListPage(),
     Constant.widgetsMaterialNavigationBottomNavigationBarPage: (context) =>
         BottomNavigationBarPage(),
-    Constant.widgetsMaterialNavigationPageViewPage: (context) =>
-        PageViewPage(),
-    Constant.widgetsMaterialNavigationTabBarPage: (context) =>
-        TabBarPage(),
+    Constant.widgetsMaterialNavigationPageViewPage: (context) => PageViewPage(),
+    Constant.widgetsMaterialNavigationTabBarPage: (context) => TabBarPage(),
     Constant.widgetsMaterialNavigationTabBarViewPage: (context) =>
         TabBarViewPage(),
     Constant.widgetsMaterialNavigationMaterialApp: (context) =>
         MaterialAppPage(),
-    Constant.widgetsMaterialNavigationDrawerPage: (context) =>
-        DrawerPage(),
+    Constant.widgetsMaterialNavigationDrawerPage: (context) => DrawerPage(),
+    Constant.widgetsMaterialButtonMaterialButtonPage: (context) =>
+        MaterialButtonPage(),
+    Constant.widgetsMaterialTextFieldPage: (context) => TextFieldPage(),
   };
 }
