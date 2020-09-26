@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_app/utils/ToastUtil.dart';
@@ -64,24 +65,54 @@ class _TextFieldPageState extends State<TextFieldPage> {
                 decoration: InputDecoration(
                   hintText: 'hintText',
                   hintStyle: TextStyle(
-                      fontSize: 14, color: Colors.grey,fontWeight: FontWeight.normal
-                  ),
+                      fontSize: 14,
+                      color: Colors.grey,
+                      fontWeight: FontWeight.normal),
                   labelText: 'labelText',
                   labelStyle: TextStyle(
-                      fontSize: 14, color: Colors.blue,fontWeight: FontWeight.normal
-                  ),
+                      fontSize: 14,
+                      color: Colors.blue,
+                      fontWeight: FontWeight.normal),
                   helperText: 'helperText',
                   helperStyle: TextStyle(
-                      fontSize: 14, color: Colors.blue,fontWeight: FontWeight.normal
-                  ),
+                      fontSize: 14,
+                      color: Colors.blue,
+                      fontWeight: FontWeight.normal),
                   // errorText: 'errorText',
                   // errorStyle: TextStyle(
                   //     fontSize: 14, color: Colors.blue,fontWeight: FontWeight.normal
                   // ),
                   fillColor: Colors.amber.shade100,
                   filled: true,
+                  // border: UnderlineInputBorder(
+                  //   borderSide: BorderSide(
+                  //     style: BorderStyle.solid,
+                  //   ),
+                  //   borderRadius: BorderRadius.circular(10),
+                  // ),
+                  border: OutlineInputBorder(
+                      borderSide: BorderSide(
+                        color: Colors.blue,
+                        style: BorderStyle.solid,
+                      ),
+                      borderRadius: BorderRadius.circular(10),
+                      gapPadding: 4),
+                  // prefix: ,
+                  prefixIcon: Icon(
+                    Icons.account_circle,
+                    size: 40,
+                  ),
+                  prefixText: 'prefixText：',
+                  prefixStyle: TextStyle(
+                    color: Colors.red,
+                    fontSize: 14,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
-                style: TextStyle(fontSize: 18, color: Colors.black,fontWeight: FontWeight.bold),
+                style: TextStyle(
+                    fontSize: 18,
+                    color: Colors.black,
+                    fontWeight: FontWeight.bold),
                 cursorColor: Colors.amber,
                 cursorWidth: 2,
                 cursorRadius: Radius.circular(5),
