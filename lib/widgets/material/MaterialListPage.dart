@@ -17,7 +17,10 @@ class MaterialListPage extends StatelessWidget {
         title: 'TextField',
         content: '文本输入框',
         routerName: Constant.widgetsMaterialTextFieldPage),
-    HomeData(title: '对话框、Alert、Panel', content: '', routerName: ''),
+    HomeData(
+        title: 'Checkbox',
+        content: '复选框，允许用户从一组中选择多个选项。',
+        routerName: Constant.widgetsMaterialCheckboxPage),
     HomeData(title: '信息展示', content: '', routerName: ''),
     HomeData(title: '布局', content: '', routerName: ''),
   ];

@@ -19,6 +19,7 @@ import 'package:flutter_app/widgets/basic/PlaceholderPage.dart';
 import 'package:flutter_app/widgets/basic/RowPage.dart';
 import 'package:flutter_app/widgets/basic/ScaffoldPage.dart';
 import 'package:flutter_app/widgets/basic/TextPage.dart';
+import 'package:flutter_app/widgets/material/CheckboxPage.dart';
 import 'package:flutter_app/widgets/material/MaterialListPage.dart';
 import 'package:flutter_app/widgets/material/TextFieldPage.dart';
 import 'package:flutter_app/widgets/material/button/MaterialButtonPage.dart';
@@ -135,5 +136,6 @@ class MyApp extends StatelessWidget {
     Constant.widgetsMaterialButtonMaterialButtonPage: (context) =>
         MaterialButtonPage(),
     Constant.widgetsMaterialTextFieldPage: (context) => TextFieldPage(),
+    Constant.widgetsMaterialCheckboxPage: (context) => CheckboxPage(),
   };
 }

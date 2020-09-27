@@ -38,4 +38,5 @@ class Constant {
       "widgets/material/navigation/material_button_page";
   static final widgetsMaterialTextFieldPage =
       "widgets/material/text_field_page";
+  static final widgetsMaterialCheckboxPage = "widgets/material/checkbox_page";
 }
