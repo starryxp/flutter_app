@@ -21,8 +21,14 @@ class MaterialListPage extends StatelessWidget {
         title: 'Checkbox',
         content: '复选框，允许用户从一组中选择多个选项。',
         routerName: Constant.widgetsMaterialCheckboxPage),
-    HomeData(title: '信息展示', content: '', routerName: ''),
-    HomeData(title: '布局', content: '', routerName: ''),
+    HomeData(
+        title: 'Radio',
+        content: '单选框，允许用户从一组中选择一个选项。',
+        routerName: Constant.widgetsMaterialRadioPage),
+    HomeData(title: 'Switch', content: 'On/off 用于切换一个单一状态', routerName: ''),
+    HomeData(
+        title: 'Slider', content: '滑块，允许用户通过滑动滑块来从一系列值中选择。', routerName: ''),
+    HomeData(title: 'Date & Time Pickers', content: '日期&时间选择器', routerName: ''),
   ];
 
   @override
