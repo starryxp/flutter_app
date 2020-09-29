@@ -40,5 +40,8 @@ class Constant {
       "widgets/material/text_field_page";
   static final widgetsMaterialCheckboxPage = "widgets/material/checkbox_page";
   static final widgetsMaterialRadioPage = "widgets/material/radio_page";
-  static final widgetsMaterialSwitchPage= "widgets/material/switch_page";
+  static final widgetsMaterialSwitchPage = "widgets/material/switch_page";
+  static final widgetsMaterialSliderPage = "widgets/material/slider_page";
+  static final widgetsMaterialDateTimePickersPage =
+      "widgets/material/date_time_pickers_page";
 }

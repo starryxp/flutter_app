@@ -12,6 +12,8 @@ dependencies:
   cupertino_icons: ^0.1.2
   # 新添加的依赖
   fluttertoast: ^7.1.1
+  flutter_localizations:
+    sdk: flutter
 
 dev_dependencies:
   flutter_test:

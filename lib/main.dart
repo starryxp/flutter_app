@@ -20,8 +20,10 @@ import 'package:flutter_app/widgets/basic/RowPage.dart';
 import 'package:flutter_app/widgets/basic/ScaffoldPage.dart';
 import 'package:flutter_app/widgets/basic/TextPage.dart';
 import 'package:flutter_app/widgets/material/CheckboxPage.dart';
+import 'package:flutter_app/widgets/material/DateTimePickersPage.dart';
 import 'package:flutter_app/widgets/material/MaterialListPage.dart';
 import 'package:flutter_app/widgets/material/RadioPage.dart';
+import 'package:flutter_app/widgets/material/SliderPage.dart';
 import 'package:flutter_app/widgets/material/SwitchPage.dart';
 import 'package:flutter_app/widgets/material/TextFieldPage.dart';
 import 'package:flutter_app/widgets/material/button/MaterialButtonPage.dart';
@@ -32,6 +34,7 @@ import 'package:flutter_app/widgets/material/navigation/NavigationListPage.dart'
 import 'package:flutter_app/widgets/material/navigation/PageViewPage.dart';
 import 'package:flutter_app/widgets/material/navigation/TabBarPage.dart';
 import 'package:flutter_app/widgets/material/navigation/TabBarViewPage.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 
 //this.navigatorKey, // 导航的key
 //this.home, // 主页
@@ -64,6 +67,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter从零开始',
+      //国际化语言支持
+      localizationsDelegates:[GlobalMaterialLocalizations.delegate,GlobalWidgetsLocalizations.delegate],
+      supportedLocales: [Locale('zh','CH')],
       theme: ThemeData(
         // 应用程序小部件使用的颜色。
         primarySwatch: Colors.blue,
@@ -141,5 +147,9 @@ class MyApp extends StatelessWidget {
     Constant.widgetsMaterialCheckboxPage: (context) => CheckboxPage(),
     Constant.widgetsMaterialRadioPage: (context) => RadioPage(),
     Constant.widgetsMaterialSwitchPage: (context) => SwitchPage(),
+    Constant.widgetsMaterialSliderPage: (context) => SliderPage(),
+    Constant.widgetsMaterialDateTimePickersPage: (context) =>
+        DateTimePickersPage(),
+
   };
 }
