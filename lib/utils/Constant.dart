@@ -44,4 +44,8 @@ class Constant {
   static final widgetsMaterialSliderPage = "widgets/material/slider_page";
   static final widgetsMaterialDateTimePickersPage =
       "widgets/material/date_time_pickers_page";
+  static final widgetsMaterialSimpleDialogPage =
+      "widgets/material/simple_dialog_page";
+  static final widgetsMaterialAlertDialogPage =
+      "widgets/material/alert_dialog_page";
 }

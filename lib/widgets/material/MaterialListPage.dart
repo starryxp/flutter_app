@@ -37,6 +37,14 @@ class MaterialListPage extends StatelessWidget {
         title: 'Date & Time Pickers',
         content: '日期&时间选择器',
         routerName: Constant.widgetsMaterialDateTimePickersPage),
+    HomeData(
+        title: 'SimpleDialog',
+        content: '简单对话框可以显示附加的提示或操作',
+        routerName: Constant.widgetsMaterialSimpleDialogPage),
+    HomeData(
+        title: 'AlertDialog',
+        content: '一个会中断用户操作的对话款，需要用户确认',
+        routerName: Constant.widgetsMaterialAlertDialogPage),
   ];
 
   @override
