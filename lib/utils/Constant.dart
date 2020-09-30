@@ -48,4 +48,10 @@ class Constant {
       "widgets/material/simple_dialog_page";
   static final widgetsMaterialAlertDialogPage =
       "widgets/material/alert_dialog_page";
+  static final widgetsMaterialBottomSheetPage =
+      "widgets/material/bottom_sheet_page";
+  static final widgetsMaterialExpansionPanelPage =
+      "widgets/material/expansion_panel_page";
+  static final widgetsMaterialSnackBarPage =
+      "widgets/material/snack_bar_page";
 }

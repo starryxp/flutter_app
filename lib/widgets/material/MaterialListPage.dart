@@ -45,6 +45,18 @@ class MaterialListPage extends StatelessWidget {
         title: 'AlertDialog',
         content: '一个会中断用户操作的对话款，需要用户确认',
         routerName: Constant.widgetsMaterialAlertDialogPage),
+    HomeData(
+        title: 'BottomSheet',
+        content: 'BottomSheet是一个从屏幕底部滑起的列表（以显示更多的内容）。你可以调用showBottomSheet()或showModalBottomSheet弹出',
+        routerName: Constant.widgetsMaterialBottomSheetPage),
+    HomeData(
+        title: 'ExpansionPanel',
+        content: '扩展面板',
+        routerName: Constant.widgetsMaterialAlertDialogPage),
+    HomeData(
+        title: 'SnackBar',
+        content: '具有可选操作的轻量级消息提示，在屏幕的底部显示。',
+        routerName: Constant.widgetsMaterialAlertDialogPage),
   ];
 
   @override
