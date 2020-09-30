@@ -6,15 +6,31 @@ class ExpansionPanelPage extends StatefulWidget {
 }
 
 class _ExpansionPanelPageState extends State<ExpansionPanelPage> {
+  _myExpansionPanel() {
+    return ExpansionPanel(
+      headerBuilder: (context, isExpanded) {
+        return Text('title');
+      },
+      body: ListBody(
+        children: [
+          Text('内容1'),
+          Text('内容2'),
+          Text('内容3'),
+        ],
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text('ExpansionPanel'),
       ),
-      body: ListView(
-        padding: EdgeInsets.all(10),
-        children: [],
+      body: ExpansionPanelList.radio(
+        children: [
+          _myExpansionPanel(),
+        ],
       ),
     );
   }
