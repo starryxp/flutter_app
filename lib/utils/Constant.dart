@@ -54,4 +54,8 @@ class Constant {
       "widgets/material/expansion_panel_page";
   static final widgetsMaterialSnackBarPage =
       "widgets/material/snack_bar_page";
+  static final widgetsMaterialTooltipPage =
+      "widgets/material/tooltip_page";
+  static final widgetsMaterialCardPage =
+      "widgets/material/card_page";
 }

@@ -63,25 +63,25 @@ class MaterialListPage extends StatelessWidget {
         content: 'A Material Design icon.',
         routerName: Constant.widgetsBasicIconPage),
     HomeData(
-        title: 'Chip',
-        content: '标签，一个Material widget。 它可以将一个复杂内容实体展现在一个小块中，如联系人。',
-        routerName: ''),
-    HomeData(
         title: 'Tooltip',
         content:
             '一个文本提示工具，帮助解释一个按钮或其他用户界面，当widget长时间按下时（当用户采取其他适当操作时）显示一个提示标签。',
-        routerName: ''),
+        routerName: Constant.widgetsMaterialTooltipPage),
+    HomeData(
+        title: 'Card',
+        content: '一个 Material Design 卡片。拥有一个圆角和阴影',
+        routerName: Constant.widgetsMaterialCardPage),
     HomeData(
         title: 'DataTable',
         content: '数据表显示原始数据集。它们通常出现在桌面企业产品中。DataTable Widget实现这个组件',
         routerName: ''),
     HomeData(
-        title: 'Card',
-        content: '一个 Material Design 卡片。拥有一个圆角和阴影',
-        routerName: ''),
-    HomeData(
         title: 'LinearProgressIndicator/CircularProgressIndicator',
         content: '一个线性进度条，一个圆形进度条',
+        routerName: ''),
+    HomeData(
+        title: 'Chip',
+        content: '标签，一个Material widget。 它可以将一个复杂内容实体展现在一个小块中，如联系人。',
         routerName: ''),
     // HomeData(
     //     title: 'ExpansionPanel',
