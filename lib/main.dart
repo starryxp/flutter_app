@@ -71,7 +71,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter从零开始',
+      title: 'Flutter教学：从零开始',
       //国际化语言支持
       localizationsDelegates: [
         GlobalMaterialLocalizations.delegate,
