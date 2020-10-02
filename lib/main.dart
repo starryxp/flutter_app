@@ -23,6 +23,7 @@ import 'package:flutter_app/widgets/material/AlertDialogPage.dart';
 import 'package:flutter_app/widgets/material/BottomSheetPage.dart';
 import 'package:flutter_app/widgets/material/CardPage.dart';
 import 'package:flutter_app/widgets/material/CheckboxPage.dart';
+import 'package:flutter_app/widgets/material/DataTablePage.dart';
 import 'package:flutter_app/widgets/material/DateTimePickersPage.dart';
 import 'package:flutter_app/widgets/material/ExpansionPanelPage.dart';
 import 'package:flutter_app/widgets/material/MaterialListPage.dart';
@@ -168,5 +169,6 @@ class MyApp extends StatelessWidget {
     Constant.widgetsMaterialSnackBarPage: (context) => SnackBarPage(),
     Constant.widgetsMaterialTooltipPage: (context) => TooltipPage(),
     Constant.widgetsMaterialCardPage: (context) => CardPage(),
+    Constant.widgetsMaterialDataTablePage: (context) => DataTablePage(),
   };
 }

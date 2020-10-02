@@ -58,4 +58,6 @@ class Constant {
       "widgets/material/tooltip_page";
   static final widgetsMaterialCardPage =
       "widgets/material/card_page";
+  static final widgetsMaterialDataTablePage =
+      "widgets/material/data_table_page";
 }
