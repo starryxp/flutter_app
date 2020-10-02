@@ -76,9 +76,9 @@ class MaterialListPage extends StatelessWidget {
         content: '数据表显示原始数据集。它们通常出现在桌面企业产品中。DataTable Widget实现这个组件',
         routerName: Constant.widgetsMaterialDataTablePage),
     HomeData(
-        title: 'LinearProgressIndicator/CircularProgressIndicator',
+        title: 'LinearProgressIndicator\nCircularProgressIndicator',
         content: '一个线性进度条，一个圆形进度条',
-        routerName: ''),
+        routerName: Constant.widgetsMaterialProgressIndicatorPage),
     HomeData(
         title: 'Chip',
         content: '标签，一个Material widget。 它可以将一个复杂内容实体展现在一个小块中，如联系人。',

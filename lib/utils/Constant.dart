@@ -60,4 +60,6 @@ class Constant {
       "widgets/material/card_page";
   static final widgetsMaterialDataTablePage =
       "widgets/material/data_table_page";
+  static final widgetsMaterialProgressIndicatorPage =
+      "widgets/material/progress_indicator_page";
 }

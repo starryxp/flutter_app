@@ -27,6 +27,7 @@ import 'package:flutter_app/widgets/material/DataTablePage.dart';
 import 'package:flutter_app/widgets/material/DateTimePickersPage.dart';
 import 'package:flutter_app/widgets/material/ExpansionPanelPage.dart';
 import 'package:flutter_app/widgets/material/MaterialListPage.dart';
+import 'package:flutter_app/widgets/material/ProgressIndicatorPage.dart';
 import 'package:flutter_app/widgets/material/RadioPage.dart';
 import 'package:flutter_app/widgets/material/SimpleDialogPage.dart';
 import 'package:flutter_app/widgets/material/SliderPage.dart';
@@ -170,5 +171,7 @@ class MyApp extends StatelessWidget {
     Constant.widgetsMaterialTooltipPage: (context) => TooltipPage(),
     Constant.widgetsMaterialCardPage: (context) => CardPage(),
     Constant.widgetsMaterialDataTablePage: (context) => DataTablePage(),
+    Constant.widgetsMaterialProgressIndicatorPage: (context) =>
+        ProgressIndicatorPage(),
   };
 }
