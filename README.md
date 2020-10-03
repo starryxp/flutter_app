@@ -39,6 +39,8 @@
 - [Flutter（27）：Material组件之SnackBar](https://www.jianshu.com/p/1ad73983b7d9)
 - [Flutter（28）：Material组件之Tooltip](https://www.jianshu.com/p/a0385bd4953c)
 - [Flutter（29）：Material组件之Card](https://www.jianshu.com/p/51dc71ed4e4f)
+- [Flutter（30）：Material组件之DataTable](https://www.jianshu.com/p/23fc6f3acd7c)
+- [Flutter（31）：Material组件之LinearProgressIndicator/CircularProgressIndicator](https://www.jianshu.com/p/ed8ef85f944f)
 
 ## 补充知识点
 - [一、Flutter（Dart）中extends 、 implements 、 with的用法与区别](https://www.jianshu.com/p/04b896764f6e)
