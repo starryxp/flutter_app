@@ -82,7 +82,11 @@ class MaterialListPage extends StatelessWidget {
     HomeData(
         title: 'Chip',
         content: '标签，一个Material widget。 它可以将一个复杂内容实体展现在一个小块中，如联系人。',
-        routerName: ''),
+        routerName: Constant.widgetsMaterialChipPage),
+    HomeData(
+        title: 'ListView\nListTile\nRefreshIndicator',
+        content: '列表组件,文本小组件,刷新组件',
+        routerName: Constant.widgetsMaterialListViewPage),
     // HomeData(
     //     title: 'ExpansionPanel',
     //     content: '扩展面板',

@@ -52,14 +52,13 @@ class Constant {
       "widgets/material/bottom_sheet_page";
   static final widgetsMaterialExpansionPanelPage =
       "widgets/material/expansion_panel_page";
-  static final widgetsMaterialSnackBarPage =
-      "widgets/material/snack_bar_page";
-  static final widgetsMaterialTooltipPage =
-      "widgets/material/tooltip_page";
-  static final widgetsMaterialCardPage =
-      "widgets/material/card_page";
+  static final widgetsMaterialSnackBarPage = "widgets/material/snack_bar_page";
+  static final widgetsMaterialTooltipPage = "widgets/material/tooltip_page";
+  static final widgetsMaterialCardPage = "widgets/material/card_page";
   static final widgetsMaterialDataTablePage =
       "widgets/material/data_table_page";
   static final widgetsMaterialProgressIndicatorPage =
       "widgets/material/progress_indicator_page";
+  static final widgetsMaterialChipPage = "widgets/material/chip_page";
+  static final widgetsMaterialListViewPage = "widgets/material/list_view_page";
 }

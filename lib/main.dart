@@ -23,9 +23,11 @@ import 'package:flutter_app/widgets/material/AlertDialogPage.dart';
 import 'package:flutter_app/widgets/material/BottomSheetPage.dart';
 import 'package:flutter_app/widgets/material/CardPage.dart';
 import 'package:flutter_app/widgets/material/CheckboxPage.dart';
+import 'package:flutter_app/widgets/material/ChipPage.dart';
 import 'package:flutter_app/widgets/material/DataTablePage.dart';
 import 'package:flutter_app/widgets/material/DateTimePickersPage.dart';
 import 'package:flutter_app/widgets/material/ExpansionPanelPage.dart';
+import 'package:flutter_app/widgets/material/ListViewPage.dart';
 import 'package:flutter_app/widgets/material/MaterialListPage.dart';
 import 'package:flutter_app/widgets/material/ProgressIndicatorPage.dart';
 import 'package:flutter_app/widgets/material/RadioPage.dart';
@@ -173,5 +175,7 @@ class MyApp extends StatelessWidget {
     Constant.widgetsMaterialDataTablePage: (context) => DataTablePage(),
     Constant.widgetsMaterialProgressIndicatorPage: (context) =>
         ProgressIndicatorPage(),
+    Constant.widgetsMaterialChipPage: (context) => ChipPage(),
+    Constant.widgetsMaterialListViewPage: (context) => ListViewPage(),
   };
 }
