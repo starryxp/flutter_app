@@ -50,8 +50,6 @@ class Constant {
       "widgets/material/alert_dialog_page";
   static final widgetsMaterialBottomSheetPage =
       "widgets/material/bottom_sheet_page";
-  static final widgetsMaterialExpansionPanelPage =
-      "widgets/material/expansion_panel_page";
   static final widgetsMaterialSnackBarPage = "widgets/material/snack_bar_page";
   static final widgetsMaterialTooltipPage = "widgets/material/tooltip_page";
   static final widgetsMaterialCardPage = "widgets/material/card_page";
@@ -61,4 +59,7 @@ class Constant {
       "widgets/material/progress_indicator_page";
   static final widgetsMaterialChipPage = "widgets/material/chip_page";
   static final widgetsMaterialListViewPage = "widgets/material/list_view_page";
+  static final widgetsMaterialExpansionPanelListPage =
+      "widgets/material/expansion_panel_list_page";
+  static final widgetsMaterialStepperPage = "widgets/material/stepper_page";
 }

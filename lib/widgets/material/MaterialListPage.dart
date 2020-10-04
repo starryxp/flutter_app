@@ -87,10 +87,14 @@ class MaterialListPage extends StatelessWidget {
         title: 'ListView\nListTile\nRefreshIndicator',
         content: '列表组件,文本小组件,刷新组件',
         routerName: Constant.widgetsMaterialListViewPage),
-    // HomeData(
-    //     title: 'ExpansionPanel',
-    //     content: '扩展面板',
-    //     routerName: Constant.widgetsMaterialExpansionPanelPage),
+    HomeData(
+        title: 'ExpansionPanelList\nExpansionPanel\nExpansionPanelRadio\nExpansionTile',
+        content: '扩展面板',
+        routerName: Constant.widgetsMaterialExpansionPanelListPage),
+    HomeData(
+        title: 'Stepper',
+        content: '一个Material Design 步骤指示器，显示一系列步骤的过程',
+        routerName: Constant.widgetsMaterialStepperPage),
   ];
 
   @override

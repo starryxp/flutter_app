@@ -26,7 +26,7 @@ import 'package:flutter_app/widgets/material/CheckboxPage.dart';
 import 'package:flutter_app/widgets/material/ChipPage.dart';
 import 'package:flutter_app/widgets/material/DataTablePage.dart';
 import 'package:flutter_app/widgets/material/DateTimePickersPage.dart';
-import 'package:flutter_app/widgets/material/ExpansionPanelPage.dart';
+import 'package:flutter_app/widgets/material/ExpansionPanelListPage.dart';
 import 'package:flutter_app/widgets/material/ListViewPage.dart';
 import 'package:flutter_app/widgets/material/MaterialListPage.dart';
 import 'package:flutter_app/widgets/material/ProgressIndicatorPage.dart';
@@ -34,6 +34,7 @@ import 'package:flutter_app/widgets/material/RadioPage.dart';
 import 'package:flutter_app/widgets/material/SimpleDialogPage.dart';
 import 'package:flutter_app/widgets/material/SliderPage.dart';
 import 'package:flutter_app/widgets/material/SnackBarPage.dart';
+import 'package:flutter_app/widgets/material/StepperPage.dart';
 import 'package:flutter_app/widgets/material/SwitchPage.dart';
 import 'package:flutter_app/widgets/material/TextFieldPage.dart';
 import 'package:flutter_app/widgets/material/TooltipPage.dart';
@@ -167,8 +168,6 @@ class MyApp extends StatelessWidget {
     Constant.widgetsMaterialSimpleDialogPage: (context) => SimpleDialogPage(),
     Constant.widgetsMaterialAlertDialogPage: (context) => AlertDialogPage(),
     Constant.widgetsMaterialBottomSheetPage: (context) => BottomSheetPage(),
-    Constant.widgetsMaterialExpansionPanelPage: (context) =>
-        ExpansionPanelPage(),
     Constant.widgetsMaterialSnackBarPage: (context) => SnackBarPage(),
     Constant.widgetsMaterialTooltipPage: (context) => TooltipPage(),
     Constant.widgetsMaterialCardPage: (context) => CardPage(),
@@ -177,5 +176,8 @@ class MyApp extends StatelessWidget {
         ProgressIndicatorPage(),
     Constant.widgetsMaterialChipPage: (context) => ChipPage(),
     Constant.widgetsMaterialListViewPage: (context) => ListViewPage(),
+    Constant.widgetsMaterialExpansionPanelListPage: (context) =>
+        ExpansionPanelListPage(),
+    Constant.widgetsMaterialStepperPage: (context) => StepperPage(),
   };
 }

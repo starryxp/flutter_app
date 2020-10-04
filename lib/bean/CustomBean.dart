@@ -51,3 +51,9 @@ class StudentGradesBean {
     this.isSelected = false,
   });
 }
+
+class ExpandedBean {
+  bool isExpanded;
+
+  ExpandedBean(this.isExpanded);
+}
