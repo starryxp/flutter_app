@@ -8,27 +8,19 @@ class CupertinoWidgetListPage extends StatelessWidget {
     HomeData(
         title: 'CupertinoActivityIndicator',
         content: '一个iOS风格的loading指示器。显示一个圆形的转圈菊花',
-        routerName: ''),
+        routerName: Constant.widgetsCupertinoCupertinoActivityIndicatorPage),
     HomeData(
         title: 'CupertinoAlertDialog',
         content: 'iOS风格的alert dialog.',
-        routerName: ''),
+        routerName: Constant.widgetsCupertinoCupertinoAlertDialogPage),
     HomeData(
-        title: 'CupertinoButton',
-        content: 'iOS风格的button.',
-        routerName: ''),
-    HomeData(
-        title: 'CupertinoDialog',
-        content: 'iOS风格的对话框',
-        routerName: ''),
+        title: 'CupertinoButton', content: 'iOS风格的button.', routerName: ''),
+    HomeData(title: 'CupertinoDialog', content: 'iOS风格的对话框', routerName: ''),
     HomeData(
         title: 'CupertinoDialogAction',
         content: '通常用于CupertinoAlertDialog的一个button',
         routerName: ''),
-    HomeData(
-        title: 'CupertinoSlider',
-        content: '从一个范围中选一个值.',
-        routerName: ''),
+    HomeData(title: 'CupertinoSlider', content: '从一个范围中选一个值.', routerName: ''),
     HomeData(
         title: 'CupertinoPageTransition',
         content: '提供iOS风格的页面过度动画',

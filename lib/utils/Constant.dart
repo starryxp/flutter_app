@@ -65,5 +65,9 @@ class Constant {
 
   //Cupertino组件
   static final widgetsCupertinoCupertinoWidgetListPage =
-      "widgets/material/cupertino_widget_list_page";
+      "widgets/cupertino/cupertino_widget_list_page";
+  static final widgetsCupertinoCupertinoActivityIndicatorPage =
+      "widgets/cupertino/cupertino_activity_indicator_page";
+  static final widgetsCupertinoCupertinoAlertDialogPage =
+      "widgets/cupertino/cupertino_alert_dialog_page";
 }

@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_app/counter/CounterPage.dart';
 import 'package:flutter_app/home/HomePage.dart';
@@ -19,6 +20,8 @@ import 'package:flutter_app/widgets/basic/PlaceholderPage.dart';
 import 'package:flutter_app/widgets/basic/RowPage.dart';
 import 'package:flutter_app/widgets/basic/ScaffoldPage.dart';
 import 'package:flutter_app/widgets/basic/TextPage.dart';
+import 'package:flutter_app/widgets/cupertino/CupertinoActivityIndicatorPage.dart';
+import 'package:flutter_app/widgets/cupertino/CupertinoAlertDialogPage.dart';
 import 'package:flutter_app/widgets/cupertino/CupertinoWidgetList.dart';
 import 'package:flutter_app/widgets/material/AlertDialogPage.dart';
 import 'package:flutter_app/widgets/material/BottomSheetPage.dart';
@@ -74,6 +77,21 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 ///本项目为学习使用，没有做精简代码的操作，只为熟练使用flutter开发，所以存在大量冗余代码
 void main() => runApp(MyApp());
 
+class FallbackCupertinoLocalisationsDelegate
+    extends LocalizationsDelegate<CupertinoLocalizations> {
+  const FallbackCupertinoLocalisationsDelegate();
+
+  @override
+  bool isSupported(Locale locale) => true;
+
+  @override
+  Future<CupertinoLocalizations> load(Locale locale) =>
+      DefaultCupertinoLocalizations.load(locale);
+
+  @override
+  bool shouldReload(FallbackCupertinoLocalisationsDelegate old) => false;
+}
+
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
@@ -83,7 +101,8 @@ class MyApp extends StatelessWidget {
       //国际化语言支持
       localizationsDelegates: [
         GlobalMaterialLocalizations.delegate,
-        GlobalWidgetsLocalizations.delegate
+        GlobalWidgetsLocalizations.delegate,
+        FallbackCupertinoLocalisationsDelegate(),
       ],
       supportedLocales: [Locale('zh', 'CH')],
       theme: ThemeData(
@@ -183,5 +202,9 @@ class MyApp extends StatelessWidget {
     //Cupertino组件
     Constant.widgetsCupertinoCupertinoWidgetListPage: (context) =>
         CupertinoWidgetListPage(),
+    Constant.widgetsCupertinoCupertinoActivityIndicatorPage: (context) =>
+        CupertinoActivityIndicatorPage(),
+    Constant.widgetsCupertinoCupertinoAlertDialogPage: (context) =>
+        CupertinoAlertDialogPage(),
   };
 }
