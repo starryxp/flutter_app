@@ -43,6 +43,8 @@
 - [Flutter（31）：Material组件之LinearProgressIndicator/CircularProgressIndicator](https://www.jianshu.com/p/ed8ef85f944f)
 - [Flutter（32）：Material组件之Chip](https://www.jianshu.com/p/405d374e186c)
 - [Flutter（33）：Material组件之ListTile、RefreshIndicator、ListView、Divider](https://www.jianshu.com/p/fdc5ffd56267)
+- [Flutter（34）：Material组件之ExpansionPanelList、ExpansionPanel、ExpansionPanelRadio、ExpansionTile](https://www.jianshu.com/p/a592ebed7679)
+- [Flutter（35）：Material组件之Stepper](https://www.jianshu.com/p/45986c0b7686)
 
 ## 补充知识点
 - [一、Flutter（Dart）中extends 、 implements 、 with的用法与区别](https://www.jianshu.com/p/04b896764f6e)

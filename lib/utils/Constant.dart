@@ -62,4 +62,8 @@ class Constant {
   static final widgetsMaterialExpansionPanelListPage =
       "widgets/material/expansion_panel_list_page";
   static final widgetsMaterialStepperPage = "widgets/material/stepper_page";
+
+  //Cupertino组件
+  static final widgetsCupertinoCupertinoWidgetListPage =
+      "widgets/material/cupertino_widget_list_page";
 }

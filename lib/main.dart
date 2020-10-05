@@ -19,6 +19,7 @@ import 'package:flutter_app/widgets/basic/PlaceholderPage.dart';
 import 'package:flutter_app/widgets/basic/RowPage.dart';
 import 'package:flutter_app/widgets/basic/ScaffoldPage.dart';
 import 'package:flutter_app/widgets/basic/TextPage.dart';
+import 'package:flutter_app/widgets/cupertino/CupertinoWidgetList.dart';
 import 'package:flutter_app/widgets/material/AlertDialogPage.dart';
 import 'package:flutter_app/widgets/material/BottomSheetPage.dart';
 import 'package:flutter_app/widgets/material/CardPage.dart';
@@ -179,5 +180,8 @@ class MyApp extends StatelessWidget {
     Constant.widgetsMaterialExpansionPanelListPage: (context) =>
         ExpansionPanelListPage(),
     Constant.widgetsMaterialStepperPage: (context) => StepperPage(),
+    //Cupertino组件
+    Constant.widgetsCupertinoCupertinoWidgetListPage: (context) =>
+        CupertinoWidgetListPage(),
   };
 }
