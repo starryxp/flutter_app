@@ -70,4 +70,12 @@ class Constant {
       "widgets/cupertino/cupertino_activity_indicator_page";
   static final widgetsCupertinoCupertinoAlertDialogPage =
       "widgets/cupertino/cupertino_alert_dialog_page";
+  static final widgetsCupertinoCupertinoButtonPage =
+      "widgets/cupertino/cupertino_button_page";
+  static final widgetsCupertinoCupertinoDialogPage =
+      "widgets/cupertino/cupertino_dialog_page";
+  static final widgetsCupertinoCupertinoSliderPage =
+      "widgets/cupertino/cupertino_slider_page";
+  static final widgetsCupertinoCupertinoSwitchPage =
+      "widgets/cupertino/cupertino_switch_page";
 }

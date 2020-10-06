@@ -14,13 +14,21 @@ class CupertinoWidgetListPage extends StatelessWidget {
         content: 'iOS风格的alert dialog.',
         routerName: Constant.widgetsCupertinoCupertinoAlertDialogPage),
     HomeData(
-        title: 'CupertinoButton', content: 'iOS风格的button.', routerName: ''),
-    HomeData(title: 'CupertinoDialog', content: 'iOS风格的对话框', routerName: ''),
+        title: 'CupertinoButton',
+        content: 'iOS风格的button.',
+        routerName: Constant.widgetsCupertinoCupertinoButtonPage),
     HomeData(
-        title: 'CupertinoDialogAction',
-        content: '通常用于CupertinoAlertDialog的一个button',
-        routerName: ''),
-    HomeData(title: 'CupertinoSlider', content: '从一个范围中选一个值.', routerName: ''),
+        title: 'CupertinoDialog\nCupertinoPopupSurface',
+        content: 'iOS风格的对话框',
+        routerName: Constant.widgetsCupertinoCupertinoDialogPage),
+    HomeData(
+        title: 'CupertinoSlider',
+        content: '从一个范围中选一个值.',
+        routerName: Constant.widgetsCupertinoCupertinoSliderPage),
+    HomeData(
+        title: 'CupertinoSwitch',
+        content: 'iOS风格的开关. 用于单一状态的开/关',
+        routerName: Constant.widgetsCupertinoCupertinoSwitchPage),
     HomeData(
         title: 'CupertinoPageTransition',
         content: '提供iOS风格的页面过度动画',
