@@ -45,6 +45,8 @@
 - [Flutter（33）：Material组件之ListTile、RefreshIndicator、ListView、Divider](https://www.jianshu.com/p/fdc5ffd56267)
 - [Flutter（34）：Material组件之ExpansionPanelList、ExpansionPanel、ExpansionPanelRadio、ExpansionTile](https://www.jianshu.com/p/a592ebed7679)
 - [Flutter（35）：Material组件之Stepper](https://www.jianshu.com/p/45986c0b7686)
+- [Flutter（36）：Cupertino组件之CupertinoActivityIndicator](https://www.jianshu.com/p/2c8fa5d40c0b)
+- [Flutter（37）：Cupertino组件之CupertinoAlertDialog](https://www.jianshu.com/p/6d866ce2d04d)
 
 ## 补充知识点
 - [一、Flutter（Dart）中extends 、 implements 、 with的用法与区别](https://www.jianshu.com/p/04b896764f6e)
