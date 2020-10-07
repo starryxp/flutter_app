@@ -47,6 +47,8 @@
 - [Flutter（35）：Material组件之Stepper](https://www.jianshu.com/p/45986c0b7686)
 - [Flutter（36）：Cupertino组件之CupertinoActivityIndicator](https://www.jianshu.com/p/2c8fa5d40c0b)
 - [Flutter（37）：Cupertino组件之CupertinoAlertDialog](https://www.jianshu.com/p/6d866ce2d04d)
+- [Flutter（38）：Cupertino组件之CupertinoButton](https://www.jianshu.com/p/7984e98f4e81)
+- [Flutter（39）：Cupertino组件之CupertinoDialog、CupertinoPopupSurface](https://www.jianshu.com/p/1d791b0693a7)
 
 ## 补充知识点
 - [一、Flutter（Dart）中extends 、 implements 、 with的用法与区别](https://www.jianshu.com/p/04b896764f6e)
