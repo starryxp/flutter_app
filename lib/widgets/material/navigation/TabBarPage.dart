@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app/bean/CustomBean.dart';
 
 class TabBarPage extends StatefulWidget {
-  final tip = '''
+  final _tip = '''
   1.TabBar简介
   水平选项卡，配合TabBarView可以实现选项卡跟页面的切换
   2.TabBar属性

@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app/utils/ToastUtil.dart';
 
 class CupertinoButtonPage extends StatefulWidget {
-  final tip = '''
+  final _tip = '''
 1.CupertinoButton介绍
 - CupertinoButton：iOS风格的button，默认没有背景颜色
 - CupertinoButton.filled：iOS风格的button，默认主色调背景颜色

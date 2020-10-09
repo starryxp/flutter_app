@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class StepperPage extends StatefulWidget {
-  final tip = '''
+  final _tip = '''
 1.Stepper介绍
 步骤指示器，显示一系列步骤的过程
 2.Stepper属性

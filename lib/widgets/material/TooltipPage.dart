@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class TooltipPage extends StatefulWidget {
-  final tip = '''
+  final _tip = '''
 1.Tooltip介绍
 - 一个文本提示工具，帮助解释一个按钮或其他用户界面，当widget长时间按下时（当用户采取其他适当操作时）显示一个提示标签。
 - 继承于StatefulWidget的一个Widget，它并不需要调出方法，当用户长按被Tooltip包裹的Widget时，会自动弹出相应的操作提示。

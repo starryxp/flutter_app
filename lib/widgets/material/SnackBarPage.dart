@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class SnackBarPage extends StatefulWidget {
-  final tip = '''
+  final _tip = '''
 1.SnackBar介绍
 具有可选操作的轻量级消息提示，在屏幕的底部显示。
 2.SnackBar属性

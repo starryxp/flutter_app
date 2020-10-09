@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class CupertinoAlertDialogPage extends StatefulWidget {
-  final tip = '''
+  final _tip = '''
 1.CupertinoAlertDialog介绍
 iOS风格的alert dialog.
 2.CupertinoAlertDialog属性

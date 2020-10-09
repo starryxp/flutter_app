@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class CupertinoActivityIndicatorPage extends StatefulWidget {
-  final tip = '''
+  final _tip = '''
 1.CupertinoActivityIndicator介绍
 - CupertinoActivityIndicator：ios风格的loading
 - CupertinoActivityIndicator.partiallyRevealed：ios loading 风格的进度指示器

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class AlertDialogPage extends StatefulWidget {
-  final tip = '''
+  final _tip = '''
 1.AlertDialog介绍
 一个会中断用户操作的对话款，需要用户确认
 2.AlertDialog属性

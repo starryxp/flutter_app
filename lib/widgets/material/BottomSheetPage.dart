@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class BottomSheetPage extends StatefulWidget {
-  final tip = '''
+  final _tip = '''
 1.BottomSheet介绍
 - showBottomSheet：从底部滑出的widget
 - showModalBottomSheet：从底部滑出的widget，这个比showBottomSheet在显示多一个遮盖背景

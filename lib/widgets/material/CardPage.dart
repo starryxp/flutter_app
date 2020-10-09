@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class CardPage extends StatefulWidget {
-  final tip = '''
+  final _tip = '''
 1.Card介绍
 一个 Material Design 卡片。拥有一个圆角和阴影
 2.Card属性

@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app/utils/ToastUtil.dart';
 
 class ChipPage extends StatefulWidget {
-  final tip = '''
+  final _tip = '''
 1.Chip介绍
 - Chip：标签，一个Material widget。 它可以将一个复杂内容实体展现在一个小块中，如联系人。
 - ActionChip：在Chip基础上多了点击事件，长安提示，取消了删除属性

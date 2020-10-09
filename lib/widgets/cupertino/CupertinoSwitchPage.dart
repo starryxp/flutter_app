@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class CupertinoSwitchPage extends StatefulWidget {
-  final tip = '''
+  final _tip = '''
 1.CupertinoSwitch介绍
 iOS风格的开关. 用于单一状态的开/关
 2.CupertinoSwitch属性

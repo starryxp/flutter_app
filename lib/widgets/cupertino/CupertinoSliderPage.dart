@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class CupertinoSliderPage extends StatefulWidget {
-  final tip = '''
+  final _tip = '''
 1.CupertinoSlider介绍
 从一个范围中选一个值.
 2.CupertinoSlider属性

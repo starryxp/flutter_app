@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app/bean/CustomBean.dart';
 
 class ExpansionPanelListPage extends StatefulWidget {
-  final tip = '''
+  final _tip = '''
 1.Expansion介绍
 - ExpansionPanelList/ExpansionPanel：实现扩展列表
 - ExpansionPanelList.radio/ExpansionPanelRadio：实现单扩展列表，只会存在一个展开的条目

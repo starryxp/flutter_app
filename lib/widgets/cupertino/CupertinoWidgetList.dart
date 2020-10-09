@@ -30,33 +30,15 @@ class CupertinoWidgetListPage extends StatelessWidget {
         content: 'iOS风格的开关. 用于单一状态的开/关',
         routerName: Constant.widgetsCupertinoCupertinoSwitchPage),
     HomeData(
-        title: 'CupertinoPageTransition',
-        content: '提供iOS风格的页面过度动画',
-        routerName: ''),
+        title: 'CupertinoPageScaffold\nCupertinoNavigationBar',
+        content:
+            '一个iOS风格的页面的基本布局结构。包含内容和导航栏\niOS风格的导航栏. 通常和CupertinoPageScaffold一起使用。',
+        routerName: Constant.widgetsCupertinoCupertinoPageScaffoldPage),
     HomeData(
-        title: 'CupertinoFullscreenDialogTransition',
-        content: '一个iOS风格的过渡，用于调用全屏对话框。',
-        routerName: ''),
-    HomeData(
-        title: 'CupertinoNavigationBar',
-        content: 'OS风格的导航栏. 通常和CupertinoPageScaffold一起使用。',
-        routerName: ''),
-    HomeData(
-        title: 'CupertinoTabBar',
-        content: 'iOS风格的底部选项卡。 通常和CupertinoTabScaffold一起使用。',
-        routerName: ''),
-    HomeData(
-        title: 'CupertinoPageScaffold',
-        content: '一个iOS风格的页面的基本布局结构。包含内容和导航栏',
-        routerName: ''),
-    HomeData(
-        title: 'CupertinoTabScaffold',
-        content: '标签式iOS应用程序的结构。将选项卡栏放在内容选项卡之上',
-        routerName: ''),
-    HomeData(
-        title: 'CupertinoTabView',
-        content: '支持选项卡间并行导航项卡的根内容。通常与CupertinoTabScaffolde一起使用',
-        routerName: ''),
+        title: 'CupertinoTabScaffold\nCupertinoTabBar\nCupertinoTabView',
+        content:
+            '标签式iOS应用程序的结构。将选项卡栏放在内容选项卡之上\niOS风格的底部选项卡。 通常和CupertinoTabScaffold一起使用。\n支持选项卡间并行导航项卡的根内容。通常与CupertinoTabScaffolde一起使用',
+        routerName: Constant.widgetsCupertinoCupertinoTabScaffoldPage),
   ];
 
   @override

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class DateTimePickersPage extends StatefulWidget {
-  final tip = '''
+  final _tip = '''
 1.Date & Time Pickers介绍
 - DatePicker：日期选择器
 - DateRangePicker：范围日期选择器

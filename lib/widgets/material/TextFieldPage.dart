@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 class TextFieldPage extends StatefulWidget {
-  final tip = '''
+  final _tip = '''
 1.TextField简介
 输入框
 2.TextField属性

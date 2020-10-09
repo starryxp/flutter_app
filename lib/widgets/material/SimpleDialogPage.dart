@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app/utils/ToastUtil.dart';
 
 class SimpleDialogPage extends StatefulWidget {
-  final tip = '''
+  final _tip = '''
 1.SimpleDialog介绍
 简单对话框可以显示附加的提示或操作
 2.SimpleDialog属性

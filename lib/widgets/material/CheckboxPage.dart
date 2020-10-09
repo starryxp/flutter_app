@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class CheckboxPage extends StatefulWidget {
-  final tip = '''
+  final _tip = '''
   1.Checkbox/CheckboxListTile介绍
   - Checkbox：复选框，允许用户从一组中选择多个选项。
   - CheckboxListTile：在Checkbox 的上层封装，它的外观是提供类似设置页的选择组件，可设置图标和文字。

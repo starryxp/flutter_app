@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app/utils/ToastUtil.dart';
 
 class ListViewPage extends StatefulWidget {
-  final tip = '''
+  final _tip = '''
 1.介绍
 - ListTile：一个文本组件，跟之前介绍的SwitchListTile、RadioListTile、CheckboxListTile相似，传送门：[Flutter教学目录](https://www.jianshu.com/p/3320350b3814)
 - RefreshIndicator：刷新组件

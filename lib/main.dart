@@ -24,8 +24,10 @@ import 'package:flutter_app/widgets/cupertino/CupertinoActivityIndicatorPage.dar
 import 'package:flutter_app/widgets/cupertino/CupertinoAlertDialogPage.dart';
 import 'package:flutter_app/widgets/cupertino/CupertinoButtonPage.dart';
 import 'package:flutter_app/widgets/cupertino/CupertinoDialogPage.dart';
+import 'package:flutter_app/widgets/cupertino/CupertinoPageScaffoldPage.dart';
 import 'package:flutter_app/widgets/cupertino/CupertinoSliderPage.dart';
 import 'package:flutter_app/widgets/cupertino/CupertinoSwitchPage.dart';
+import 'package:flutter_app/widgets/cupertino/CupertinoTabScaffoldPage.dart';
 import 'package:flutter_app/widgets/cupertino/CupertinoWidgetList.dart';
 import 'package:flutter_app/widgets/material/AlertDialogPage.dart';
 import 'package:flutter_app/widgets/material/BottomSheetPage.dart';
@@ -218,5 +220,9 @@ class MyApp extends StatelessWidget {
         CupertinoSliderPage(),
     Constant.widgetsCupertinoCupertinoSwitchPage: (context) =>
         CupertinoSwitchPage(),
+    Constant.widgetsCupertinoCupertinoPageScaffoldPage: (context) =>
+        CupertinoPageScaffoldPage(),
+    Constant.widgetsCupertinoCupertinoTabScaffoldPage: (context) =>
+        CupertinoTabScaffoldPage(),
   };
 }

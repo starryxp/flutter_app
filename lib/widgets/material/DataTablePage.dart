@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app/bean/CustomBean.dart';
 
 class DataTablePage extends StatefulWidget {
-  final tip = '''
+  final _tip = '''
 1.DataTable介绍
 数据表显示表格数据，需要设置行和列
 2.DataTable属性

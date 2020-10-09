@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class ProgressIndicatorPage extends StatefulWidget {
-  final tip = '''
+  final _tip = '''
 1.ProgressIndicator介绍
 - LinearProgressIndicator：一个线性进度条
 - CircularProgressIndicator:一个圆形进度条

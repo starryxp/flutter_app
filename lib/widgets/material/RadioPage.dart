@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class RadioPage extends StatefulWidget {
-  final tip = '''
+  final _tip = '''
 1.Radio/RadioListTile介绍
 - Radio：单选按钮
 - RadioListTile：Radio上层封装，它的外观是提供类似设置页的选择组件，可设置图标和文字。

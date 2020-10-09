@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class CupertinoDialogPage extends StatefulWidget {
-  final tip = '''
+  final _tip = '''
 1.介绍
 - CupertinoDialog：了解一下，已过时，推荐使用CupertinoPopupSurface
 - CupertinoPopupSurface：

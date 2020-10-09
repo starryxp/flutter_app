@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app/utils/ToastUtil.dart';
 
 class SwitchPage extends StatefulWidget {
-  final tip = '''
+  final _tip = '''
 1.Switch/SwitchListTile介绍
 2.Switch属性
 - value：true：开 false：关

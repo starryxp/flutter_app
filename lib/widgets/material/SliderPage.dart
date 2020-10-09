@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class SliderPage extends StatefulWidget {
-  final tip = '''
+  final _tip = '''
 1.Slider介绍
 滑块，允许用户通过滑动滑块来从一系列值中选择。
 2.Slider属性
