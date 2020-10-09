@@ -51,7 +51,8 @@
 - [Flutter（39）：Cupertino组件之CupertinoDialog、CupertinoPopupSurface](https://www.jianshu.com/p/1d791b0693a7)
 - [Flutter（40）：Cupertino组件之CupertinoSlider](https://www.jianshu.com/p/a1818b00164f)
 - [Flutter（41）：Cupertino组件之CupertinoSwitch](https://www.jianshu.com/p/ea1671cf94e6)
-
+- [Flutter（42）：Cupertino组件之CupertinoPageScaffold、CupertinoNavigationBar](https://www.jianshu.com/p/c872f88aabb7)
+- [Flutter（43）：Cupertino组件之CupertinoTabScaffold、CupertinoTabBar、CupertinoTabView](https://www.jianshu.com/p/80622a0e468c)
 
 ## 补充知识点
 - [一、Flutter（Dart）中extends 、 implements 、 with的用法与区别](https://www.jianshu.com/p/04b896764f6e)
