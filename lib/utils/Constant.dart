@@ -82,4 +82,9 @@ class Constant {
       "/widgets/cupertino/cupertino_page_scaffold_page";
   static final widgetsCupertinoCupertinoTabScaffoldPage =
       "/widgets/cupertino/cupertino_tab_scaffold_page";
+
+  //layout组件
+  static final widgetsLayoutLayoutWidgetListPage =
+      "/widgets/layout/layout_widget_list_page";
+  static final widgetsLayoutContainerPage = "/widgets/layout/container_page";
 }
