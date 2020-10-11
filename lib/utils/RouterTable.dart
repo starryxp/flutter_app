@@ -27,10 +27,12 @@ import 'package:flutter_app/widgets/cupertino/CupertinoSliderPage.dart';
 import 'package:flutter_app/widgets/cupertino/CupertinoSwitchPage.dart';
 import 'package:flutter_app/widgets/cupertino/CupertinoTabScaffoldPage.dart';
 import 'package:flutter_app/widgets/cupertino/CupertinoWidgetList.dart';
+import 'package:flutter_app/widgets/layout/CenterPage.dart';
 import 'package:flutter_app/widgets/layout/LayoutWidgetListPage.dart';
 import 'package:flutter_app/widgets/basic/ContainerPage.dart';
 import 'package:flutter_app/widgets/layout/ContainerPage.dart'
     as LayoutContainerPage;
+import 'package:flutter_app/widgets/layout/PaddingPage.dart';
 import 'package:flutter_app/widgets/material/AlertDialogPage.dart';
 import 'package:flutter_app/widgets/material/BottomSheetPage.dart';
 import 'package:flutter_app/widgets/material/CardPage.dart';
@@ -149,5 +151,7 @@ class RouteTable {
         LayoutWidgetListPage(),
     Constant.widgetsLayoutContainerPage: (context) =>
         LayoutContainerPage.ContainerPage(),
+    Constant.widgetsLayoutPaddingPage: (context) => PaddingPage(),
+    Constant.widgetsLayoutCenterPage: (context) => CenterPage(),
   };
 }

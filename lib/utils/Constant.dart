@@ -87,4 +87,6 @@ class Constant {
   static final widgetsLayoutLayoutWidgetListPage =
       "/widgets/layout/layout_widget_list_page";
   static final widgetsLayoutContainerPage = "/widgets/layout/container_page";
+  static final widgetsLayoutPaddingPage = "/widgets/layout/padding_page";
+  static final widgetsLayoutCenterPage = "/widgets/layout/center_page";
 }

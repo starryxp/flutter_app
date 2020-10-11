@@ -54,6 +54,8 @@
 - [Flutter（42）：Cupertino组件之CupertinoPageScaffold、CupertinoNavigationBar](https://www.jianshu.com/p/c872f88aabb7)
 - [Flutter（43）：Cupertino组件之CupertinoTabScaffold、CupertinoTabBar、CupertinoTabView](https://www.jianshu.com/p/80622a0e468c)
 - [Flutter（44）：Layout组件之Container](https://www.jianshu.com/p/2fe0603750d7)
+- [Flutter（45）：Layout组件之Padding](https://www.jianshu.com/p/557950d269ce)
+- [Flutter（46）：Layout组件之Center](https://www.jianshu.com/p/0a4cc695dcb7)
 
 ## 补充知识点
 - [一、Flutter（Dart）中extends 、 implements 、 with的用法与区别](https://www.jianshu.com/p/04b896764f6e)

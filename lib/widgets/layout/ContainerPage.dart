@@ -52,53 +52,41 @@ class ContainerPage extends StatelessWidget {
         width: 200,
         // height: 300,
         color: Colors.amber,
-        alignment: Alignment.topLeft,
+        // alignment: Alignment.topLeft,
         // /*Alignment.lerp(Alignment.topLeft, Alignment.bottomRight, 0.25)*/
-        // child: Container(
-        // width: 400,
-        // height: 400,
-        // color: Colors.blue,
-        // decoration: BoxDecoration(
-        // color: Colors.blue,
-        //   image: DecorationImage(
-        //       image: NetworkImage(_imageUrl), fit: BoxFit.fill),
-        //   borderRadius: BorderRadius.circular(10),
-        //   // shape: BoxShape.circle,
-        //   boxShadow: [
-        //     BoxShadow(
-        //       offset: Offset(2, 1), //x,y轴
-        //       color: Colors.grey, //投影颜色
-        //       blurRadius: 3,
-        //       spreadRadius: 3, //投影距离
-        //     )
-        //   ],
-        // ),
-        // foregroundDecoration: BoxDecoration(
-        //   color: Color(0x55ffffff),
-        //   // borderRadius: BorderRadius.circular(40),
-        //   shape: BoxShape.circle,
-        // ),
-        // constraints: BoxConstraints(
-        //   minWidth: 100,
-        //   minHeight: 100,
-        //   maxHeight: 300,
-        //   maxWidth: 300,
-        // ),
-        // constraints: BoxConstraints.expand(width: 500),
-        //   child: Container(
-        //     color: Colors.red,
-        //     width: 50,
-        //     height: 100,
-        //   ),
-        // child: Image.asset('images/scan.png'),
-        // child: SizedBox(
-        //   width: 200,
-        //   height: 200,
-        // ),
-        // child: Text('data',textAlign: TextAlign.center,),
-        // child: Icon(Icons.airline_seat_individual_suite),
-        child: LinearProgressIndicator(),
-        // ),
+        child: Container(
+          // width: 400,
+          // height: 400,
+          // color: Colors.blue,
+          decoration: BoxDecoration(
+            // color: Colors.blue,
+            image: DecorationImage(
+                image: NetworkImage(_imageUrl), fit: BoxFit.fill),
+            borderRadius: BorderRadius.circular(10),
+            // shape: BoxShape.circle,
+            boxShadow: [
+              BoxShadow(
+                offset: Offset(2, 1), //x,y轴
+                color: Colors.grey, //投影颜色
+                blurRadius: 3,
+                spreadRadius: 3, //投影距离
+              )
+            ],
+          ),
+          foregroundDecoration: BoxDecoration(
+            color: Color(0x55ffffff),
+            // borderRadius: BorderRadius.circular(40),
+            shape: BoxShape.circle,
+          ),
+          constraints: BoxConstraints(
+            minWidth: 100,
+            minHeight: 100,
+            maxHeight: 300,
+            maxWidth: 300,
+          ),
+          child: Image.asset('images/scan.png'),
+          // child: Icon(Icons.airline_seat_individual_suite),
+        ),
       ),
     );
   }
