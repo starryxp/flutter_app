@@ -17,6 +17,18 @@ class LayoutWidgetListPage extends StatefulWidget {
         title: 'Center',
         content: '将其子widget居中显示在自身内部的widget',
         routerName: Constant.widgetsLayoutCenterPage),
+    HomeData(
+        title: 'Center',
+        content: '将其子widget居中显示在自身内部的widget',
+        routerName: Constant.widgetsLayoutCenterPage),
+    HomeData(
+        title: 'Align',
+        content: '一个widget，它可以将其子widget对齐，并可以根据子widget的大小自动调整大小。',
+        routerName: Constant.widgetsLayoutAlignPage),
+    HomeData(
+        title: 'FittedBox',
+        content: '按自己的大小调整其子widget的大小和位置。',
+        routerName: Constant.widgetsLayoutFittedBoxPage),
   ];
 
   @override
