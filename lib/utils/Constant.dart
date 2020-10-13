@@ -91,4 +91,6 @@ class Constant {
   static final widgetsLayoutCenterPage = "/widgets/layout/center_page";
   static final widgetsLayoutAlignPage = "/widgets/layout/align_page";
   static final widgetsLayoutFittedBoxPage = "/widgets/layout/fitted_box_page";
+  static final widgetsLayoutAspectRatioPage =
+      "/widgets/layout/aspect_ratio_page";
 }

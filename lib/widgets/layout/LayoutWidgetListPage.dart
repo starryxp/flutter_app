@@ -29,6 +29,10 @@ class LayoutWidgetListPage extends StatefulWidget {
         title: 'FittedBox',
         content: '按自己的大小调整其子widget的大小和位置。',
         routerName: Constant.widgetsLayoutFittedBoxPage),
+    HomeData(
+        title: 'AspectRatio',
+        content: '一个widget，试图将子widget的大小指定为某个特定的长宽比',
+        routerName: Constant.widgetsLayoutAspectRatioPage),
   ];
 
   @override
