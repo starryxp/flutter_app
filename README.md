@@ -59,6 +59,7 @@
 - [Flutter（47）：Layout组件之Align](https://www.jianshu.com/p/7e2ccfbb3889)
 - [Flutter（48）：Layout组件之FittedBox](https://www.jianshu.com/p/a49ebfb9e530)
 - [Flutter（49）：Layout组件之AspectRatio](https://www.jianshu.com/p/f93aa014027a)
+- [Flutter（50）：Layout组件之ConstrainedBox](https://www.jianshu.com/p/a29df4b062b0)
 
 ## 补充知识点
 - [一、Flutter（Dart）中extends 、 implements 、 with的用法与区别](https://www.jianshu.com/p/04b896764f6e)
