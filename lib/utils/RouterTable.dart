@@ -30,6 +30,7 @@ import 'package:flutter_app/widgets/cupertino/CupertinoWidgetList.dart';
 import 'package:flutter_app/widgets/layout/AlignPage.dart';
 import 'package:flutter_app/widgets/layout/AspectRatioPage.dart';
 import 'package:flutter_app/widgets/layout/CenterPage.dart';
+import 'package:flutter_app/widgets/layout/ConstrainedBoxPage.dart';
 import 'package:flutter_app/widgets/layout/FittedBoxPage.dart';
 import 'package:flutter_app/widgets/layout/LayoutWidgetListPage.dart';
 import 'package:flutter_app/widgets/basic/ContainerPage.dart';
@@ -159,5 +160,6 @@ class RouteTable {
     Constant.widgetsLayoutAlignPage: (context) => AlignPage(),
     Constant.widgetsLayoutFittedBoxPage: (context) => FittedBoxPage(),
     Constant.widgetsLayoutAspectRatioPage: (context) => AspectRatioPage(),
+    Constant.widgetsLayoutConstrainedBoxPage: (context) => ConstrainedBoxPage(),
   };
 }

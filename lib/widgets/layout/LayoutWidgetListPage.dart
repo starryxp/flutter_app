@@ -33,6 +33,10 @@ class LayoutWidgetListPage extends StatefulWidget {
         title: 'AspectRatio',
         content: '一个widget，试图将子widget的大小指定为某个特定的长宽比',
         routerName: Constant.widgetsLayoutAspectRatioPage),
+    HomeData(
+        title: 'ConstrainedBox',
+        content: '对其子项施加附加约束的widget',
+        routerName: Constant.widgetsLayoutConstrainedBoxPage),
   ];
 
   @override
