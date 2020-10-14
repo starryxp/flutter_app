@@ -48,7 +48,7 @@ class _LayoutWidgetListPageState extends State<LayoutWidgetListPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('LayoutWidgetList'),
+        title: Text('Layout组件'),
       ),
       body: ListView(
         padding: EdgeInsets.all(10),
