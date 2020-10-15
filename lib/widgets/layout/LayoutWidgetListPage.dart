@@ -37,6 +37,15 @@ class LayoutWidgetListPage extends StatefulWidget {
         title: 'ConstrainedBox',
         content: '对其子项施加附加约束的widget',
         routerName: Constant.widgetsLayoutConstrainedBoxPage),
+    HomeData(
+        title: 'Baseline',
+        content: '根据子项的基线对它们的位置进行定位的widget。',
+        routerName: Constant.widgetsLayoutBaselinePage),
+    HomeData(
+        title: 'FractionallySizedBox',
+        content:
+            '一个widget，它把它的子项放在可用空间的一小部分。关于布局算法的更多细节，见RenderFractionallySizedOverflowBox',
+        routerName: Constant.widgetsLayoutFractionallySizedBoxPage),
   ];
 
   @override

@@ -95,4 +95,7 @@ class Constant {
       "/widgets/layout/aspect_ratio_page";
   static final widgetsLayoutConstrainedBoxPage =
       "/widgets/layout/constrained_box_page";
+  static final widgetsLayoutBaselinePage = "/widgets/layout/base_line_page";
+  static final widgetsLayoutFractionallySizedBoxPage =
+      "/widgets/layout/fractionally_sized_box_page";
 }

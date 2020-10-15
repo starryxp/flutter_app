@@ -29,9 +29,11 @@ import 'package:flutter_app/widgets/cupertino/CupertinoTabScaffoldPage.dart';
 import 'package:flutter_app/widgets/cupertino/CupertinoWidgetList.dart';
 import 'package:flutter_app/widgets/layout/AlignPage.dart';
 import 'package:flutter_app/widgets/layout/AspectRatioPage.dart';
+import 'package:flutter_app/widgets/layout/BaselinePage.dart';
 import 'package:flutter_app/widgets/layout/CenterPage.dart';
 import 'package:flutter_app/widgets/layout/ConstrainedBoxPage.dart';
 import 'package:flutter_app/widgets/layout/FittedBoxPage.dart';
+import 'package:flutter_app/widgets/layout/FractionallySizedBoxPage.dart';
 import 'package:flutter_app/widgets/layout/LayoutWidgetListPage.dart';
 import 'package:flutter_app/widgets/basic/ContainerPage.dart';
 import 'package:flutter_app/widgets/layout/ContainerPage.dart'
@@ -161,5 +163,8 @@ class RouteTable {
     Constant.widgetsLayoutFittedBoxPage: (context) => FittedBoxPage(),
     Constant.widgetsLayoutAspectRatioPage: (context) => AspectRatioPage(),
     Constant.widgetsLayoutConstrainedBoxPage: (context) => ConstrainedBoxPage(),
+    Constant.widgetsLayoutBaselinePage: (context) => BaselinePage(),
+    Constant.widgetsLayoutFractionallySizedBoxPage: (context) =>
+        FractionallySizedBoxPage(),
   };
 }
