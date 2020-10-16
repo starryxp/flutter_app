@@ -46,6 +46,14 @@ class LayoutWidgetListPage extends StatefulWidget {
         content:
             '一个widget，它把它的子项放在可用空间的一小部分。关于布局算法的更多细节，见RenderFractionallySizedOverflowBox',
         routerName: Constant.widgetsLayoutFractionallySizedBoxPage),
+    HomeData(
+        title: 'IntrinsicWidth\nIntrinsicHeight',
+        content: '一个widget，它将它的子widget的宽度/高度调整其本身实际的宽度/高度',
+        routerName: Constant.widgetsLayoutIntrinsicWidthHeightPage),
+    HomeData(
+        title: 'LimitedBox',
+        content: '一个当其自身不受约束时才限制其大小的盒子',
+        routerName: Constant.widgetsLayoutLimitedBoxPage),
   ];
 
   @override

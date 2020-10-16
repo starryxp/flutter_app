@@ -62,6 +62,8 @@
 - [Flutter（50）：Layout组件之ConstrainedBox](https://www.jianshu.com/p/a29df4b062b0)
 - [Flutter（51）：Layout组件之Baseline](https://www.jianshu.com/p/345e2dc93bd0)
 - [Flutter（52）：Layout组件之FractionallySizedBox](https://www.jianshu.com/p/165c38ab9485)
+- [Flutter（53）：Layout组件之IntrinsicWidth/IntrinsicHeight](https://www.jianshu.com/p/4bec5daf2e8f)
+- [Flutter（54）：Layout组件之LimitedBox](https://www.jianshu.com/p/ee9a4e5a55b4)
 
 ## 补充知识点
 - [一、Flutter（Dart）中extends 、 implements 、 with的用法与区别](https://www.jianshu.com/p/04b896764f6e)

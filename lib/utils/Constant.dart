@@ -98,4 +98,7 @@ class Constant {
   static final widgetsLayoutBaselinePage = "/widgets/layout/base_line_page";
   static final widgetsLayoutFractionallySizedBoxPage =
       "/widgets/layout/fractionally_sized_box_page";
+  static final widgetsLayoutIntrinsicWidthHeightPage =
+      "/widgets/layout/intrinsic_width_height_page";
+  static final widgetsLayoutLimitedBoxPage = "/widgets/layout/limited_box_page";
 }
