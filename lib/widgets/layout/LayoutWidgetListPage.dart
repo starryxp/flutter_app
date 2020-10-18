@@ -54,6 +54,14 @@ class LayoutWidgetListPage extends StatefulWidget {
         title: 'LimitedBox',
         content: '一个当其自身不受约束时才限制其大小的盒子',
         routerName: Constant.widgetsLayoutLimitedBoxPage),
+    HomeData(
+        title: 'Offstage',
+        content: '一个布局widget，可以控制其子widget的显示和隐藏。',
+        routerName: Constant.widgetsLayoutOffstagePage),
+    HomeData(
+        title: 'OverflowBox',
+        content: '对其子项施加不同约束的widget，它可能允许子项溢出父级。',
+        routerName: Constant.widgetsLayoutOverflowBoxPage),
   ];
 
   @override

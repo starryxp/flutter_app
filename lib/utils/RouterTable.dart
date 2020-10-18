@@ -40,6 +40,8 @@ import 'package:flutter_app/widgets/basic/ContainerPage.dart';
 import 'package:flutter_app/widgets/layout/ContainerPage.dart'
     as LayoutContainerPage;
 import 'package:flutter_app/widgets/layout/LimitedBoxPage.dart';
+import 'package:flutter_app/widgets/layout/OffstagePage.dart';
+import 'package:flutter_app/widgets/layout/OverflowBoxPage.dart';
 import 'package:flutter_app/widgets/layout/PaddingPage.dart';
 import 'package:flutter_app/widgets/material/AlertDialogPage.dart';
 import 'package:flutter_app/widgets/material/BottomSheetPage.dart';
@@ -171,5 +173,7 @@ class RouteTable {
     Constant.widgetsLayoutIntrinsicWidthHeightPage: (context) =>
         IntrinsicWidthHeightPage(),
     Constant.widgetsLayoutLimitedBoxPage: (context) => LimitedBoxPage(),
+    Constant.widgetsLayoutOffstagePage: (context) => OffstagePage(),
+    Constant.widgetsLayoutOverflowBoxPage: (context) => OverflowBoxPage(),
   };
 }

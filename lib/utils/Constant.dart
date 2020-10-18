@@ -101,4 +101,7 @@ class Constant {
   static final widgetsLayoutIntrinsicWidthHeightPage =
       "/widgets/layout/intrinsic_width_height_page";
   static final widgetsLayoutLimitedBoxPage = "/widgets/layout/limited_box_page";
+  static final widgetsLayoutOffstagePage = "/widgets/layout/offstage_page";
+  static final widgetsLayoutOverflowBoxPage =
+      "/widgets/layout/overflow_box_page";
 }
