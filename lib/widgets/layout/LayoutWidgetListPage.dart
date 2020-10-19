@@ -62,6 +62,15 @@ class LayoutWidgetListPage extends StatefulWidget {
         title: 'OverflowBox',
         content: '对其子项施加不同约束的widget，它可能允许子项溢出父级。',
         routerName: Constant.widgetsLayoutOverflowBoxPage),
+    HomeData(
+        title: 'SizedBox',
+        content:
+            '一个特定大小的盒子。这个widget强制它的孩子有一个特定的宽度和高度。如果宽度或高度为NULL，则此widget将调整自身大小以匹配该维度中的孩子的大小。',
+        routerName: Constant.widgetsLayoutSizedBoxPage),
+    HomeData(
+        title: 'SizedOverflowBox',
+        content: '一个特定大小的widget，但是会将它的原始约束传递给它的孩子，它可能会溢出。',
+        routerName: Constant.widgetsLayoutSizedOverflowBoxPage),
   ];
 
   @override

@@ -104,4 +104,9 @@ class Constant {
   static final widgetsLayoutOffstagePage = "/widgets/layout/offstage_page";
   static final widgetsLayoutOverflowBoxPage =
       "/widgets/layout/overflow_box_page";
+  static final widgetsLayoutSizedBoxPage =
+      "/widgets/layout/sized_box_page";
+  static final widgetsLayoutSizedOverflowBoxPage =
+      "/widgets/layout/sized_overflow_box_page";
+
 }

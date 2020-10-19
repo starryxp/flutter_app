@@ -23,7 +23,7 @@ class OverflowBoxPage extends StatelessWidget {
         color: Colors.blue,
         height: 200,
         child: OverflowBox(
-          alignment: Alignment.center,
+          alignment: Alignment.topCenter,
           minWidth: 20,
           maxWidth: 200,
           maxHeight: 400,
