@@ -71,6 +71,13 @@ class LayoutWidgetListPage extends StatefulWidget {
         title: 'SizedOverflowBox',
         content: '一个特定大小的widget，但是会将它的原始约束传递给它的孩子，它可能会溢出。',
         routerName: Constant.widgetsLayoutSizedOverflowBoxPage),
+    HomeData(
+        title: 'Transform',
+        content: '在绘制子widget之前应用转换的widget。',
+        routerName: Constant.widgetsLayoutTransformPage),
+    HomeData(title: 'RotatedBox', content: '', routerName: ''),
+    HomeData(title: 'BoxDecoration', content: '', routerName: ''),
+    HomeData(title: 'UnconstrainedBox', content: '', routerName: ''),
   ];
 
   @override

@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_app/counter/CounterPage.dart';
 import 'package:flutter_app/home/HomePage.dart';
+import 'package:flutter_app/matrix4/Matrix4Page.dart';
 import 'package:flutter_app/route/LoginPage.dart';
 import 'package:flutter_app/route/NeedLoginPage.dart';
 import 'package:flutter_app/route/NewRouterPage.dart';
@@ -45,6 +46,7 @@ import 'package:flutter_app/widgets/layout/OverflowBoxPage.dart';
 import 'package:flutter_app/widgets/layout/PaddingPage.dart';
 import 'package:flutter_app/widgets/layout/SizedBoxPage.dart';
 import 'package:flutter_app/widgets/layout/SizedOverflowBoxPage.dart';
+import 'package:flutter_app/widgets/layout/TransformPage.dart';
 import 'package:flutter_app/widgets/material/AlertDialogPage.dart';
 import 'package:flutter_app/widgets/material/BottomSheetPage.dart';
 import 'package:flutter_app/widgets/material/CardPage.dart';
@@ -90,6 +92,8 @@ class RouteTable {
 
     //组件
     Constant.widgetsWidgetsListPage: (context) => WidgetsListPage(),
+    //Matrix4矩阵变换
+    Constant.matrix4Matrix4Page: (context) => Matrix4Page(),
     //基础组件
     Constant.widgetsBasicBasicListPage: (context) => BasicListPage(),
     Constant.widgetsBasicContainerPage: (context) => ContainerPage(),
@@ -180,5 +184,6 @@ class RouteTable {
     Constant.widgetsLayoutSizedBoxPage: (context) => SizedBoxPage(),
     Constant.widgetsLayoutSizedOverflowBoxPage: (context) =>
         SizedOverflowBoxPage(),
+    Constant.widgetsLayoutTransformPage: (context) => TransformPage(),
   };
 }

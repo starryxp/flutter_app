@@ -13,6 +13,10 @@ class HomePage extends StatefulWidget {
         title: 'State生命周期',
         content: '',
         routerName: Constant.widgetsMaterialNavigationTabBarViewPage),
+    HomeData(
+        title: 'Matrix4矩阵变换',
+        content: '',
+        routerName: Constant.matrix4Matrix4Page),
   ];
 
   @override
