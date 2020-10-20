@@ -2,6 +2,7 @@ class Constant {
   static final homeHomePage = "/home/home_page";
 
   static final widgetsWidgetsListPage = "/widgets/widgets_list_page";
+
   //Matrix4矩阵变换
   static final matrix4Matrix4Page = "/matrix4/matrix4_page";
 
@@ -110,4 +111,6 @@ class Constant {
   static final widgetsLayoutSizedOverflowBoxPage =
       "/widgets/layout/sized_overflow_box_page";
   static final widgetsLayoutTransformPage = "/widgets/layout/transform_page";
+  static final widgetsLayoutUnconstrainedBoxPage =
+      "/widgets/layout/unconstrained_box_page";
 }
