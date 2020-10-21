@@ -33,6 +33,63 @@ class StackPage extends StatelessWidget {
 - height：高度
   ''';
 
+  _myStackChildren() {
+    return [
+      Container(
+        width: 50,
+        height: 50,
+        color: Colors.red,
+      ),
+      Positioned(
+        bottom: 20,
+        child: Container(
+          width: 50,
+          height: 50,
+          color: Colors.green,
+        ),
+      ),
+      Positioned(
+        left: 10,
+        top: 20,
+        child: Container(
+          width: 50,
+          height: 50,
+          color: Colors.amber,
+        ),
+      ),
+      Positioned(
+        left: 100,
+        width: 50,
+        top: 20,
+        height: 50,
+        child: Container(
+          color: Colors.grey,
+        ),
+      ),
+      Positioned(
+        left: 10,
+        top: 20,
+        child: Container(
+          color: Colors.black,
+        ),
+      ),
+      Container(
+        width: 60,
+        height: 60,
+        color: Colors.red.withAlpha(100),
+      ),
+      Positioned(
+        left: 30,
+        top: 80,
+        width: 2000,
+        height: 20,
+        child: Container(
+          color: Colors.black,
+        ),
+      ),
+    ];
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -50,52 +107,20 @@ class StackPage extends StatelessWidget {
           color: Colors.blue,
           child: Stack(
             alignment: Alignment.center,
-            fit: StackFit.passthrough,
-            clipBehavior: Clip.none,
-            children: [
-              Container(
-                width: 50,
-                height: 50,
-                color: Colors.red,
-                child: Image.asset(AssetPathConstant.imageScan),
-              ),
-              Positioned(
-                bottom: 20,
-                child: Container(
-                  width: 50,
-                  height: 50,
-                  color: Colors.green,
-                ),
-              ),
-              Positioned(
-                left: 10,
-                top: 20,
-                child: Container(
-                  width: 50,
-                  height: 50,
-                  color: Colors.amber,
-                ),
-              ),
-              Positioned(
-                left: 100,
-                width: 50,
-                top: 20,
-                height: 50,
-                child: Container(
-                  color: Colors.grey,
-                ),
-              ),
-              Positioned(
-                left: 10,
-                top: 20,
-                child: Container(
-                  color: Colors.black,
-                ),
-              ),
-            ],
+            fit: StackFit.loose,
+            clipBehavior: Clip.hardEdge,
+            children: _myStackChildren(),
           ),
         ),
       ),
+      // body: ListView(
+      //   children: [
+      //     Stack(
+      //       fit: StackFit.passthrough,
+      //       children: _myStackChildren(),
+      //     ),
+      //   ],
+      // ),
     );
   }
 }
