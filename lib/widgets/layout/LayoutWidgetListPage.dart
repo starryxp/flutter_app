@@ -83,6 +83,10 @@ class LayoutWidgetListPage extends StatefulWidget {
         title: 'CustomSingleChildLayout',
         content: '一个自定义的拥有单个子widget的布局widget',
         routerName: RouterConstant.widgetsLayoutCustomSingleChildLayoutPage),
+    HomeData(
+        title: 'Stack\nPositioned',
+        content: '可以允许其子widget简单的堆叠在一起\nStack内定位的组件',
+        routerName: RouterConstant.widgetsLayoutStackPage),
   ];
 
   @override

@@ -47,6 +47,7 @@ import 'package:flutter_app/widgets/layout/OverflowBoxPage.dart';
 import 'package:flutter_app/widgets/layout/PaddingPage.dart';
 import 'package:flutter_app/widgets/layout/SizedBoxPage.dart';
 import 'package:flutter_app/widgets/layout/SizedOverflowBoxPage.dart';
+import 'package:flutter_app/widgets/layout/StackPage.dart';
 import 'package:flutter_app/widgets/layout/TransformPage.dart';
 import 'package:flutter_app/widgets/layout/UnconstrainedBoxPage.dart';
 import 'package:flutter_app/widgets/material/AlertDialogPage.dart';
@@ -110,18 +111,22 @@ class RouteTable {
     RouterConstant.widgetsBasicFlutterLogoPage: (context) => FlutterLogoPage(),
     RouterConstant.widgetsBasicPlaceholderPage: (context) => PlaceholderPage(),
     //Material组件
-    RouterConstant.widgetsMaterialMaterialListPage: (context) => MaterialListPage(),
+    RouterConstant.widgetsMaterialMaterialListPage: (context) =>
+        MaterialListPage(),
     RouterConstant.widgetsMaterialNavigationNavigationListPage: (context) =>
         NavigationListPage(),
-    RouterConstant.widgetsMaterialNavigationBottomNavigationBarPage: (context) =>
-        BottomNavigationBarPage(),
-    RouterConstant.widgetsMaterialNavigationPageViewPage: (context) => PageViewPage(),
-    RouterConstant.widgetsMaterialNavigationTabBarPage: (context) => TabBarPage(),
+    RouterConstant.widgetsMaterialNavigationBottomNavigationBarPage:
+        (context) => BottomNavigationBarPage(),
+    RouterConstant.widgetsMaterialNavigationPageViewPage: (context) =>
+        PageViewPage(),
+    RouterConstant.widgetsMaterialNavigationTabBarPage: (context) =>
+        TabBarPage(),
     RouterConstant.widgetsMaterialNavigationTabBarViewPage: (context) =>
         TabBarViewPage(),
     RouterConstant.widgetsMaterialNavigationMaterialApp: (context) =>
         MaterialAppPage(),
-    RouterConstant.widgetsMaterialNavigationDrawerPage: (context) => DrawerPage(),
+    RouterConstant.widgetsMaterialNavigationDrawerPage: (context) =>
+        DrawerPage(),
     RouterConstant.widgetsMaterialButtonMaterialButtonPage: (context) =>
         MaterialButtonPage(),
     RouterConstant.widgetsMaterialTextFieldPage: (context) => TextFieldPage(),
@@ -131,9 +136,12 @@ class RouteTable {
     RouterConstant.widgetsMaterialSliderPage: (context) => SliderPage(),
     RouterConstant.widgetsMaterialDateTimePickersPage: (context) =>
         DateTimePickersPage(),
-    RouterConstant.widgetsMaterialSimpleDialogPage: (context) => SimpleDialogPage(),
-    RouterConstant.widgetsMaterialAlertDialogPage: (context) => AlertDialogPage(),
-    RouterConstant.widgetsMaterialBottomSheetPage: (context) => BottomSheetPage(),
+    RouterConstant.widgetsMaterialSimpleDialogPage: (context) =>
+        SimpleDialogPage(),
+    RouterConstant.widgetsMaterialAlertDialogPage: (context) =>
+        AlertDialogPage(),
+    RouterConstant.widgetsMaterialBottomSheetPage: (context) =>
+        BottomSheetPage(),
     RouterConstant.widgetsMaterialSnackBarPage: (context) => SnackBarPage(),
     RouterConstant.widgetsMaterialTooltipPage: (context) => TooltipPage(),
     RouterConstant.widgetsMaterialCardPage: (context) => CardPage(),
@@ -174,7 +182,8 @@ class RouteTable {
     RouterConstant.widgetsLayoutAlignPage: (context) => AlignPage(),
     RouterConstant.widgetsLayoutFittedBoxPage: (context) => FittedBoxPage(),
     RouterConstant.widgetsLayoutAspectRatioPage: (context) => AspectRatioPage(),
-    RouterConstant.widgetsLayoutConstrainedBoxPage: (context) => ConstrainedBoxPage(),
+    RouterConstant.widgetsLayoutConstrainedBoxPage: (context) =>
+        ConstrainedBoxPage(),
     RouterConstant.widgetsLayoutBaselinePage: (context) => BaselinePage(),
     RouterConstant.widgetsLayoutFractionallySizedBoxPage: (context) =>
         FractionallySizedBoxPage(),
@@ -191,5 +200,6 @@ class RouteTable {
         UnconstrainedBoxPage(),
     RouterConstant.widgetsLayoutCustomSingleChildLayoutPage: (context) =>
         CustomSingleChildLayoutPage(),
+    RouterConstant.widgetsLayoutStackPage: (context) => StackPage(),
   };
 }
