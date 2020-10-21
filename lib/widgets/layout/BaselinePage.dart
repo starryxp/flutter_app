@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'package:flutter_app/utils/Constant.dart';
 
 class BaselinePage extends StatelessWidget {
   final _tip = '''
@@ -57,7 +58,7 @@ class BaselinePage extends StatelessWidget {
           width: 50,
           height: 50,
           color: Colors.blue,
-          child: Image.asset('images/scan.png'),
+          child: Image.asset(AssetPathConstant.imageScan),
         ),
       ),
       _myBaseline(

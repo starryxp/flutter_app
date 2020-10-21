@@ -16,14 +16,14 @@ class MaterialButtonPage extends StatelessWidget {
             RaisedButton(
               child: Text('跳转'),
               onPressed: () {
-                Navigator.pushNamed(context, Constant.widgetsBasicButtonPage);
+                Navigator.pushNamed(context, RouterConstant.widgetsBasicButtonPage);
               },
             ),
             Text('PopupMenuButton在基础章节Appbar中介绍过：'),
             RaisedButton(
               child: Text('跳转'),
               onPressed: () {
-                Navigator.pushNamed(context, Constant.widgetsBasicAppbarPage);
+                Navigator.pushNamed(context, RouterConstant.widgetsBasicAppbarPage);
               },
             ),
           ],

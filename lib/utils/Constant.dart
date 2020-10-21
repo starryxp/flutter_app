@@ -1,4 +1,4 @@
-class Constant {
+class RouterConstant {
   static final homeHomePage = "/home/home_page";
 
   static final widgetsWidgetsListPage = "/widgets/widgets_list_page";
@@ -113,4 +113,12 @@ class Constant {
   static final widgetsLayoutTransformPage = "/widgets/layout/transform_page";
   static final widgetsLayoutUnconstrainedBoxPage =
       "/widgets/layout/unconstrained_box_page";
+  static final widgetsLayoutCustomSingleChildLayoutPage=
+      "/widgets/layout/custom_single_child_layout_page";
+}
+
+class AssetPathConstant{
+
+  static final imageScan = 'images/scan.png';
+
 }

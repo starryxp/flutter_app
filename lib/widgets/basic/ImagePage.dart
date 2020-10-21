@@ -2,6 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_app/utils/Constant.dart';
 
 class ImagePage extends StatelessWidget {
   final _tip = '''
@@ -53,7 +54,7 @@ class ImagePage extends StatelessWidget {
               children: [
                 Expanded(
                   child: Image(
-                    image: AssetImage('images/scan.png'),
+                    image: AssetImage(AssetPathConstant.imageScan),
                   ),
                 ),
                 Expanded(
@@ -79,14 +80,14 @@ class ImagePage extends StatelessWidget {
               children: [
                 Expanded(
                     child: FadeInImage.assetNetwork(
-                  placeholder: 'images/scan.png',
+                  placeholder: AssetPathConstant.imageScan,
                   image: 'qqqqqq',
                   width: 100,
                   height: 100,
                 )),
                 Expanded(
                     child: FadeInImage.assetNetwork(
-                  placeholder: 'images/scan.png',
+                  placeholder: AssetPathConstant.imageScan,
                   image: _imageUrl,
                   width: 100,
                   height: 100,

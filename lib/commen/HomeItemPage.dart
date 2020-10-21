@@ -44,7 +44,7 @@ class _HomeItemPageState extends State<HomeItemPage>
           ),
           RaisedButton(
             onPressed: () {
-              Navigator.pushNamed(context, Constant.homeHomePage);
+              Navigator.pushNamed(context, RouterConstant.homeHomePage);
             },
             child: Text('下一个页面'),
           ),

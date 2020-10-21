@@ -9,57 +9,57 @@ class BasicListPage extends StatelessWidget {
     HomeData(
       title: 'Container',
       content: '一个拥有绘制、定位、调整大小的 widget。',
-      routerName: Constant.widgetsBasicContainerPage,
+      routerName: RouterConstant.widgetsBasicContainerPage,
     ),
     HomeData(
       title: 'Row',
       content: '在水平方向上排列子widget的列表。',
-      routerName: Constant.widgetsBasicRowPage,
+      routerName: RouterConstant.widgetsBasicRowPage,
     ),
     HomeData(
       title: 'Column',
       content: '在垂直方向上排列子widget的列表。',
-      routerName: Constant.widgetsBasicColumnPage,
+      routerName: RouterConstant.widgetsBasicColumnPage,
     ),
     HomeData(
       title: 'Image',
       content: '图片',
-      routerName: Constant.widgetsBasicImagePage,
+      routerName: RouterConstant.widgetsBasicImagePage,
     ),
     HomeData(
       title: 'Text',
       content: '文本',
-      routerName: Constant.widgetsBasicTextPage,
+      routerName: RouterConstant.widgetsBasicTextPage,
     ),
     HomeData(
       title: 'Icon',
       content: 'Flutter 的图标类，它集成了 Material 风格的图标。',
-      routerName: Constant.widgetsBasicIconPage,
+      routerName: RouterConstant.widgetsBasicIconPage,
     ),
     HomeData(
       title: 'Button',
       content: '按钮',
-      routerName: Constant.widgetsBasicButtonPage,
+      routerName: RouterConstant.widgetsBasicButtonPage,
     ),
     HomeData(
       title: 'Scaffold',
       content: '布局结构的基本实现',
-      routerName: Constant.widgetsBasicScaffoldPage,
+      routerName: RouterConstant.widgetsBasicScaffoldPage,
     ),
     HomeData(
       title: 'Appbar',
       content: '顶端栏',
-      routerName: Constant.widgetsBasicAppbarPage,
+      routerName: RouterConstant.widgetsBasicAppbarPage,
     ),
     HomeData(
       title: 'FlutterLogo',
       content: 'flutter logo',
-      routerName: Constant.widgetsBasicFlutterLogoPage,
+      routerName: RouterConstant.widgetsBasicFlutterLogoPage,
     ),
     HomeData(
       title: 'Placeholder',
       content: '占位控件',
-      routerName: Constant.widgetsBasicPlaceholderPage,
+      routerName: RouterConstant.widgetsBasicPlaceholderPage,
     ),
   ];
 

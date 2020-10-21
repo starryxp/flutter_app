@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/utils/Constant.dart';
 
 class OffstagePage extends StatelessWidget {
 
@@ -24,7 +25,7 @@ class OffstagePage extends StatelessWidget {
             color: Colors.amber,
             child: Offstage(
               offstage: true,
-              child: Image.asset('images/scan.png'),
+              child: Image.asset(AssetPathConstant.imageScan),
             ),
           ),
           Container(
@@ -34,7 +35,7 @@ class OffstagePage extends StatelessWidget {
             color: Colors.amber,
             child: Offstage(
               offstage: false,
-              child: Image.asset('images/scan.png'),
+              child: Image.asset(AssetPathConstant.imageScan),
             ),
           ),
         ],

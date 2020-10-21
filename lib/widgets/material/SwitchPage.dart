@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/utils/Constant.dart';
 import 'package:flutter_app/utils/ToastUtil.dart';
 
 class SwitchPage extends StatefulWidget {
@@ -52,7 +53,7 @@ class _SwitchPageState extends State<SwitchPage> {
       activeTrackColor: Colors.green,
       inactiveThumbColor: Colors.deepPurple,
       inactiveTrackColor: Colors.amber,
-      activeThumbImage: AssetImage('images/scan.png'),
+      activeThumbImage: AssetImage(AssetPathConstant.imageScan),
       inactiveThumbImage: NetworkImage(widget._imageUrl),
       onActiveThumbImageError: (e, s) {
         ToastUtil.showToast('onActiveThumbImageError');
@@ -75,7 +76,7 @@ class _SwitchPageState extends State<SwitchPage> {
         activeTrackColor: Colors.green,
         inactiveThumbColor: Colors.deepPurple,
         inactiveTrackColor: Colors.amber,
-        // activeThumbImage: AssetImage('images/scan.png'),
+        // activeThumbImage: AssetImage(AssetPathConstant.imageScan),
         // inactiveThumbImage: NetworkImage(widget._imageUrl),
         title: Text('开启灯光'),
         subtitle: Text('卧室灯'),

@@ -8,15 +8,15 @@ class HomePage extends StatefulWidget {
     HomeData(
         title: 'Widgets目录',
         content: 'Flutter的一套的视觉、结构、平台、和交互式的widgets。',
-        routerName: Constant.widgetsWidgetsListPage),
+        routerName: RouterConstant.widgetsWidgetsListPage),
     HomeData(
         title: 'State生命周期',
         content: '',
-        routerName: Constant.widgetsMaterialNavigationTabBarViewPage),
+        routerName: RouterConstant.widgetsMaterialNavigationTabBarViewPage),
     HomeData(
         title: 'Matrix4矩阵变换',
         content: '',
-        routerName: Constant.matrix4Matrix4Page),
+        routerName: RouterConstant.matrix4Matrix4Page),
   ];
 
   @override

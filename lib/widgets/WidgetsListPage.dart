@@ -8,22 +8,22 @@ class WidgetsListPage extends StatefulWidget {
     HomeData(
       title: '基础组件',
       content: '在构建您的第一个Flutter应用程序之前，您绝对需要了解这些widget。',
-      routerName: Constant.widgetsBasicBasicListPage,
+      routerName: RouterConstant.widgetsBasicBasicListPage,
     ),
     HomeData(
       title: 'Material组件',
       content: '实现了Material Design 指南的视觉、效果、motion-rich的widget。',
-      routerName: Constant.widgetsMaterialMaterialListPage,
+      routerName: RouterConstant.widgetsMaterialMaterialListPage,
     ),
     HomeData(
       title: 'Cupertino组件',
       content: '用于当前iOS设计语言的美丽和高保真widget。',
-      routerName: Constant.widgetsCupertinoCupertinoWidgetListPage,
+      routerName: RouterConstant.widgetsCupertinoCupertinoWidgetListPage,
     ),
     HomeData(
       title: 'Layout组件',
       content: '排列其它widget的columns、rows、grids和其它的layouts。',
-      routerName: Constant.widgetsLayoutLayoutWidgetListPage,
+      routerName: RouterConstant.widgetsLayoutLayoutWidgetListPage,
     ),
     HomeData(
       title: 'Text',

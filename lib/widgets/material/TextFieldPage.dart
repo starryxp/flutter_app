@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_app/utils/Constant.dart';
 
 class TextFieldPage extends StatefulWidget {
   final _tip = '''
@@ -130,7 +131,7 @@ class _TextFieldPageState extends State<TextFieldPage> {
       //   Icons.account_box,
       //   size: 40,
       // ),
-      suffixIcon: Image.asset('images/scan.png'),
+      suffixIcon: Image.asset(AssetPathConstant.imageScan),
       suffixText: 'suffixText',
       suffixStyle: _textStyle(Colors.black),
       suffixIconConstraints: BoxConstraints.expand(width: 40, height: 40),

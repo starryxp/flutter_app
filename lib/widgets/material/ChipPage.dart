@@ -118,7 +118,7 @@ class _ChipPageState extends State<ChipPage> {
         color: Colors.black,
       ),
       labelPadding: EdgeInsets.all(10),
-      deleteIcon: Icon(Icons.delete) /*Image.asset('images/scan.png')*/,
+      deleteIcon: Icon(Icons.delete) /*Image.asset(AssetPathConstant.imageScan)*/,
       onDeleted: () {
         ToastUtil.showToast('onDeleted');
       },

@@ -33,6 +33,7 @@ import 'package:flutter_app/widgets/layout/AspectRatioPage.dart';
 import 'package:flutter_app/widgets/layout/BaselinePage.dart';
 import 'package:flutter_app/widgets/layout/CenterPage.dart';
 import 'package:flutter_app/widgets/layout/ConstrainedBoxPage.dart';
+import 'package:flutter_app/widgets/layout/CustomSingleChildLayoutPage.dart';
 import 'package:flutter_app/widgets/layout/FittedBoxPage.dart';
 import 'package:flutter_app/widgets/layout/FractionallySizedBoxPage.dart';
 import 'package:flutter_app/widgets/layout/IntrinsicWidthHeightPage.dart';
@@ -89,104 +90,106 @@ class RouteTable {
         NeedLoginPage(id: ModalRoute.of(context).settings.arguments),
     'login_page': (context) => LoginPage(),
 
-    Constant.homeHomePage: (context) => HomePage(),
+    RouterConstant.homeHomePage: (context) => HomePage(),
 
     //组件
-    Constant.widgetsWidgetsListPage: (context) => WidgetsListPage(),
+    RouterConstant.widgetsWidgetsListPage: (context) => WidgetsListPage(),
     //Matrix4矩阵变换
-    Constant.matrix4Matrix4Page: (context) => Matrix4Page(),
+    RouterConstant.matrix4Matrix4Page: (context) => Matrix4Page(),
     //基础组件
-    Constant.widgetsBasicBasicListPage: (context) => BasicListPage(),
-    Constant.widgetsBasicContainerPage: (context) => ContainerPage(),
-    Constant.widgetsBasicRowPage: (context) => RowPage(),
-    Constant.widgetsBasicColumnPage: (context) => ColumnPage(),
-    Constant.widgetsBasicImagePage: (context) => ImagePage(),
-    Constant.widgetsBasicTextPage: (context) => TextPage(),
-    Constant.widgetsBasicIconPage: (context) => IconPage(),
-    Constant.widgetsBasicButtonPage: (context) => ButtonPage(),
-    Constant.widgetsBasicScaffoldPage: (context) => ScaffoldPage(),
-    Constant.widgetsBasicAppbarPage: (context) => AppbarPage(),
-    Constant.widgetsBasicFlutterLogoPage: (context) => FlutterLogoPage(),
-    Constant.widgetsBasicPlaceholderPage: (context) => PlaceholderPage(),
+    RouterConstant.widgetsBasicBasicListPage: (context) => BasicListPage(),
+    RouterConstant.widgetsBasicContainerPage: (context) => ContainerPage(),
+    RouterConstant.widgetsBasicRowPage: (context) => RowPage(),
+    RouterConstant.widgetsBasicColumnPage: (context) => ColumnPage(),
+    RouterConstant.widgetsBasicImagePage: (context) => ImagePage(),
+    RouterConstant.widgetsBasicTextPage: (context) => TextPage(),
+    RouterConstant.widgetsBasicIconPage: (context) => IconPage(),
+    RouterConstant.widgetsBasicButtonPage: (context) => ButtonPage(),
+    RouterConstant.widgetsBasicScaffoldPage: (context) => ScaffoldPage(),
+    RouterConstant.widgetsBasicAppbarPage: (context) => AppbarPage(),
+    RouterConstant.widgetsBasicFlutterLogoPage: (context) => FlutterLogoPage(),
+    RouterConstant.widgetsBasicPlaceholderPage: (context) => PlaceholderPage(),
     //Material组件
-    Constant.widgetsMaterialMaterialListPage: (context) => MaterialListPage(),
-    Constant.widgetsMaterialNavigationNavigationListPage: (context) =>
+    RouterConstant.widgetsMaterialMaterialListPage: (context) => MaterialListPage(),
+    RouterConstant.widgetsMaterialNavigationNavigationListPage: (context) =>
         NavigationListPage(),
-    Constant.widgetsMaterialNavigationBottomNavigationBarPage: (context) =>
+    RouterConstant.widgetsMaterialNavigationBottomNavigationBarPage: (context) =>
         BottomNavigationBarPage(),
-    Constant.widgetsMaterialNavigationPageViewPage: (context) => PageViewPage(),
-    Constant.widgetsMaterialNavigationTabBarPage: (context) => TabBarPage(),
-    Constant.widgetsMaterialNavigationTabBarViewPage: (context) =>
+    RouterConstant.widgetsMaterialNavigationPageViewPage: (context) => PageViewPage(),
+    RouterConstant.widgetsMaterialNavigationTabBarPage: (context) => TabBarPage(),
+    RouterConstant.widgetsMaterialNavigationTabBarViewPage: (context) =>
         TabBarViewPage(),
-    Constant.widgetsMaterialNavigationMaterialApp: (context) =>
+    RouterConstant.widgetsMaterialNavigationMaterialApp: (context) =>
         MaterialAppPage(),
-    Constant.widgetsMaterialNavigationDrawerPage: (context) => DrawerPage(),
-    Constant.widgetsMaterialButtonMaterialButtonPage: (context) =>
+    RouterConstant.widgetsMaterialNavigationDrawerPage: (context) => DrawerPage(),
+    RouterConstant.widgetsMaterialButtonMaterialButtonPage: (context) =>
         MaterialButtonPage(),
-    Constant.widgetsMaterialTextFieldPage: (context) => TextFieldPage(),
-    Constant.widgetsMaterialCheckboxPage: (context) => CheckboxPage(),
-    Constant.widgetsMaterialRadioPage: (context) => RadioPage(),
-    Constant.widgetsMaterialSwitchPage: (context) => SwitchPage(),
-    Constant.widgetsMaterialSliderPage: (context) => SliderPage(),
-    Constant.widgetsMaterialDateTimePickersPage: (context) =>
+    RouterConstant.widgetsMaterialTextFieldPage: (context) => TextFieldPage(),
+    RouterConstant.widgetsMaterialCheckboxPage: (context) => CheckboxPage(),
+    RouterConstant.widgetsMaterialRadioPage: (context) => RadioPage(),
+    RouterConstant.widgetsMaterialSwitchPage: (context) => SwitchPage(),
+    RouterConstant.widgetsMaterialSliderPage: (context) => SliderPage(),
+    RouterConstant.widgetsMaterialDateTimePickersPage: (context) =>
         DateTimePickersPage(),
-    Constant.widgetsMaterialSimpleDialogPage: (context) => SimpleDialogPage(),
-    Constant.widgetsMaterialAlertDialogPage: (context) => AlertDialogPage(),
-    Constant.widgetsMaterialBottomSheetPage: (context) => BottomSheetPage(),
-    Constant.widgetsMaterialSnackBarPage: (context) => SnackBarPage(),
-    Constant.widgetsMaterialTooltipPage: (context) => TooltipPage(),
-    Constant.widgetsMaterialCardPage: (context) => CardPage(),
-    Constant.widgetsMaterialDataTablePage: (context) => DataTablePage(),
-    Constant.widgetsMaterialProgressIndicatorPage: (context) =>
+    RouterConstant.widgetsMaterialSimpleDialogPage: (context) => SimpleDialogPage(),
+    RouterConstant.widgetsMaterialAlertDialogPage: (context) => AlertDialogPage(),
+    RouterConstant.widgetsMaterialBottomSheetPage: (context) => BottomSheetPage(),
+    RouterConstant.widgetsMaterialSnackBarPage: (context) => SnackBarPage(),
+    RouterConstant.widgetsMaterialTooltipPage: (context) => TooltipPage(),
+    RouterConstant.widgetsMaterialCardPage: (context) => CardPage(),
+    RouterConstant.widgetsMaterialDataTablePage: (context) => DataTablePage(),
+    RouterConstant.widgetsMaterialProgressIndicatorPage: (context) =>
         ProgressIndicatorPage(),
-    Constant.widgetsMaterialChipPage: (context) => ChipPage(),
-    Constant.widgetsMaterialListViewPage: (context) => ListViewPage(),
-    Constant.widgetsMaterialExpansionPanelListPage: (context) =>
+    RouterConstant.widgetsMaterialChipPage: (context) => ChipPage(),
+    RouterConstant.widgetsMaterialListViewPage: (context) => ListViewPage(),
+    RouterConstant.widgetsMaterialExpansionPanelListPage: (context) =>
         ExpansionPanelListPage(),
-    Constant.widgetsMaterialStepperPage: (context) => StepperPage(),
+    RouterConstant.widgetsMaterialStepperPage: (context) => StepperPage(),
     //Cupertino组件
-    Constant.widgetsCupertinoCupertinoWidgetListPage: (context) =>
+    RouterConstant.widgetsCupertinoCupertinoWidgetListPage: (context) =>
         CupertinoWidgetListPage(),
-    Constant.widgetsCupertinoCupertinoActivityIndicatorPage: (context) =>
+    RouterConstant.widgetsCupertinoCupertinoActivityIndicatorPage: (context) =>
         CupertinoActivityIndicatorPage(),
-    Constant.widgetsCupertinoCupertinoAlertDialogPage: (context) =>
+    RouterConstant.widgetsCupertinoCupertinoAlertDialogPage: (context) =>
         CupertinoAlertDialogPage(),
-    Constant.widgetsCupertinoCupertinoButtonPage: (context) =>
+    RouterConstant.widgetsCupertinoCupertinoButtonPage: (context) =>
         CupertinoButtonPage(),
-    Constant.widgetsCupertinoCupertinoDialogPage: (context) =>
+    RouterConstant.widgetsCupertinoCupertinoDialogPage: (context) =>
         CupertinoDialogPage(),
-    Constant.widgetsCupertinoCupertinoSliderPage: (context) =>
+    RouterConstant.widgetsCupertinoCupertinoSliderPage: (context) =>
         CupertinoSliderPage(),
-    Constant.widgetsCupertinoCupertinoSwitchPage: (context) =>
+    RouterConstant.widgetsCupertinoCupertinoSwitchPage: (context) =>
         CupertinoSwitchPage(),
-    Constant.widgetsCupertinoCupertinoPageScaffoldPage: (context) =>
+    RouterConstant.widgetsCupertinoCupertinoPageScaffoldPage: (context) =>
         CupertinoPageScaffoldPage(),
-    Constant.widgetsCupertinoCupertinoTabScaffoldPage: (context) =>
+    RouterConstant.widgetsCupertinoCupertinoTabScaffoldPage: (context) =>
         CupertinoTabScaffoldPage(),
     //Layout组件
-    Constant.widgetsLayoutLayoutWidgetListPage: (context) =>
+    RouterConstant.widgetsLayoutLayoutWidgetListPage: (context) =>
         LayoutWidgetListPage(),
-    Constant.widgetsLayoutContainerPage: (context) =>
+    RouterConstant.widgetsLayoutContainerPage: (context) =>
         LayoutContainerPage.ContainerPage(),
-    Constant.widgetsLayoutPaddingPage: (context) => PaddingPage(),
-    Constant.widgetsLayoutCenterPage: (context) => CenterPage(),
-    Constant.widgetsLayoutAlignPage: (context) => AlignPage(),
-    Constant.widgetsLayoutFittedBoxPage: (context) => FittedBoxPage(),
-    Constant.widgetsLayoutAspectRatioPage: (context) => AspectRatioPage(),
-    Constant.widgetsLayoutConstrainedBoxPage: (context) => ConstrainedBoxPage(),
-    Constant.widgetsLayoutBaselinePage: (context) => BaselinePage(),
-    Constant.widgetsLayoutFractionallySizedBoxPage: (context) =>
+    RouterConstant.widgetsLayoutPaddingPage: (context) => PaddingPage(),
+    RouterConstant.widgetsLayoutCenterPage: (context) => CenterPage(),
+    RouterConstant.widgetsLayoutAlignPage: (context) => AlignPage(),
+    RouterConstant.widgetsLayoutFittedBoxPage: (context) => FittedBoxPage(),
+    RouterConstant.widgetsLayoutAspectRatioPage: (context) => AspectRatioPage(),
+    RouterConstant.widgetsLayoutConstrainedBoxPage: (context) => ConstrainedBoxPage(),
+    RouterConstant.widgetsLayoutBaselinePage: (context) => BaselinePage(),
+    RouterConstant.widgetsLayoutFractionallySizedBoxPage: (context) =>
         FractionallySizedBoxPage(),
-    Constant.widgetsLayoutIntrinsicWidthHeightPage: (context) =>
+    RouterConstant.widgetsLayoutIntrinsicWidthHeightPage: (context) =>
         IntrinsicWidthHeightPage(),
-    Constant.widgetsLayoutLimitedBoxPage: (context) => LimitedBoxPage(),
-    Constant.widgetsLayoutOffstagePage: (context) => OffstagePage(),
-    Constant.widgetsLayoutOverflowBoxPage: (context) => OverflowBoxPage(),
-    Constant.widgetsLayoutSizedBoxPage: (context) => SizedBoxPage(),
-    Constant.widgetsLayoutSizedOverflowBoxPage: (context) =>
+    RouterConstant.widgetsLayoutLimitedBoxPage: (context) => LimitedBoxPage(),
+    RouterConstant.widgetsLayoutOffstagePage: (context) => OffstagePage(),
+    RouterConstant.widgetsLayoutOverflowBoxPage: (context) => OverflowBoxPage(),
+    RouterConstant.widgetsLayoutSizedBoxPage: (context) => SizedBoxPage(),
+    RouterConstant.widgetsLayoutSizedOverflowBoxPage: (context) =>
         SizedOverflowBoxPage(),
-    Constant.widgetsLayoutTransformPage: (context) => TransformPage(),
-    Constant.widgetsLayoutUnconstrainedBoxPage: (context) =>
+    RouterConstant.widgetsLayoutTransformPage: (context) => TransformPage(),
+    RouterConstant.widgetsLayoutUnconstrainedBoxPage: (context) =>
         UnconstrainedBoxPage(),
+    RouterConstant.widgetsLayoutCustomSingleChildLayoutPage: (context) =>
+        CustomSingleChildLayoutPage(),
   };
 }

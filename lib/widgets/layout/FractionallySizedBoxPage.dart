@@ -26,6 +26,7 @@ class FractionallySizedBoxPage extends StatelessWidget {
         title: Text('FractionallySizedBox'),
       ),
       body: Container(
+        width: double.infinity,
         child: Column(
           children: [
             Container(
@@ -38,7 +39,7 @@ class FractionallySizedBoxPage extends StatelessWidget {
                 child: _myChild(),
                 widthFactor: 0.5,
                 heightFactor: 0.5,
-                alignment: Alignment.center,
+                alignment: Alignment.topLeft,
               ),
             ),
             Container(

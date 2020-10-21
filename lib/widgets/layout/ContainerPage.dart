@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/utils/Constant.dart';
 
 class ContainerPage extends StatelessWidget {
   final _tip = '''
@@ -84,7 +85,7 @@ class ContainerPage extends StatelessWidget {
             maxHeight: 300,
             maxWidth: 300,
           ),
-          child: Image.asset('images/scan.png'),
+          child: Image.asset(AssetPathConstant.imageScan),
           // child: Icon(Icons.airline_seat_individual_suite),
         ),
       ),

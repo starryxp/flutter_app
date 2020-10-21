@@ -44,7 +44,7 @@ class CupertinoTabScaffoldPage extends StatefulWidget {
 class _CupertinoTabScaffoldPageState extends State<CupertinoTabScaffoldPage> {
 
   _jump() {
-    Navigator.of(context).pushNamed(Constant.homeHomePage);
+    Navigator.of(context).pushNamed(RouterConstant.homeHomePage);
   }
 
   @override

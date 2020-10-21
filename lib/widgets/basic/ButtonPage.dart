@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/utils/Constant.dart';
 import 'package:flutter_app/utils/ToastUtil.dart';
 
 class ButtonPage extends StatelessWidget {
@@ -90,7 +91,7 @@ class ButtonPage extends StatelessWidget {
                 onPressed: () {
                   ToastUtil.showToast('扫码');
                 },
-                icon: Image.asset('images/scan.png'),
+                icon: Image.asset(AssetPathConstant.imageScan),
                 label: Text('扫码')),
           ),
           Center(
@@ -102,7 +103,7 @@ class ButtonPage extends StatelessWidget {
           ),
           Center(
             child: IconButton(
-                icon: Image.asset('images/scan.png'),
+                icon: Image.asset(AssetPathConstant.imageScan),
                 onPressed: () {
                   ToastUtil.showToast('保存');
                 }),
