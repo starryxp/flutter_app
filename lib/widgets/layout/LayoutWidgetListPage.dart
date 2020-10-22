@@ -87,6 +87,14 @@ class LayoutWidgetListPage extends StatefulWidget {
         title: 'Stack\nPositioned',
         content: '可以允许其子widget简单的堆叠在一起\nStack内定位的组件',
         routerName: RouterConstant.widgetsLayoutStackPage),
+    HomeData(
+        title: 'IndexedStack',
+        content: '从一个子widget列表中显示单个孩子的Stack',
+        routerName: RouterConstant.widgetsLayoutIndexedStackPage),
+    HomeData(
+        title: 'Flow',
+        content: '一个实现流式布局算法的widget',
+        routerName: RouterConstant.widgetsLayoutFlowPage),
   ];
 
   @override

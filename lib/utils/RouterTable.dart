@@ -35,7 +35,9 @@ import 'package:flutter_app/widgets/layout/CenterPage.dart';
 import 'package:flutter_app/widgets/layout/ConstrainedBoxPage.dart';
 import 'package:flutter_app/widgets/layout/CustomSingleChildLayoutPage.dart';
 import 'package:flutter_app/widgets/layout/FittedBoxPage.dart';
+import 'package:flutter_app/widgets/layout/FlowPage.dart';
 import 'package:flutter_app/widgets/layout/FractionallySizedBoxPage.dart';
+import 'package:flutter_app/widgets/layout/IndexedStackPage.dart';
 import 'package:flutter_app/widgets/layout/IntrinsicWidthHeightPage.dart';
 import 'package:flutter_app/widgets/layout/LayoutWidgetListPage.dart';
 import 'package:flutter_app/widgets/basic/ContainerPage.dart';
@@ -201,5 +203,8 @@ class RouteTable {
     RouterConstant.widgetsLayoutCustomSingleChildLayoutPage: (context) =>
         CustomSingleChildLayoutPage(),
     RouterConstant.widgetsLayoutStackPage: (context) => StackPage(),
+    RouterConstant.widgetsLayoutIndexedStackPage: (context) =>
+        IndexedStackPage(),
+    RouterConstant.widgetsLayoutFlowPage: (context) => FlowPage(),
   };
 }

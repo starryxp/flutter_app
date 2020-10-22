@@ -116,6 +116,9 @@ class RouterConstant {
   static final widgetsLayoutCustomSingleChildLayoutPage =
       "/widgets/layout/custom_single_child_layout_page";
   static final widgetsLayoutStackPage = "/widgets/layout/stack_page";
+  static final widgetsLayoutIndexedStackPage =
+      "/widgets/layout/indexed_stack_page";
+  static final widgetsLayoutFlowPage = "/widgets/layout/flow_page";
 }
 
 class AssetPathConstant {

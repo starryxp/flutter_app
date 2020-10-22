@@ -97,9 +97,9 @@ class _LoadingLayout extends CustomSingleChildLayout {
 class _LoadingLayoutDelegate extends SingleChildLayoutDelegate {
   @override
   Size getSize(BoxConstraints constraints) {
+    //获取父容器约束条件确定CustomSingleChildLayout大小
     print('getSize constraints = $constraints');
     return super.getSize(constraints);
-    //获取父容器约束条件
   }
 
   @override
