@@ -95,6 +95,14 @@ class LayoutWidgetListPage extends StatefulWidget {
         title: 'Flow',
         content: '一个实现流式布局算法的widget',
         routerName: RouterConstant.widgetsLayoutFlowPage),
+    HomeData(
+        title: 'Table',
+        content: '为其子widget使用表格布局算法的widget',
+        routerName: RouterConstant.widgetsLayoutTablePage),
+    HomeData(
+        title: 'Wrap',
+        content: '可以在水平或垂直方向多行显示其子widget。',
+        routerName: RouterConstant.widgetsLayoutWrapPage),
   ];
 
   @override

@@ -50,8 +50,10 @@ import 'package:flutter_app/widgets/layout/PaddingPage.dart';
 import 'package:flutter_app/widgets/layout/SizedBoxPage.dart';
 import 'package:flutter_app/widgets/layout/SizedOverflowBoxPage.dart';
 import 'package:flutter_app/widgets/layout/StackPage.dart';
+import 'package:flutter_app/widgets/layout/TablePage.dart';
 import 'package:flutter_app/widgets/layout/TransformPage.dart';
 import 'package:flutter_app/widgets/layout/UnconstrainedBoxPage.dart';
+import 'package:flutter_app/widgets/layout/WrapPage.dart';
 import 'package:flutter_app/widgets/material/AlertDialogPage.dart';
 import 'package:flutter_app/widgets/material/BottomSheetPage.dart';
 import 'package:flutter_app/widgets/material/CardPage.dart';
@@ -206,5 +208,7 @@ class RouteTable {
     RouterConstant.widgetsLayoutIndexedStackPage: (context) =>
         IndexedStackPage(),
     RouterConstant.widgetsLayoutFlowPage: (context) => FlowPage(),
+    RouterConstant.widgetsLayoutTablePage: (context) => TablePage(),
+    RouterConstant.widgetsLayoutWrapPage: (context) => WrapPage(),
   };
 }
