@@ -33,6 +33,7 @@ import 'package:flutter_app/widgets/layout/AspectRatioPage.dart';
 import 'package:flutter_app/widgets/layout/BaselinePage.dart';
 import 'package:flutter_app/widgets/layout/CenterPage.dart';
 import 'package:flutter_app/widgets/layout/ConstrainedBoxPage.dart';
+import 'package:flutter_app/widgets/layout/CustomMultiChildLayoutPage.dart';
 import 'package:flutter_app/widgets/layout/CustomSingleChildLayoutPage.dart';
 import 'package:flutter_app/widgets/layout/FittedBoxPage.dart';
 import 'package:flutter_app/widgets/layout/FlowPage.dart';
@@ -44,6 +45,7 @@ import 'package:flutter_app/widgets/basic/ContainerPage.dart';
 import 'package:flutter_app/widgets/layout/ContainerPage.dart'
     as LayoutContainerPage;
 import 'package:flutter_app/widgets/layout/LimitedBoxPage.dart';
+import 'package:flutter_app/widgets/layout/ListBodyPage.dart';
 import 'package:flutter_app/widgets/layout/OffstagePage.dart';
 import 'package:flutter_app/widgets/layout/OverflowBoxPage.dart';
 import 'package:flutter_app/widgets/layout/PaddingPage.dart';
@@ -210,5 +212,8 @@ class RouteTable {
     RouterConstant.widgetsLayoutFlowPage: (context) => FlowPage(),
     RouterConstant.widgetsLayoutTablePage: (context) => TablePage(),
     RouterConstant.widgetsLayoutWrapPage: (context) => WrapPage(),
+    RouterConstant.widgetsLayoutListBodyPage: (context) => ListBodyPage(),
+    RouterConstant.widgetsLayoutCustomMultiChildLayoutPage: (context) =>
+        CustomMultiChildLayoutPage(),
   };
 }

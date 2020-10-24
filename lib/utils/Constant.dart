@@ -121,6 +121,9 @@ class RouterConstant {
   static final widgetsLayoutFlowPage = "/widgets/layout/flow_page";
   static final widgetsLayoutTablePage = "/widgets/layout/table_page";
   static final widgetsLayoutWrapPage = "/widgets/layout/wrap_page";
+  static final widgetsLayoutListBodyPage = "/widgets/layout/list_body_page";
+  static final widgetsLayoutCustomMultiChildLayoutPage =
+      "/widgets/layout/custom_multi_child_layout_page";
 }
 
 class AssetPathConstant {

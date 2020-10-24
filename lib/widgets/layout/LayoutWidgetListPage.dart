@@ -103,6 +103,14 @@ class LayoutWidgetListPage extends StatefulWidget {
         title: 'Wrap',
         content: '可以在水平或垂直方向多行显示其子widget。',
         routerName: RouterConstant.widgetsLayoutWrapPage),
+    HomeData(
+        title: 'ListBody',
+        content: '一个widget，它沿着一个给定的轴，顺序排列它的子元素',
+        routerName: RouterConstant.widgetsLayoutListBodyPage),
+    HomeData(
+        title: 'CustomMultiChildLayout',
+        content: '使用一个委托来对多个孩子进行设置大小和定位的小部件',
+        routerName: RouterConstant.widgetsLayoutCustomMultiChildLayoutPage),
   ];
 
   @override
