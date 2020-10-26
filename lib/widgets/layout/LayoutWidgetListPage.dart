@@ -111,6 +111,10 @@ class LayoutWidgetListPage extends StatefulWidget {
         title: 'CustomMultiChildLayout',
         content: '使用一个委托来对多个孩子进行设置大小和定位的小部件',
         routerName: RouterConstant.widgetsLayoutCustomMultiChildLayoutPage),
+    HomeData(
+        title: 'LayoutBuilder',
+        content: '构建一个可以依赖父窗口大小的widget树。',
+        routerName: RouterConstant.widgetsLayoutLayoutBuilderPage),
   ];
 
   @override

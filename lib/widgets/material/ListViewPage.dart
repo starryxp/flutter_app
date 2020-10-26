@@ -122,7 +122,7 @@ class _ListViewPageState extends State<ListViewPage> {
   }
 
   _getListWidgets() {
-    for (var i = 0; i < 10; i++) {
+    for (var i = 0; i < 5; i++) {
       _widgetList.add(_myListTitle());
     }
     return _widgetList;

@@ -26,6 +26,15 @@ class WidgetsListPage extends StatefulWidget {
       routerName: RouterConstant.widgetsLayoutLayoutWidgetListPage,
     ),
     HomeData(
+      title: 'Sliver组件',
+      content: '',
+      routerName: RouterConstant.widgetsSliverSliverWidgetListPage,
+    ),
+    HomeData(
+      title: '滚动',
+      content: '滚动一个拥有多个子组件的父组件',
+    ),
+    HomeData(
       title: 'Text',
       content: '文本显示和样式',
     ),
@@ -56,10 +65,6 @@ class WidgetsListPage extends StatefulWidget {
     HomeData(
       title: 'Async',
       content: 'Flutter应用的异步模型',
-    ),
-    HomeData(
-      title: '滚动',
-      content: '滚动一个拥有多个子组件的父组件',
     ),
     HomeData(
       title: '辅助功能',

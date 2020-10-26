@@ -124,6 +124,14 @@ class RouterConstant {
   static final widgetsLayoutListBodyPage = "/widgets/layout/list_body_page";
   static final widgetsLayoutCustomMultiChildLayoutPage =
       "/widgets/layout/custom_multi_child_layout_page";
+  static final widgetsLayoutLayoutBuilderPage =
+      "/widgets/layout/layout_builder_page";
+
+  //Sliver组件
+  static final widgetsSliverSliverWidgetListPage =
+      "/widgets/sliver/sliver_widget_list_page";
+  static final widgetsSliverCustomScrollViewPage =
+      "/widgets/sliver/CustomScrollViewPage";
 }
 
 class AssetPathConstant {

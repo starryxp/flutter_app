@@ -40,6 +40,7 @@ import 'package:flutter_app/widgets/layout/FlowPage.dart';
 import 'package:flutter_app/widgets/layout/FractionallySizedBoxPage.dart';
 import 'package:flutter_app/widgets/layout/IndexedStackPage.dart';
 import 'package:flutter_app/widgets/layout/IntrinsicWidthHeightPage.dart';
+import 'package:flutter_app/widgets/layout/LayoutBuilderPage.dart';
 import 'package:flutter_app/widgets/layout/LayoutWidgetListPage.dart';
 import 'package:flutter_app/widgets/basic/ContainerPage.dart';
 import 'package:flutter_app/widgets/layout/ContainerPage.dart'
@@ -83,6 +84,8 @@ import 'package:flutter_app/widgets/material/navigation/NavigationListPage.dart'
 import 'package:flutter_app/widgets/material/navigation/PageViewPage.dart';
 import 'package:flutter_app/widgets/material/navigation/TabBarPage.dart';
 import 'package:flutter_app/widgets/material/navigation/TabBarViewPage.dart';
+import 'package:flutter_app/widgets/sliver/CustomScrollViewPage.dart';
+import 'package:flutter_app/widgets/sliver/SliverWidgetListPage.dart';
 import 'Constant.dart';
 
 class RouteTable {
@@ -215,5 +218,12 @@ class RouteTable {
     RouterConstant.widgetsLayoutListBodyPage: (context) => ListBodyPage(),
     RouterConstant.widgetsLayoutCustomMultiChildLayoutPage: (context) =>
         CustomMultiChildLayoutPage(),
+    RouterConstant.widgetsLayoutLayoutBuilderPage: (context) =>
+        LayoutBuilderPage(),
+    //Sliver组件
+    RouterConstant.widgetsSliverSliverWidgetListPage: (context) =>
+        SliverWidgetListPage(),
+    RouterConstant.widgetsSliverCustomScrollViewPage: (context) =>
+        CustomScrollViewPage(),
   };
 }

@@ -78,6 +78,8 @@
 - [Flutter（66）：Layout组件之Wrap](https://www.jianshu.com/p/10f373500a3b)
 - [Flutter（67）：Layout组件之ListBody](https://www.jianshu.com/p/1a852493ee13)
 - [Flutter（68）：Layout组件之CustomMultiChildLayout](https://www.jianshu.com/p/1f5b2440e726)
+- [Flutter（69）：Builder、LayoutBuilder、StatefulBuilder、SliverLayoutBuilder](https://www.jianshu.com/p/bb05b02d55e3)
+- [Flutter（70）：Sliver组件之CustomScrollView](https://www.jianshu.com/p/e6108f8896bd)
 
 ## 补充知识点
 - [一、Flutter（Dart）中extends 、 implements 、 with的用法与区别](https://www.jianshu.com/p/04b896764f6e)
