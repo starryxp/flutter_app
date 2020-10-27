@@ -132,8 +132,16 @@ class RouterConstant {
       "/widgets/sliver/sliver_widget_list_page";
   static final widgetsSliverCustomScrollViewPage =
       "/widgets/sliver/CustomScrollViewPage";
+  static final widgetsSliverSliverAppBarPage =
+      "/widgets/sliver/sliver_app_bar_page";
+  static final widgetsSliverSliverListPage = "/widgets/sliver/sliver_list_page";
 }
 
 class AssetPathConstant {
   static final imageScan = 'images/scan.png';
+}
+
+class ImageUrlConstant {
+  static final imageUrl1 =
+      'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3363295869,2467511306&fm=26&gp=0.jpg';
 }

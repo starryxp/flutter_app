@@ -9,6 +9,14 @@ class SliverWidgetListPage extends StatefulWidget {
         title: 'CustomScrollView',
         content: '一个使用slivers创建自定义的滚动效果的ScrollView',
         routerName: RouterConstant.widgetsSliverCustomScrollViewPage),
+    HomeData(
+        title: 'SliverAppBar',
+        content: '支持滚动折叠效果的AppBar',
+        routerName: RouterConstant.widgetsSliverSliverAppBarPage),
+    HomeData(
+        title: 'SliverList',
+        content: '',
+        routerName: RouterConstant.widgetsSliverSliverListPage),
   ];
 
   @override

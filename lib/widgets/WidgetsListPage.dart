@@ -27,7 +27,7 @@ class WidgetsListPage extends StatefulWidget {
     ),
     HomeData(
       title: 'Sliver组件',
-      content: '',
+      content: '折叠效果组件',
       routerName: RouterConstant.widgetsSliverSliverWidgetListPage,
     ),
     HomeData(
