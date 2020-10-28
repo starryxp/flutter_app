@@ -17,6 +17,10 @@ class SliverWidgetListPage extends StatefulWidget {
         title: 'SliverList',
         content: '',
         routerName: RouterConstant.widgetsSliverSliverListPage),
+    HomeData(
+        title: 'SliverGridPage',
+        content: '',
+        routerName: RouterConstant.widgetsSliverSliverGridPage),
   ];
 
   @override
