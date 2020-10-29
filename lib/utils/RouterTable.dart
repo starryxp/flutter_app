@@ -86,8 +86,10 @@ import 'package:flutter_app/widgets/material/navigation/TabBarPage.dart';
 import 'package:flutter_app/widgets/material/navigation/TabBarViewPage.dart';
 import 'package:flutter_app/widgets/sliver/CustomScrollViewPage.dart';
 import 'package:flutter_app/widgets/sliver/SliverAppBarPage.dart';
+import 'package:flutter_app/widgets/sliver/SliverFixedExtentListPage.dart';
 import 'package:flutter_app/widgets/sliver/SliverGridPage.dart';
 import 'package:flutter_app/widgets/sliver/SliverListPage.dart';
+import 'package:flutter_app/widgets/sliver/SliverPaddingPage.dart';
 import 'package:flutter_app/widgets/sliver/SliverWidgetListPage.dart';
 import 'Constant.dart';
 
@@ -232,5 +234,9 @@ class RouteTable {
         SliverAppBarPage(),
     RouterConstant.widgetsSliverSliverListPage: (context) => SliverListPage(),
     RouterConstant.widgetsSliverSliverGridPage: (context) => SliverGridPage(),
+    RouterConstant.widgetsSliverSliverPaddingPage: (context) =>
+        SliverPaddingPage(),
+    RouterConstant.widgetsSliverSliverFixedExtentListPage: (context) =>
+        SliverFixedExtentListPage(),
   };
 }

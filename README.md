@@ -83,6 +83,8 @@
 - [Flutter（71）：Sliver组件之SliverAppBar](https://www.jianshu.com/p/07999c8157d7)
 - [Flutter（72）：Sliver组件之SliverList](https://www.jianshu.com/p/4b4b0b6f38b5)
 - [Flutter（73）：Sliver组件之SliverGrid](https://www.jianshu.com/p/a2481e0696d0)
+- [Flutter（74）：Sliver组件之SliverPadding](https://www.jianshu.com/p/01e49436cd08)
+- [Flutter（75）：Sliver组件之SliverFixedExtentList](https://www.jianshu.com/p/5f3385ad2e2f)
 
 ## 补充知识点
 - [一、Flutter（Dart）中extends 、 implements 、 with的用法与区别](https://www.jianshu.com/p/04b896764f6e)
