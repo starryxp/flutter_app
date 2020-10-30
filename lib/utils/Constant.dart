@@ -140,6 +140,10 @@ class RouterConstant {
       "/widgets/sliver/sliver_padding_page";
   static final widgetsSliverSliverFixedExtentListPage =
       "/widgets/sliver/sliver_fixed_extent_list_page";
+  static final widgetsSliverSliverToBoxAdapterPage =
+      "/widgets/sliver/sliver_to_box_adapter_page";
+  static final widgetsSliverSliverPrototypeExtentListPage =
+      "/widgets/sliver/sliver_prototype_extent_list_page";
 }
 
 class AssetPathConstant {

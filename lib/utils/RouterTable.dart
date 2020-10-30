@@ -90,6 +90,8 @@ import 'package:flutter_app/widgets/sliver/SliverFixedExtentListPage.dart';
 import 'package:flutter_app/widgets/sliver/SliverGridPage.dart';
 import 'package:flutter_app/widgets/sliver/SliverListPage.dart';
 import 'package:flutter_app/widgets/sliver/SliverPaddingPage.dart';
+import 'package:flutter_app/widgets/sliver/SliverPrototypeExtentListPage.dart';
+import 'package:flutter_app/widgets/sliver/SliverToBoxAdapterPage.dart';
 import 'package:flutter_app/widgets/sliver/SliverWidgetListPage.dart';
 import 'Constant.dart';
 
@@ -238,5 +240,9 @@ class RouteTable {
         SliverPaddingPage(),
     RouterConstant.widgetsSliverSliverFixedExtentListPage: (context) =>
         SliverFixedExtentListPage(),
+    RouterConstant.widgetsSliverSliverToBoxAdapterPage: (context) =>
+        SliverToBoxAdapterPage(),
+    RouterConstant.widgetsSliverSliverPrototypeExtentListPage: (context) =>
+        SliverPrototypeExtentListPage(),
   };
 }
