@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/bean/CustomBean.dart';
+import 'package:flutter_app/utils/ToastUtil.dart';
 
 class HomeListItem extends StatefulWidget {
   const HomeListItem({Key key, @required HomeData homeData})
@@ -37,6 +38,8 @@ class _HomeListItemState extends State<HomeListItem> {
           if (widget._homeData.routerName != null &&
               widget._homeData.routerName.isNotEmpty) {
             Navigator.pushNamed(context, widget._homeData.routerName);
+          } else {
+            ToastUtil.showToast('敬请期待...');
           }
         },
       ),
