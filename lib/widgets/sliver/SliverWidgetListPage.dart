@@ -30,16 +30,16 @@ class SliverWidgetListPage extends StatefulWidget {
         content: '可以固定Item高度的SliverList',
         routerName: RouterConstant.widgetsSliverSliverFixedExtentListPage),
     HomeData(
+        title: 'SliverPrototypeExtentList',
+        content: '可以以一个目标来固定Item高度的SliverList',
+        routerName: RouterConstant.widgetsSliverSliverPrototypeExtentListPage),
+    HomeData(
         title: 'SliverToBoxAdapterPage',
         content: '一个加载普通widget的Sliver组件',
         routerName: RouterConstant.widgetsSliverSliverToBoxAdapterPage),
     HomeData(
-        title: 'SliverPrototypeExtentList',
-        content: '',
-        routerName: RouterConstant.widgetsSliverSliverPrototypeExtentListPage),
-    HomeData(
         title: 'SliverPersistentHeader',
-        content: '',
+        content: '可以根据滚动而变大变小的组件',
         routerName: RouterConstant.widgetsSliverSliverPersistentHeaderPage),
   ];
 
