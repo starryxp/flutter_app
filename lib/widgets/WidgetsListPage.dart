@@ -31,8 +31,9 @@ class WidgetsListPage extends StatefulWidget {
       routerName: RouterConstant.widgetsSliverSliverWidgetListPage,
     ),
     HomeData(
-      title: '滚动',
+      title: 'Scroll组件',
       content: '滚动一个拥有多个子组件的父组件',
+      routerName: RouterConstant.widgetsScrollScrollWidgetListPage,
     ),
     HomeData(
       title: 'Text',

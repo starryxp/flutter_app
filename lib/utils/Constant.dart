@@ -146,6 +146,13 @@ class RouterConstant {
       "/widgets/sliver/sliver_prototype_extent_list_page";
   static final widgetsSliverSliverPersistentHeaderPage =
       "/widgets/sliver/sliver_persistent_header_page";
+
+  //scroll组件
+  static final widgetsScrollScrollWidgetListPage =
+      "/widgets/scroll/scroll_widget_list_page";
+  static final widgetsScrollGridViewPage = "/widgets/scroll/grid_view_page";
+  static final widgetsScrollNestedScrollViewPage =
+      "/widgets/scroll/nested_scroll_view_page";
 }
 
 class AssetPathConstant {

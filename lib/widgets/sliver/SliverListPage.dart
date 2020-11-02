@@ -84,7 +84,7 @@ CustomScrollView+SliverList组合使用其实就相当于是个ListView
         SliverList(
           delegate: _mySliverChildBuilderDelegate(),
           // delegate: _mySliverChildListDelegate(),
-        )
+        ),
       ],
     );
   }
