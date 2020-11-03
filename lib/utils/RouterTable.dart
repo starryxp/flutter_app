@@ -87,6 +87,7 @@ import 'package:flutter_app/widgets/material/navigation/TabBarViewPage.dart';
 import 'package:flutter_app/widgets/scroll/GridViewPage.dart';
 import 'package:flutter_app/widgets/scroll/NestedScrollViewPage.dart';
 import 'package:flutter_app/widgets/scroll/ScrollWidgetListPage.dart';
+import 'package:flutter_app/widgets/scroll/SingleChildScrollViewPage.dart';
 import 'package:flutter_app/widgets/sliver/CustomScrollViewPage.dart';
 import 'package:flutter_app/widgets/sliver/SliverAppBarPage.dart';
 import 'package:flutter_app/widgets/sliver/SliverFixedExtentListPage.dart';
@@ -255,6 +256,8 @@ class RouteTable {
     RouterConstant.widgetsScrollScrollWidgetListPage: (context) =>
         ScrollWidgetListPage(),
     RouterConstant.widgetsScrollGridViewPage: (context) => GridViewPage(),
+    RouterConstant.widgetsScrollSingleChildScrollViewPage: (context) =>
+        SingleChildScrollViewPage(),
     RouterConstant.widgetsScrollNestedScrollViewPage: (context) =>
         NestedScrollViewPage(),
   };

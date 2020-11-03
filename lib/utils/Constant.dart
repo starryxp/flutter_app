@@ -151,6 +151,8 @@ class RouterConstant {
   static final widgetsScrollScrollWidgetListPage =
       "/widgets/scroll/scroll_widget_list_page";
   static final widgetsScrollGridViewPage = "/widgets/scroll/grid_view_page";
+  static final widgetsScrollSingleChildScrollViewPage =
+      "/widgets/scroll/single_child_scroll_view_page";
   static final widgetsScrollNestedScrollViewPage =
       "/widgets/scroll/nested_scroll_view_page";
 }
