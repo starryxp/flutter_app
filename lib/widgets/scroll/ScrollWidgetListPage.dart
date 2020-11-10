@@ -13,10 +13,10 @@ class ScrollWidgetListPage extends StatefulWidget {
         title: 'SingleChildScrollView',
         content: '有一个子widget的可滚动的widget，子内容超过父容器时可以滚动。',
         routerName: RouterConstant.widgetsScrollSingleChildScrollViewPage),
-    // HomeData(
-    //     title: 'NestedScrollView',
-    //     content: '一个可以嵌套其它可滚动widget的widget',
-    //     routerName: RouterConstant.widgetsScrollNestedScrollViewPage),
+    HomeData(
+        title: 'NestedScrollView',
+        content: '一个可以嵌套其它可滚动widget的widget',
+        routerName: RouterConstant.widgetsScrollNestedScrollViewPage),
   ];
 
   @override

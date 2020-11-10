@@ -28,46 +28,54 @@ class NestedScrollViewPage extends StatelessWidget {
     );
   }
 
-  _mySliverChildBuilderDelegate() {
-    return SliverChildBuilderDelegate(
-      (BuildContext context, int index) {
-        return Container(
-          height: 50,
-          color: Colors.primaries[index % 11],
-        );
-      },
-      childCount: 5,
+  _myItem(int index) {
+    return Container(
+      color: Colors.yellow,
+      child: ListTile(
+        title: Text('List $index'),
+      ),
     );
   }
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: Colors.white,
-      child: NestedScrollView(
+    return Scaffold(
+      body: NestedScrollView(
         headerSliverBuilder: (BuildContext context, bool innerBoxIsScrolled) {
-          print('innerBoxIsScrolled = $innerBoxIsScrolled');
           return [
-            _mySliverAppBar(),
-            SliverList(
-              delegate: _mySliverChildBuilderDelegate(),
-            ),
+            SliverOverlapAbsorber(
+              handle: NestedScrollView.sliverOverlapAbsorberHandleFor(context),
+              sliver: _mySliverAppBar(),
+            )
+            // _mySliverAppBar(),
           ];
         },
-        body: ListView.builder(
-          itemBuilder: (BuildContext context, int index) {
-            return Card(
-              elevation: 10,
-              color: Colors.white,
-              child: Container(
-                alignment: Alignment.center,
-                height: 50,
-                child: Text('body：ListView'),
-              ),
+        body: Builder(
+          builder: (context) {
+            return CustomScrollView(
+              slivers: [
+                SliverOverlapInjector(
+                  handle:
+                      NestedScrollView.sliverOverlapAbsorberHandleFor(context),
+                ),
+                SliverList(
+                  delegate: SliverChildBuilderDelegate(
+                    (BuildContext context, int index) {
+                      return _myItem(index);
+                    },
+                    childCount: 15,
+                  ),
+                ),
+              ],
             );
           },
-          itemCount: 25,
         ),
+        // body: ListView.builder(
+        //   itemBuilder: (BuildContext context, int index) {
+        //     return _myItem(index);
+        //   },
+        //   itemCount: 15,
+        // ),
       ),
     );
   }
