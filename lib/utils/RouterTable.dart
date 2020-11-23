@@ -86,7 +86,9 @@ import 'package:flutter_app/widgets/material/navigation/TabBarPage.dart';
 import 'package:flutter_app/widgets/material/navigation/TabBarViewPage.dart';
 import 'package:flutter_app/widgets/scroll/GridViewPage.dart';
 import 'package:flutter_app/widgets/scroll/NestedScrollViewPage.dart';
+import 'package:flutter_app/widgets/scroll/NotificationListenerPage.dart';
 import 'package:flutter_app/widgets/scroll/ScrollWidgetListPage.dart';
+import 'package:flutter_app/widgets/scroll/ScrollbarPage.dart';
 import 'package:flutter_app/widgets/scroll/SingleChildScrollViewPage.dart';
 import 'package:flutter_app/widgets/sliver/CustomScrollViewPage.dart';
 import 'package:flutter_app/widgets/sliver/SliverAppBarPage.dart';
@@ -260,5 +262,8 @@ class RouteTable {
         SingleChildScrollViewPage(),
     RouterConstant.widgetsScrollNestedScrollViewPage: (context) =>
         NestedScrollViewPage(),
+    RouterConstant.widgetsScrollScrollbarPage: (context) => ScrollbarPage(),
+    RouterConstant.widgetsScrollNotificationListenerPage: (context) =>
+        NotificationListenerPage(),
   };
 }

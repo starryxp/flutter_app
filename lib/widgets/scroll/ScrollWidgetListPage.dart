@@ -17,6 +17,14 @@ class ScrollWidgetListPage extends StatefulWidget {
         title: 'NestedScrollView',
         content: '一个可以嵌套其它可滚动widget的widget',
         routerName: RouterConstant.widgetsScrollNestedScrollViewPage),
+    HomeData(
+        title: 'Scrollbar',
+        content: '滚动条',
+        routerName: RouterConstant.widgetsScrollScrollbarPage),
+    HomeData(
+        title: 'NotificationListener',
+        content: 'widget通知监听',
+        routerName: RouterConstant.widgetsScrollNotificationListenerPage),
   ];
 
   @override

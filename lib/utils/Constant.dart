@@ -155,6 +155,9 @@ class RouterConstant {
       "/widgets/scroll/single_child_scroll_view_page";
   static final widgetsScrollNestedScrollViewPage =
       "/widgets/scroll/nested_scroll_view_page";
+  static final widgetsScrollScrollbarPage = "/widgets/scroll/scrollbar_page";
+  static final widgetsScrollNotificationListenerPage =
+      "/widgets/scroll/notification_listener_page";
 }
 
 class AssetPathConstant {
