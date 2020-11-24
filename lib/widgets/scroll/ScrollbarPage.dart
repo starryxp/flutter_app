@@ -18,16 +18,23 @@ class ScrollbarPage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Scrollbar'),
       ),
-      body: Scrollbar(
-        radius: Radius.circular(10),
-        thickness: 10,
-        child: ListView.builder(
-          itemBuilder: (context, index) {
-            return ListTile(
-              title: Text('item $index'),
-            );
-          },
-          itemCount: 30,
+      body: NotificationListener<OverscrollIndicatorNotification>(
+        onNotification: (notification) {
+          //滑动指示器是否在头部 true在前端，false在末端
+          print('${notification.leading}');
+          return true;
+        },
+        child: Scrollbar(
+          radius: Radius.circular(10),
+          thickness: 10,
+          child: ListView.builder(
+            itemBuilder: (context, index) {
+              return ListTile(
+                title: Text('item $index'),
+              );
+            },
+            itemCount: 30,
+          ),
         ),
       ),
     );
