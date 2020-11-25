@@ -93,6 +93,7 @@
 - [Flutter（81）：Scroll组件之NestedScrollView](https://www.jianshu.com/p/005039a39ec9)
 - [Flutter（82）：Scroll组件之Scrollbar](https://www.jianshu.com/p/8bc7792e4038)
 - [Flutter（83）：NotificationListener](https://www.jianshu.com/p/d80545454944)
+- [Flutter（84）：DraggableScrollableSheet、DraggableScrollableNotification](https://www.jianshu.com/p/368760d1a778)
 
 ## 补充知识点
 - [一、Flutter（Dart）中extends 、 implements 、 with的用法与区别](https://www.jianshu.com/p/04b896764f6e)

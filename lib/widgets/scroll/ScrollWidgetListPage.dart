@@ -21,10 +21,6 @@ class ScrollWidgetListPage extends StatefulWidget {
         title: 'Scrollbar',
         content: '滚动条',
         routerName: RouterConstant.widgetsScrollScrollbarPage),
-    HomeData(
-        title: 'NotificationListener',
-        content: 'widget通知监听',
-        routerName: RouterConstant.widgetsScrollNotificationListenerPage),
   ];
 
   @override

@@ -84,9 +84,11 @@ import 'package:flutter_app/widgets/material/navigation/NavigationListPage.dart'
 import 'package:flutter_app/widgets/material/navigation/PageViewPage.dart';
 import 'package:flutter_app/widgets/material/navigation/TabBarPage.dart';
 import 'package:flutter_app/widgets/material/navigation/TabBarViewPage.dart';
+import 'package:flutter_app/widgets/other/DraggableScrollableSheetPage.dart';
+import 'package:flutter_app/widgets/other/NotificationListenerPage.dart';
+import 'package:flutter_app/widgets/other/OtherWidgetListPage.dart';
 import 'package:flutter_app/widgets/scroll/GridViewPage.dart';
 import 'package:flutter_app/widgets/scroll/NestedScrollViewPage.dart';
-import 'package:flutter_app/widgets/scroll/NotificationListenerPage.dart';
 import 'package:flutter_app/widgets/scroll/ScrollWidgetListPage.dart';
 import 'package:flutter_app/widgets/scroll/ScrollbarPage.dart';
 import 'package:flutter_app/widgets/scroll/SingleChildScrollViewPage.dart';
@@ -116,8 +118,9 @@ class RouteTable {
 
     RouterConstant.homeHomePage: (context) => HomePage(),
 
-    //组件
+    //widgets
     RouterConstant.widgetsWidgetsListPage: (context) => WidgetsListPage(),
+
     //Matrix4矩阵变换
     RouterConstant.matrix4Matrix4Page: (context) => Matrix4Page(),
     //基础组件
@@ -263,7 +266,13 @@ class RouteTable {
     RouterConstant.widgetsScrollNestedScrollViewPage: (context) =>
         NestedScrollViewPage(),
     RouterConstant.widgetsScrollScrollbarPage: (context) => ScrollbarPage(),
-    RouterConstant.widgetsScrollNotificationListenerPage: (context) =>
+
+    //other
+    RouterConstant.widgetsOtherOtherWidgetListPage: (context) =>
+        OtherWidgetListPage(),
+    RouterConstant.widgetsOtherNotificationListenerPage: (context) =>
         NotificationListenerPage(),
+    RouterConstant.widgetsOtherDraggableScrollableSheetPage: (context) =>
+        DraggableScrollableSheetPage(),
   };
 }
