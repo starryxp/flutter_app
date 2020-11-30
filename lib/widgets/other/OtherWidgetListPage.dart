@@ -9,10 +9,6 @@ class OtherWidgetListPage extends StatefulWidget {
         title: 'NotificationListener',
         content: 'widget通知监听',
         routerName: RouterConstant.widgetsOtherNotificationListenerPage),
-    HomeData(
-        title: 'DraggableScrollableSheet',
-        content: '拖拽滚动布局',
-        routerName: RouterConstant.widgetsOtherDraggableScrollableSheetPage),
   ];
 
   @override

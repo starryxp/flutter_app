@@ -28,6 +28,8 @@ import 'package:flutter_app/widgets/cupertino/CupertinoSliderPage.dart';
 import 'package:flutter_app/widgets/cupertino/CupertinoSwitchPage.dart';
 import 'package:flutter_app/widgets/cupertino/CupertinoTabScaffoldPage.dart';
 import 'package:flutter_app/widgets/cupertino/CupertinoWidgetList.dart';
+import 'package:flutter_app/widgets/draggable/DraggablePage.dart';
+import 'package:flutter_app/widgets/draggable/DraggableWidgetListPage.dart';
 import 'package:flutter_app/widgets/layout/AlignPage.dart';
 import 'package:flutter_app/widgets/layout/AspectRatioPage.dart';
 import 'package:flutter_app/widgets/layout/BaselinePage.dart';
@@ -84,7 +86,7 @@ import 'package:flutter_app/widgets/material/navigation/NavigationListPage.dart'
 import 'package:flutter_app/widgets/material/navigation/PageViewPage.dart';
 import 'package:flutter_app/widgets/material/navigation/TabBarPage.dart';
 import 'package:flutter_app/widgets/material/navigation/TabBarViewPage.dart';
-import 'package:flutter_app/widgets/other/DraggableScrollableSheetPage.dart';
+import 'package:flutter_app/widgets/draggable/DraggableScrollableSheetPage.dart';
 import 'package:flutter_app/widgets/other/NotificationListenerPage.dart';
 import 'package:flutter_app/widgets/other/OtherWidgetListPage.dart';
 import 'package:flutter_app/widgets/scroll/GridViewPage.dart';
@@ -272,7 +274,12 @@ class RouteTable {
         OtherWidgetListPage(),
     RouterConstant.widgetsOtherNotificationListenerPage: (context) =>
         NotificationListenerPage(),
-    RouterConstant.widgetsOtherDraggableScrollableSheetPage: (context) =>
+
+    //draggable组件
+    RouterConstant.widgetsDraggableDraggableWidgetListPage: (context) =>
+        DraggableWidgetListPage(),
+    RouterConstant.widgetsDraggableDraggableScrollableSheetPage: (context) =>
         DraggableScrollableSheetPage(),
+    RouterConstant.widgetsDraggableDraggablePage: (context) => DraggablePage(),
   };
 }

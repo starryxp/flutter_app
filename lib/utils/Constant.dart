@@ -162,8 +162,14 @@ class RouterConstant {
       "/widgets/other/other_widget_list_page";
   static final widgetsOtherNotificationListenerPage =
       "/widgets/other/notification_listener_page";
-  static final widgetsOtherDraggableScrollableSheetPage =
-      "/widgets/other/draggable_scrollable_sheet_page";
+
+  //draggable组件
+  static final widgetsDraggableDraggableWidgetListPage =
+      "/widgets/draggable/draggable_widget_list_page";
+  static final widgetsDraggableDraggableScrollableSheetPage =
+      "/widgets/draggable/draggable_scrollable_sheet_page";
+  static final widgetsDraggableDraggablePage =
+      "/widgets/draggable/draggable_page";
 }
 
 class AssetPathConstant {
