@@ -28,6 +28,7 @@ import 'package:flutter_app/widgets/cupertino/CupertinoSliderPage.dart';
 import 'package:flutter_app/widgets/cupertino/CupertinoSwitchPage.dart';
 import 'package:flutter_app/widgets/cupertino/CupertinoTabScaffoldPage.dart';
 import 'package:flutter_app/widgets/cupertino/CupertinoWidgetList.dart';
+import 'package:flutter_app/widgets/draggable/DragTargetPage.dart';
 import 'package:flutter_app/widgets/draggable/DraggablePage.dart';
 import 'package:flutter_app/widgets/draggable/DraggableWidgetListPage.dart';
 import 'package:flutter_app/widgets/layout/AlignPage.dart';
@@ -281,5 +282,7 @@ class RouteTable {
     RouterConstant.widgetsDraggableDraggableScrollableSheetPage: (context) =>
         DraggableScrollableSheetPage(),
     RouterConstant.widgetsDraggableDraggablePage: (context) => DraggablePage(),
+    RouterConstant.widgetsDraggableDragTargetPage: (context) =>
+        DragTargetPage(),
   };
 }

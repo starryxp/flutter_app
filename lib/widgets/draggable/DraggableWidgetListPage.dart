@@ -7,13 +7,17 @@ class DraggableWidgetListPage extends StatefulWidget {
   final _dataList = [
     HomeData(
         title: 'DraggableScrollableSheet',
-        content: '拖拽滚动布局',
+        content: '拖拽滚动组件',
         routerName:
             RouterConstant.widgetsDraggableDraggableScrollableSheetPage),
     HomeData(
         title: 'Draggable',
-        content: '拖拽布局',
+        content: '拖拽组件',
         routerName: RouterConstant.widgetsDraggableDraggablePage),
+    HomeData(
+        title: 'DragTarget',
+        content: '拖拽目标组件',
+        routerName: RouterConstant.widgetsDraggableDragTargetPage),
   ];
 
   @override
