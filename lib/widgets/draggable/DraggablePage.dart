@@ -11,7 +11,8 @@ class DraggablePage extends StatelessWidget {
 - axis：Axis 拖拽方向，可以设置只能横向或者纵向拖拽
 - childWhenDragging：拖拽时child子组件显示样式
 - feedbackOffset = Offset.zero：
-- dragAnchor = DragAnchor.child：
+- dragAnchor = DragAnchor.child：拖拽的锚地位置
+- ignoringFeedbackSemantics = true：当子child和feedback为同一个Widget时，可以设为false配合GlobalKey确保是同一个Widget 减少绘制
 - affinity：此部件与其它手势的竞争方式 在非affinity方向上不响应拖动事件,一般用于在滚动组件
 - maxSimultaneousDrags：同时支持拖动多少个点
 - onDragStarted：拖动开始时调用
