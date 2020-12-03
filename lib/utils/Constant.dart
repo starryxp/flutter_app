@@ -172,6 +172,8 @@ class RouterConstant {
       "/widgets/draggable/draggable_page";
   static final widgetsDraggableDragTargetPage =
       "/widgets/draggable/drag_target_page";
+  static final widgetsDraggableLongPressDraggablePage =
+      "/widgets/draggable/long_press_draggable_page";
 }
 
 class AssetPathConstant {

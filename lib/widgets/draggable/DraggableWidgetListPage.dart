@@ -18,6 +18,10 @@ class DraggableWidgetListPage extends StatefulWidget {
         title: 'DragTarget',
         content: '拖拽目标组件',
         routerName: RouterConstant.widgetsDraggableDragTargetPage),
+    HomeData(
+        title: 'LongPressDraggable',
+        content: '长按拖拽组件',
+        routerName: RouterConstant.widgetsDraggableLongPressDraggablePage),
   ];
 
   @override
