@@ -41,6 +41,11 @@ class WidgetsListPage extends StatefulWidget {
       routerName: RouterConstant.widgetsDraggableDraggableWidgetListPage,
     ),
     HomeData(
+      title: 'Text组件',
+      content: '文本组件',
+      routerName: RouterConstant.widgetsTextTextWidgetListPage,
+    ),
+    HomeData(
       title: '其他一些组件',
       content: '',
       routerName: RouterConstant.widgetsOtherOtherWidgetListPage,

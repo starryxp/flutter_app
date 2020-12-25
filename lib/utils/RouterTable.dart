@@ -106,6 +106,8 @@ import 'package:flutter_app/widgets/sliver/SliverPersistentHeaderPage.dart';
 import 'package:flutter_app/widgets/sliver/SliverPrototypeExtentListPage.dart';
 import 'package:flutter_app/widgets/sliver/SliverToBoxAdapterPage.dart';
 import 'package:flutter_app/widgets/sliver/SliverWidgetListPage.dart';
+import 'package:flutter_app/widgets/text/RichTextPage.dart';
+import 'package:flutter_app/widgets/text/TextWidgetListPage.dart';
 import 'Constant.dart';
 
 class RouteTable {
@@ -287,5 +289,10 @@ class RouteTable {
         DragTargetPage(),
     RouterConstant.widgetsDraggableLongPressDraggablePage: (context) =>
         LongPressDraggablePage(),
+
+    //text组件
+    RouterConstant.widgetsTextTextWidgetListPage: (context) =>
+        TextWidgetListPage(),
+    RouterConstant.widgetsTextRichTextPage: (context) => RichTextPage(),
   };
 }

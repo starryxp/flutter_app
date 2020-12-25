@@ -97,6 +97,7 @@
 - [Flutter（85）：Draggable组件之Draggable](https://www.jianshu.com/p/3b579b01847f)
 - [Flutter（86）：Draggable组件之DragTarget](https://www.jianshu.com/p/b08e210b8a38)
 - [Flutter（87）：Draggable组件之LongPressDraggable](https://www.jianshu.com/p/bf8ea911a1c4)
+- [Flutter（88）：Text组件之RichText](https://www.jianshu.com/p/3e3128741ccb)
 
 ## 补充知识点
 - [一、Flutter（Dart）中extends 、 implements 、 with的用法与区别](https://www.jianshu.com/p/04b896764f6e)
