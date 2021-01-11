@@ -44,7 +44,7 @@ class RichTextPage extends StatelessWidget {
               ),
             ),
             TextSpan(
-              text: '《隐私政策》',
+              text: '\n《隐私政策》',
               style: TextStyle(color: Colors.red),
               recognizer: TapGestureRecognizer()
                 ..onTap = () {
