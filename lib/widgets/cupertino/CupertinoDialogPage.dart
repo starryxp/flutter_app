@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 class CupertinoDialogPage extends StatefulWidget {
   final _tip = '''
 1.介绍
-- CupertinoDialog：了解一下，已过时，推荐使用CupertinoPopupSurface
+- CupertinoDialog：了解一下，已过时，推荐使用CupertinoPopupSurface//已移除
 - CupertinoPopupSurface：
 2.属性
 - CupertinoDialog
@@ -19,16 +19,17 @@ class CupertinoDialogPage extends StatefulWidget {
 }
 
 class _CupertinoDialogPageState extends State<CupertinoDialogPage> {
-  _myCupertinoDialog(BuildContext context) {
-    showCupertinoDialog(
-      context: context,
-      builder: (context) {
-        return CupertinoDialog(
-          child: _myDialog(),
-        );
-      },
-    );
-  }
+  //已移除
+  // _myCupertinoDialog(BuildContext context) {
+  //   showCupertinoDialog(
+  //     context: context,
+  //     builder: (context) {
+  //       return CupertinoDialog(
+  //         child: _myDialog(),
+  //       );
+  //     },
+  //   );
+  // }
 
   _myCupertinoPopupSurface(BuildContext context) {
     showCupertinoDialog(
@@ -116,7 +117,7 @@ class _CupertinoDialogPageState extends State<CupertinoDialogPage> {
           CupertinoButton.filled(
             child: Text('CupertinoDialog'),
             onPressed: () {
-              _myCupertinoDialog(context);
+              // _myCupertinoDialog(context);
             },
           ),
           CupertinoButton.filled(

@@ -19,7 +19,7 @@ class CupertinoPageScaffoldPage extends StatefulWidget {
 - backgroundColor：背景色
 - brightness：
 - padding：边距
-- actionsForegroundColor：actions颜色
+- actionsForegroundColor：actions颜色//已移除
   ''';
 
   @override
@@ -35,7 +35,7 @@ class _CupertinoPageScaffoldPageState extends State<CupertinoPageScaffoldPage> {
         trailing: Icon(Icons.more_vert),
         backgroundColor: Colors.blue,
         padding: EdgeInsetsDirectional.zero,
-        actionsForegroundColor: Colors.white,
+        // actionsForegroundColor: Colors.white, //已移除
         middle: Text('CupertinoPageScaffold'),
       ),
       backgroundColor: Colors.white,
